@@ -1,51 +1,68 @@
 'use client'
 import { useTheme } from 'next-themes'
 import * as Menubar from '@radix-ui/react-menubar'
-import { SunIcon, MoonIcon, LaptopIcon } from '@radix-ui/react-icons'
+import { SunIcon, MoonIcon, DesktopIcon } from '@radix-ui/react-icons'
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme()
 
+  const itemStyle =
+    'flex cursor-pointer select-none items-center p-1 text-slate-700 outline-none hover:rounded-[0.625rem] hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-900/60 '
+  const itemIconStyle =
+    'rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5'
   return (
     <Menubar.Root>
       <Menubar.Menu>
         <Menubar.Trigger className="outline-none">
-          <SunIcon className="h-5 w-5 dark:hidden" />
-          <MoonIcon className="hidden h-5 w-5 dark:inline" />
+          <div className="flex h-6 w-6 items-center justify-center rounded-lg p-1 shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
+            <SunIcon className="h-4 w-4 text-sky-500 dark:hidden" />
+            <MoonIcon className="hidden h-4 w-4 text-sky-500 dark:inline" />
+          </div>
         </Menubar.Trigger>
         <Menubar.Portal>
           <Menubar.Content
-            className="z-50 mx-1 flex w-36 flex-col rounded-md bg-white py-1 text-sm font-semibold text-slate-700 shadow-md dark:bg-slate-800 dark:text-slate-300"
+            className="absolute top-full mt-2 w-36 space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5"
             align="start"
             sideOffset={3}
             alignOffset={-3}
           >
             <Menubar.Item
               onClick={() => setTheme('light')}
-              className={`flex h-9 cursor-pointer items-center gap-3 px-2 text-sm outline-none hover:bg-slate-100 dark:hover:bg-slate-700 ${
-                theme === 'light' ? 'text-sky-500' : ''
+              className={`${itemStyle} ${
+                theme === 'light' ? 'text-sky-500' : 'dark:hover:text-white'
               }`}
             >
-              <SunIcon className="h-5 w-5" />
-              <span className="capitalize">Light</span>
+              <div className={`${itemIconStyle}`}>
+                <SunIcon className="h-4 w-4 " />
+              </div>
+
+              <span className="ml-3 capitalize">Light</span>
             </Menubar.Item>
             <Menubar.Item
               onClick={() => setTheme('dark')}
-              className={`flex h-9 cursor-pointer items-center gap-3 px-2 text-sm outline-none hover:bg-slate-100 dark:hover:bg-slate-700 ${
-                theme === 'dark' ? 'text-sky-500' : ''
+              className={`${itemStyle} ${
+                theme === 'dark'
+                  ? 'text-sky-500 dark:text-sky-500'
+                  : 'dark:hover:text-white'
               }`}
             >
-              <MoonIcon className="h-5 w-5" />
-              <span className="capitalize">Dark</span>
+              <div className={`${itemIconStyle}`}>
+                <MoonIcon className="h-4 w-4" />
+              </div>
+              <span className="ml-3 capitalize">Dark</span>
             </Menubar.Item>
             <Menubar.Item
               onClick={() => setTheme('system')}
-              className={`flex h-9 cursor-pointer items-center gap-3 px-2 text-sm outline-none hover:bg-slate-100 dark:hover:bg-slate-700 ${
-                theme === 'system' ? 'text-sky-500' : ''
+              className={`${itemStyle} ${
+                theme === 'system'
+                  ? 'text-sky-500 dark:text-sky-500'
+                  : 'dark:hover:text-white'
               }`}
             >
-              <LaptopIcon className="h-5 w-5" />
-              <span className="capitalize">System</span>
+              <div className={`${itemIconStyle}`}>
+                <DesktopIcon className="h-4 w-4" />
+              </div>
+              <span className="ml-3 capitalize">System</span>
             </Menubar.Item>
           </Menubar.Content>
         </Menubar.Portal>
