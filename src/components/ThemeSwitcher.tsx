@@ -9,7 +9,7 @@ import {
   MenubarTrigger,
 } from './Menubar'
 
-const ThemeToggle = () => {
+const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme()
   const initalThemes: string[] = ['light', 'dark', 'system']
   const itemIconStyle =
@@ -51,4 +51,4 @@ const ThemeToggle = () => {
   )
 }
 
-export default ThemeToggle
+export default ThemeSwitcher
