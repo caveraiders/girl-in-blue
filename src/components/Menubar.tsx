@@ -1,5 +1,5 @@
-"use client"
-import * as Menubar from "@radix-ui/react-menubar"
+'use client'
+import * as Menubar from '@radix-ui/react-menubar'
 
 export const MenubarRoot = Menubar.Root
 export const MenubarMenu = Menubar.Menu
@@ -24,23 +24,21 @@ export const MenubarContent = ({ children }: { children: React.ReactNode }) => (
 )
 export const MenubarItem = ({
   children,
-  selected,
-  onClick = () => {},
-  classStyle = "",
+  onSelect = () => {},
+  isSlected = false,
 }: {
   children: React.ReactNode
-  selected: string | number
-  onClick: Function
-  classStyle: string | null
-}) => {
-  const itemStyle =
-    "flex cursor-pointer select-none items-center p-1 text-slate-700 outline-none hover:rounded-[0.625rem] hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-900/60 "
-  return (
-    <Menubar.Item
-      onClick={() => onClick()}
-      className={`${itemStyle} ${classStyle}`}
-    >
-      {children}
-    </Menubar.Item>
-  )
-}
+  onSelect?: Function
+  isSlected?: boolean
+}) => (
+  <Menubar.Item
+    onSelect={() => onSelect()}
+    className={`flex cursor-pointer select-none items-center p-1 outline-none hover:rounded-[0.625rem] hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-900/60 ${
+      isSlected
+        ? 'text-sky-500 dark:text-sky-500'
+        : 'text-slate-700 dark:hover:text-white'
+    }`}
+  >
+    {children}
+  </Menubar.Item>
+)
