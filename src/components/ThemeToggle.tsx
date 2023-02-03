@@ -21,7 +21,7 @@ const ThemeToggle = () => {
         </Menubar.Trigger>
         <Menubar.Portal>
           <Menubar.Content
-            className="absolute top-full mt-2 w-36 space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5"
+            className="mt-2 w-36 space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5"
             align="start"
             sideOffset={3}
             alignOffset={-3}
