@@ -1,11 +1,11 @@
-import ThemeSwitcher from '@/components/ThemeSwitcher'
+import ThemeToggle from '@/components/ThemeToggle'
 
 export default function Home() {
   return (
     <h1 className="text-3xl font-bold underline">
       Hello world!
       <div>
-        <ThemeSwitcher></ThemeSwitcher>
+        <ThemeToggle></ThemeToggle>
       </div>
     </h1>
   )
