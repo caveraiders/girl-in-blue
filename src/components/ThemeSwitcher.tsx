@@ -12,8 +12,6 @@ import {
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme()
   const initalThemes: string[] = ['light', 'dark', 'system']
-  const itemIconStyle =
-    'rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5'
   return (
     <MenubarRoot>
       <MenubarMenu>
@@ -25,15 +23,10 @@ const ThemeSwitcher = () => {
           {initalThemes.map((item) => (
             <MenubarItem
               key={item}
-              selected={item}
-              onClick={() => setTheme(item)}
-              classStyle={
-                item === theme
-                  ? 'text-sky-500 dark:text-sky-500'
-                  : 'dark:hover:text-white'
-              }
+              onSelect={() => setTheme(item)}
+              isSlected={item === theme}
             >
-              <div className={`${itemIconStyle}`}>
+              <div className="rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
                 {item === 'light' ? (
                   <SunIcon className="h-4 w-4 " />
                 ) : item === 'dark' ? (
