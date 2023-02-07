@@ -13,6 +13,7 @@ const useInfiniteFrontendPagination = (
     data.slice(startIndex, endIndex),
   )
   const nextPage = useCallback(() => setCurrentPage((prev) => prev + 1), [])
+
   const loadMoreData = useCallback(
     () =>
       setCurrentData((prev: any) => [
@@ -21,7 +22,23 @@ const useInfiniteFrontendPagination = (
       ]),
     [data, pageSize],
   )
+
+  /**
+   * Check if there is more data to load
+   */
   const hasMoreData: boolean = data.length > currentData.length
+
+  /**
+   * Reset current page and current data when data or pageSize changes
+   */
+  useEffect(() => {
+    setCurrentPage(1)
+    setCurrentData(data.slice(0, pageSize))
+  }, [data, pageSize])
+
+  /**
+   * Load more data when the target element is intersecting with the root element
+   */
   useEffect(() => {
     const callback = (entries: any[]) => {
       entries.forEach((entry) => {
