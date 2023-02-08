@@ -71,5 +71,13 @@ const SheetRoot = Dialog.Root
 const SheetTrigger = Dialog.Trigger
 const SheetPortal = Dialog.Portal
 const SheetClose = Dialog.Close
+const SheetTitle = Dialog.Title
 
-export { SheetRoot, SheetTrigger, SheetPortal, SheetContent, SheetClose }
+export {
+  SheetRoot,
+  SheetTrigger,
+  SheetPortal,
+  SheetContent,
+  SheetClose,
+  SheetTitle,
+}

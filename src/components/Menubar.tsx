@@ -1,16 +1,16 @@
 'use client'
 import * as Menubar from '@radix-ui/react-menubar'
 
-export const MenubarRoot = Menubar.Root
-export const MenubarMenu = Menubar.Menu
-export const MenubarTrigger = ({ children }: { children: React.ReactNode }) => (
+const MenubarRoot = Menubar.Root
+const MenubarMenu = Menubar.Menu
+const MenubarTrigger = ({ children }: { children: React.ReactNode }) => (
   <Menubar.Trigger className="outline-none">
     <div className="flex h-6 w-6 items-center justify-center rounded-lg p-1 shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
       {children}
     </div>
   </Menubar.Trigger>
 )
-export const MenubarContent = ({ children }: { children: React.ReactNode }) => (
+const MenubarContent = ({ children }: { children: React.ReactNode }) => (
   <Menubar.Portal>
     <Menubar.Content
       className="mt-2 w-36 space-y-1 rounded-xl bg-white p-3 text-sm font-medium shadow-md shadow-black/5 ring-1 ring-black/5 dark:bg-slate-800 dark:ring-white/5"
@@ -22,7 +22,7 @@ export const MenubarContent = ({ children }: { children: React.ReactNode }) => (
     </Menubar.Content>
   </Menubar.Portal>
 )
-export const MenubarItem = ({
+const MenubarItem = ({
   children,
   onSelect = () => {},
   isSlected = false,
@@ -42,3 +42,5 @@ export const MenubarItem = ({
     {children}
   </Menubar.Item>
 )
+
+export { MenubarRoot, MenubarMenu, MenubarTrigger, MenubarContent, MenubarItem }
