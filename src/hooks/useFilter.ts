@@ -1,8 +1,12 @@
 'use client'
 import { useEffect, useState } from 'react'
 
-const useFilter = (data: any[], filters: any) => {
+const useFilter = (
+  data: any[],
+  defaultFilters: { [key: string]: string[] },
+) => {
   const [filteredData, setFilteredData] = useState<any[]>(data)
+  const [filters, setFilters] = useState(defaultFilters)
   useEffect(() => {
     setFilteredData(
       data.filter((item) => {
@@ -14,6 +18,6 @@ const useFilter = (data: any[], filters: any) => {
     )
   }, [filters])
 
-  return { filteredData }
+  return { filteredData, filters, setFilters }
 }
 export default useFilter
