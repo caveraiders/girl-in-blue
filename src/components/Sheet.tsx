@@ -9,6 +9,7 @@ interface contentProps {
   width: string
   height: string
   position?: 'bottom' | 'right' | 'left'
+  zIndex?: string
 }
 const SheetContent = forwardRef<
   React.ElementRef<typeof Dialog.Content>,
@@ -21,6 +22,7 @@ const SheetContent = forwardRef<
       width = 'w-auto',
       height = 'h-auto',
       position = 'bottom',
+      zIndex = 'z-auto',
     },
     ref,
   ) => {
@@ -43,7 +45,7 @@ const SheetContent = forwardRef<
       <Dialog.Portal forceMount>
         <Transition show={isOpen}>
           <Transition.Child as={Fragment}>
-            <Dialog.Overlay className="fixed inset-0 bg-black/30" />
+            <Dialog.Overlay className={`fixed inset-0 bg-black/30 ${zIndex}`} />
           </Transition.Child>
           <Transition.Child
             as={Fragment}
@@ -56,7 +58,7 @@ const SheetContent = forwardRef<
           >
             <Dialog.Content
               ref={ref}
-              className={`fixed bottom-0 bg-white dark:bg-slate-900 dark:text-slate-300 ${height} ${width} ${classStyle}`}
+              className={`fixed bottom-0 bg-white dark:bg-slate-900 dark:text-slate-300 ${height} ${width} ${classStyle} ${zIndex}`}
             >
               {children}
             </Dialog.Content>
