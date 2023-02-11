@@ -6,6 +6,8 @@ type Props = {
   variant?: 'filled' | 'outlined' | 'text'
   isDisabled?: boolean
   iconOnly?: boolean
+  type?: 'button' | 'submit' | 'reset'
+  size?: 'sm' | 'md' | 'lg'
 }
 
 const Button = ({
@@ -16,6 +18,8 @@ const Button = ({
   isDisabled = false,
   onClick,
   iconOnly = false,
+  type = 'button',
+  size = 'lg',
 }: Props) => {
   let primary = ''
   let secondary = ''
@@ -97,8 +101,15 @@ const Button = ({
   }
   return (
     <button
-      className={`h-10 rounded-full px-6 text-sm ${appearance} ${
+      type={type}
+      className={`flex items-center justify-center gap-1.5 rounded-full ${appearance} ${
         shouldFitContainer ? 'w-full' : 'w-auto'
+      } ${
+        size === 'sm'
+          ? 'h-6 px-4 text-xs'
+          : size === 'md'
+          ? 'h-8 px-5 text-sm'
+          : 'h-10 px-6 text-sm'
       }`}
       onClick={onClick}
       disabled={isDisabled}
