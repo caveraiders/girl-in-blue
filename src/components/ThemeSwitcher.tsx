@@ -63,6 +63,7 @@ const ThemeSwitcher = () => {
             height="h-auto"
             position="bottom"
             isOpen={sheetOpen}
+            zIndex="z-50"
           >
             <SheetTitle className="flex justify-center py-3 font-bold">
               Dark mode
