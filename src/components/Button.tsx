@@ -1,116 +1,78 @@
+'use client'
+
+import classnames from 'classnames'
+
 type Props = {
   children: React.ReactNode
   appearance?: string
-  shouldFitContainer?: boolean
-  onClick?: () => void
+  isFullWidth?: boolean
+  onClick?: React.MouseEventHandler<HTMLButtonElement>
   variant?: 'filled' | 'outlined' | 'text'
   isDisabled?: boolean
-  iconOnly?: boolean
+  isOnlyIcon?: boolean
   type?: 'button' | 'submit' | 'reset'
   size?: 'sm' | 'md' | 'lg'
+}
+
+type AppearanceClassNames = {
+  [key: string]: {
+    [key: string]: string
+  }
 }
 
 const Button = ({
   children,
   appearance = 'primary',
-  shouldFitContainer = false,
+  isFullWidth = false,
   variant = 'filled',
   isDisabled = false,
-  onClick,
-  iconOnly = false,
+  onClick = () => {},
+  isOnlyIcon = false,
   type = 'button',
   size = 'lg',
 }: Props) => {
-  let primary = ''
-  let secondary = ''
-  let danger = ''
-  if (isDisabled) {
-    switch (variant) {
-      case 'filled':
-        primary =
-          'bg-slate-200 text-white dark:bg-slate-800 dark:text-gray-600 cursor-not-allowed'
-        secondary =
-          'bg-slate-200 text-white dark:bg-slate-800 dark:text-gray-600 cursor-not-allowed'
-        danger =
-          'bg-slate-200 text-white dark:bg-slate-800 dark:text-gray-600 cursor-not-allowed'
-        break
-      case 'outlined':
-        primary =
-          'text-slate-200 border border-slate-200 dark:border-slate-800 dark:text-slate-800 cursor-not-allowed'
-        secondary =
-          'text-slate-200 border border-slate-200 dark:border-slate-800 dark:text-slate-800 cursor-not-allowed'
-        danger =
-          'text-slate-200 border border-slate-200 dark:border-slate-800 dark:text-slate-800 cursor-not-allowed'
-        break
-      case 'text':
-        primary = 'text-slate-200 dark:text-slate-800 cursor-not-allowed'
-        secondary = 'text-slate-200 dark:text-slate-800 cursor-not-allowed'
-        danger = 'text-slate-200 dark:text-slate-800 cursor-not-allowed'
-        break
-    }
-  } else {
-    switch (variant) {
-      case 'filled':
-        primary =
-          'bg-sky-500 text-sky-50 dark:bg-sky-300 dark:text-sky-900 hover:bg-sky-600 dark:hover:bg-sky-200 active:bg-sky-700 dark:active:bg-sky-100'
-        secondary =
-          'bg-slate-500 text-slate-50 dark:bg-slate-300 dark:text-slate-900 hover:bg-slate-600 dark:hover:bg-slate-200 active:bg-slate-700 dark:active:bg-slate-100'
-        danger =
-          'bg-red-500 text-red-50 dark:bg-red-300 dark:text-red-900 hover:bg-red-600 dark:hover:bg-red-200 active:bg-red-700 dark:active:bg-red-100'
-        break
-      case 'outlined':
-        primary =
-          'bg-transparent text-sky-500 border border-sky-500 dark:border-sky-300 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-300/10 active:bg-sky-100 dark:active:bg-sky-300/20'
-        secondary =
-          'bg-transparent text-slate-500 border border-slate-500 dark:border-slate-300 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-300/10 active:bg-slate-100 dark:active:bg-slate-300/20'
-        danger =
-          'bg-transparent text-red-500 border border-red-500 dark:border-red-300 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-300/10 active:bg-red-100 dark:active:bg-red-300/20'
-        break
-      case 'text':
-        primary =
-          'bg-transparent text-sky-500 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-300/10 active:bg-sky-100 dark:active:bg-sky-300/20'
-        secondary =
-          'bg-transparent text-slate-500 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-300/10 active:bg-slate-100 dark:active:bg-slate-300/20'
-        danger =
-          'bg-transparent text-red-500 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-300/10 active:bg-red-100 dark:active:bg-red-300/20'
-        break
-    }
+  const appearanceClassNames: AppearanceClassNames = {
+    primary: {
+      filled:
+        'bg-sky-500 text-white dark:bg-sky-400 hover:bg-sky-600 dark:hover:bg-sky-500 focus:outline-none focus:ring-4 dark:focus:ring-sky-800 focus:ring-sky-300 disabled:bg-sky-300 dark:disabled:bg-sky-300 disabled:cursor-not-allowed',
+      outlined:
+        'bg-transparent text-sky-500 border border-sky-500 dark:border-sky-300 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-300/10 focus:outline-none focus:ring-4 dark:focus:ring-sky-800 focus:ring-sky-300 disabled:bg-sky-50 dark:disabled:bg-sky-300/10 disabled:cursor-not-allowed',
+      text: 'bg-transparent text-sky-500 dark:text-sky-300 hover:bg-sky-50 dark:hover:bg-sky-300/10 disabled:bg-transparent disabled:text-sky-300 disabled:dark:text-sky-600 dark:disabled:bg-transparent disabled:cursor-not-allowed',
+    },
+    secondary: {
+      filled:
+        'bg-slate-700 text-white dark:bg-slate-800 hover:bg-slate-600 dark:hover:bg-slate-700 focus:outline-none focus:ring-4 dark:focus:ring-slate-600 focus:ring-slate-300 disabled:bg-slate-600 dark:disabled:bg-slate-600 disabled:cursor-not-allowed',
+      outlined:
+        'bg-transparent text-slate-700 border border-slate-700 dark:border-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-300/10 focus:outline-none focus:ring-4 dark:focus:ring-slate-600 focus:ring-slate-300 disabled:bg-slate-100 dark:disabled:bg-slate-300/10 disabled:cursor-not-allowed',
+      text: 'bg-transparent text-slate-700 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-300/10 disabled:bg-transparent disabled:text-slate-400 disabled:dark:text-slate-600 dark:disabled:bg-transparent disabled:cursor-not-allowed',
+    },
+    danger: {
+      filled:
+        'bg-red-500 text-white dark:bg-red-400 hover:bg-red-600 dark:hover:bg-red-500 focus:outline-none focus:ring-4 dark:focus:ring-slate-600 focus:ring-red-300 disabled:bg-red-300 dark:disabled:bg-red-300 disabled:cursor-not-allowed',
+      outlined:
+        'bg-transparent text-red-500 border border-red-500 dark:border-red-300 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-300/10 focus:outline-none focus:ring-4 dark:focus:ring-slate-600 focus:ring-red-300 disabled:bg-red-50 dark:disabled:bg-red-300/10 disabled:cursor-not-allowed',
+      text: 'bg-transparent text-red-500 dark:text-red-300 hover:bg-red-50 dark:hover:bg-red-300/10 disabled:bg-transparent disabled:text-red-300 disabled:dark:text-red-900 dark:disabled:bg-transparent disabled:cursor-not-allowed',
+    },
   }
 
-  switch (appearance) {
-    case 'primary':
-      appearance = primary
-      break
-    case 'secondary':
-      appearance = secondary
-      break
-    case 'danger':
-      appearance = danger
-      break
-  }
-  if (iconOnly) {
-    return (
-      <button
-        className={`flex h-10 w-10 items-center justify-center rounded-full text-sm ${appearance}`}
-        onClick={onClick}
-        disabled={isDisabled}
-      >
-        {children}
-      </button>
-    )
-  }
+  const buttonClassNames = classnames(
+    'flex items-center justify-center gap-1.5 rounded-lg font-medium',
+    appearanceClassNames[appearance][variant],
+    {
+      'w-full': isFullWidth,
+      'h-6 px-4 text-xs': size === 'sm',
+      'h-8 px-5 text-sm': size === 'md',
+      'h-10 px-6 text-sm': size === 'lg',
+    },
+    {
+      'h-10 w-10 px-0': isOnlyIcon,
+    },
+  )
+
   return (
     <button
       type={type}
-      className={`flex items-center justify-center gap-1.5 rounded-full ${appearance} ${
-        shouldFitContainer ? 'w-full' : 'w-auto'
-      } ${
-        size === 'sm'
-          ? 'h-6 px-4 text-xs'
-          : size === 'md'
-          ? 'h-8 px-5 text-sm'
-          : 'h-10 px-6 text-sm'
-      }`}
+      className={buttonClassNames}
       onClick={onClick}
       disabled={isDisabled}
     >
