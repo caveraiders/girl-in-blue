@@ -1,85 +1,98 @@
 'use client'
 import { Transition } from '@headlessui/react'
 import * as Dialog from '@radix-ui/react-dialog'
-import { forwardRef, Fragment } from 'react'
+import classnames from 'classnames'
+import { forwardRef, Fragment, ReactNode, ElementRef } from 'react'
 
-interface contentProps {
-  children: React.ReactNode
-  isOpen: boolean
-  width: string
-  height: string
-  position?: 'bottom' | 'right' | 'left'
-  zIndex?: string
+type ClassNames = {
+  [key: string]: {
+    [key: string]: string
+  }
 }
-const SheetContent = forwardRef<
-  React.ElementRef<typeof Dialog.Content>,
-  contentProps
->(
+
+type Prop = {
+  direction?: 'bottom' | 'right' | 'left'
+  zIndex?: string
+  width?: string
+  height?: string
+  open: boolean
+  onOpenChange: Function
+  trigger?: ReactNode
+  children: ReactNode
+}
+
+const directionClassNames: ClassNames = {
+  left: {
+    content: 'left-0',
+    from: '-translate-x-full',
+    to: '-translate-x-0',
+  },
+  right: {
+    content: 'right-0 h-full',
+    from: 'translate-x-full',
+    to: 'translate-x-0',
+  },
+  bottom: {
+    content: '',
+    from: 'translate-y-full',
+    to: 'translate-y-0',
+  },
+}
+
+const Sheet = forwardRef<ElementRef<typeof Dialog.Content>, Prop>(
   (
     {
-      children,
-      isOpen = false,
+      direction = 'bottom',
+      zIndex = 'z-auto',
       width = 'w-auto',
       height = 'h-auto',
-      position = 'bottom',
-      zIndex = 'z-auto',
+      open = false,
+      onOpenChange = () => {},
+      trigger,
+      children,
     },
     ref,
   ) => {
-    let classStyle: string = height !== 'h-full' ? 'rounded-t-3xl' : ''
-    let style1: string = 'translate-y-full'
-    let style2: string = 'translate-y-0'
-    switch (position) {
-      case 'right':
-        classStyle = 'right-0'
-        style1 = 'translate-x-full'
-        style2 = 'translate-x-0'
-        break
-      case 'left':
-        classStyle = 'left-0'
-        style1 = '-translate-x-full'
-        style2 = '-translate-x-0'
-        break
-    }
+    const contentClassNames = classnames(
+      'fixed bottom-0 bg-white dark:bg-slate-900 dark:text-slate-300',
+      directionClassNames[direction]['content'],
+      {
+        'left-1/2 -translate-y-1/2 -translate-x-1/2': direction === 'bottom',
+        'rounded-t-3xl': direction === 'bottom' && height !== 'h-full',
+      },
+    )
     return (
-      <Dialog.Portal forceMount>
-        <Transition show={isOpen}>
-          <Transition.Child as={Fragment}>
-            <Dialog.Overlay className={`fixed inset-0 bg-black/30 ${zIndex}`} />
-          </Transition.Child>
-          <Transition.Child
-            as={Fragment}
-            enter="transition ease-out duration-200"
-            enterFrom={`opacity-0 ${style1}`}
-            enterTo={`opacity-100 ${style2}`}
-            leave="transition ease-in duration-150"
-            leaveFrom={`opacity-100 ${style2}`}
-            leaveTo={`opacity-0 ${style1}`}
-          >
-            <Dialog.Content
-              ref={ref}
-              className={`fixed bottom-0 bg-white dark:bg-slate-900 dark:text-slate-300 ${height} ${width} ${classStyle} ${zIndex}`}
+      <Dialog.Root open={open} onOpenChange={() => onOpenChange()}>
+        <Dialog.Trigger asChild>{trigger}</Dialog.Trigger>
+        <Dialog.Portal forceMount>
+          <Transition show={open}>
+            <Transition.Child as={Fragment}>
+              <Dialog.Overlay
+                className={`fixed inset-0 bg-black/30 ${zIndex}`}
+              />
+            </Transition.Child>
+            <Transition.Child
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom={`opacity-0 ${directionClassNames[direction]['from']}`}
+              enterTo={`opacity-100 ${directionClassNames[direction]['to']}`}
+              leave="transition ease-in duration-150"
+              leaveFrom={`opacity-100 ${directionClassNames[direction]['to']}`}
+              leaveTo={`opacity-0 ${directionClassNames[direction]['from']}`}
             >
-              {children}
-            </Dialog.Content>
-          </Transition.Child>
-        </Transition>
-      </Dialog.Portal>
+              <Dialog.Content
+                ref={ref}
+                className={`${contentClassNames} ${zIndex} ${width} ${height}`}
+              >
+                {children}
+              </Dialog.Content>
+            </Transition.Child>
+          </Transition>
+        </Dialog.Portal>
+      </Dialog.Root>
     )
   },
 )
-SheetContent.displayName = 'SheetContent'
-const SheetRoot = Dialog.Root
-const SheetTrigger = Dialog.Trigger
-const SheetPortal = Dialog.Portal
-const SheetClose = Dialog.Close
-const SheetTitle = Dialog.Title
-
-export {
-  SheetRoot,
-  SheetTrigger,
-  SheetPortal,
-  SheetContent,
-  SheetClose,
-  SheetTitle,
-}
+Sheet.displayName = 'Sheet'
+export const SheetClose = Dialog.Close
+export default Sheet
