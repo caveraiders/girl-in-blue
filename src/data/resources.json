@@ -1,0 +1,74 @@
+[
+  {
+    "name": "必藍蒸氣 - 法子",
+    "url": "https://www.youtube.com/@user-vs9ip8ge5c",
+    "type": "youtube",
+    "icon": "/images/logos/user-vs9ip8ge5c.jpeg",
+    "lang": "tw",
+    "description": "ガチャや課金をする前に、このチャンネルをチェックしてみましょう！"
+  },
+  {
+    "name": "雲玩家 H",
+    "url": "https://www.youtube.com/@IamH1000",
+    "type": "youtube",
+    "icon": "/images/logos/IamH1000.jpeg",
+    "lang": "tw",
+    "description": "ガチャや課金をする前に、このチャンネルをチェックしてみましょう！"
+  },
+  {
+    "name": "神ゲー攻略",
+    "url": "https://kamigame.jp/%E3%82%B0%E3%83%A9%E3%83%96%E3%83%AB/index.html",
+    "type": "wiki",
+    "icon": "/images/logos/kamigame.png",
+    "lang": "jp",
+    "description": "最も有名な日本語攻略Wikiの一つ"
+  },
+  {
+    "name": "GameWith",
+    "url": "https://xn--bck3aza1a2if6kra4ee0hf.gamewith.jp/",
+    "type": "wiki",
+    "icon": "/images/logos/gamewith.webp",
+    "lang": "jp",
+    "description": "最も有名な日本語攻略Wikiの一つ"
+  },
+  {
+    "name": "グラブル 攻略wiki",
+    "url": "https://gbf-wiki.com/",
+    "type": "wiki",
+    "icon": "/images/logos/gbfwiki_cn.png",
+    "lang": "jp",
+    "description": "最も有名な日本語攻略Wikiの一つ"
+  },
+  {
+    "name": "Granblue Fantasy Wiki",
+    "url": "https://gbf.wiki/",
+    "type": "wiki",
+    "icon": "/images/logos/gbfwiki_en.png",
+    "lang": "en",
+    "description": "非公式グランブルーファンタジー英語Wiki"
+  },
+  {
+    "name": "Granblue Fantasy SSR list",
+    "url": "https://gbfssrlistbyod.memo.wiki/",
+    "type": "wiki",
+    "icon": "/images/logos/gbfwiki_cn.png",
+    "lang": "tw",
+    "description": "作者がテストや信頼できる外部情報の収集などを通じて編集した、繁体字中国語版のGBF SSRキャラ（一部SRを含む）リスト"
+  },
+  {
+    "name": "碧蓝幻想中文维基",
+    "url": "https://gbf.huijiwiki.com/",
+    "type": "wiki",
+    "icon": "/images/logos/gbfwiki_cn.png",
+    "lang": "cn",
+    "description": "非公式グランブルーファンタジー簡体字中国語wiki"
+  },
+  {
+    "name": "r/Granblue_en",
+    "url": "https://www.reddit.com/r/Granblue_en/",
+    "type": "community",
+    "icon": "/images/logos/reddit.png",
+    "lang": "en",
+    "description": "グランブルーファンタジーの英語コミュニティ"
+  }
+]

@@ -5,8 +5,8 @@ import ThemeSwitcher from './ThemeSwitcher'
 import {
   HomeIcon,
   BoltIcon,
-  UsersIcon,
-  InboxIcon,
+  CircleStackIcon,
+  StarIcon,
 } from '@heroicons/react/24/solid'
 
 type Nav = {
@@ -30,23 +30,23 @@ const navs: Nav[] = [
     icon: <BoltIcon className="h-6 w-6" />,
   },
   {
-    href: '/characters',
-    label: 'characters',
-    name: 'キャラクター',
-    icon: <UsersIcon className="h-6 w-6" />,
+    href: '/database',
+    label: 'database',
+    name: 'データベース',
+    icon: <CircleStackIcon className="h-6 w-6" />,
   },
   {
-    href: '/items',
-    label: 'items',
-    name: 'アイテム',
-    icon: <InboxIcon className="h-6 w-6" />,
+    href: '/resources',
+    label: 'resources',
+    name: 'リソース',
+    icon: <StarIcon className="h-6 w-6" />,
   },
 ]
 
 export default function Header() {
   return (
     <>
-      <header className="sticky top-0 left-0 z-40 flex w-full items-center justify-between border-b border-slate-100 bg-white px-6 py-4 dark:border-slate-800 dark:bg-slate-900">
+      <header className="sticky top-0 left-0 z-40 flex w-full items-center justify-between border-b border-slate-200 bg-white/90 px-6 py-4 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900">
         <h1>
           <Link href="/">
             <Logo />
