@@ -18,6 +18,7 @@ type Props = {
   type?: 'success' | 'error'
   open: boolean
   onOpenChange: Function
+  children: React.ReactNode
 }
 
 const typeClassNames: ClassNames = {
@@ -61,6 +62,7 @@ const Toast = forwardRef<React.ElementRef<typeof RadixToast.Root>, Props>(
       type = 'success',
       open = false,
       onOpenChange = () => {},
+      children,
     },
     ref,
   ) => {
@@ -76,6 +78,7 @@ const Toast = forwardRef<React.ElementRef<typeof RadixToast.Root>, Props>(
 
     return (
       <RadixToast.Provider>
+        {children}
         <RadixToast.Root
           ref={ref}
           open={open}

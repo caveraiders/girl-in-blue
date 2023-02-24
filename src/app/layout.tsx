@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import { ThemeProvider } from '@/components/ThemeProvider'
+import { ThemeProvider } from '@/providers/ThemeProvider'
+import ToastProvider from '@/providers/ToastProvider'
 import './globals.css'
 
 export default function RootLayout({
@@ -15,15 +16,17 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-400">
+      <body className="bg-white text-slate-800 dark:bg-slate-900 dark:text-slate-300">
         <ThemeProvider>
-          <div className="flex min-h-screen flex-col">
-            <Header />
-            <div className="container mx-auto flex-1 px-4 py-10">
-              {children}
+          <ToastProvider>
+            <div className="flex min-h-screen flex-col">
+              <Header />
+              <div className="container mx-auto flex-1 px-6 py-10">
+                {children}
+              </div>
+              <Footer />
             </div>
-            <Footer />
-          </div>
+          </ToastProvider>
         </ThemeProvider>
       </body>
     </html>
