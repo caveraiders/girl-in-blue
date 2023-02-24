@@ -25,7 +25,7 @@ const Navbar = ({ navs }: NavbarProps) => {
       <div className="lg:hidden">
         <SheetRoot open={sheetOpen} onOpenChange={setSheetOpen}>
           <SheetTrigger asChild>
-            <Button iconOnly variant="text" appearance="secondary">
+            <Button isOnlyIcon variant="text" appearance="secondary">
               <Bars3BottomRightIcon className="h-6 w-6" />
             </Button>
           </SheetTrigger>
@@ -38,7 +38,7 @@ const Navbar = ({ navs }: NavbarProps) => {
           >
             <div className="flex h-full flex-col justify-between gap-8 p-10">
               <SheetClose asChild>
-                <Button iconOnly variant="text" appearance="secondary">
+                <Button isOnlyIcon variant="text" appearance="secondary">
                   <XMarkIcon className="h-6 w-6" />
                 </Button>
               </SheetClose>
@@ -80,7 +80,7 @@ const Navbar = ({ navs }: NavbarProps) => {
                   )
                 })}
               </div>
-              <Button variant="text" appearance="primary" iconOnly>
+              <Button variant="text" appearance="primary" isOnlyIcon>
                 <ThemeSwitcher />
               </Button>
             </div>
