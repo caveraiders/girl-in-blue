@@ -16,7 +16,7 @@ const useFilter = (
         })
       }),
     )
-  }, [filters])
+  }, [data, filters])
 
   return { filteredData, filters, setFilters }
 }
