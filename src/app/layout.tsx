@@ -1,3 +1,4 @@
+import ScrollTop from '@/components/ScrollTop'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import { ThemeProvider } from '@/providers/ThemeProvider'
@@ -25,6 +26,7 @@ export default function RootLayout({
                 {children}
               </div>
               <Footer />
+              <ScrollTop />
             </div>
           </ToastProvider>
         </ThemeProvider>
