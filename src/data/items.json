@@ -355,7 +355,23 @@
   { "id": 204, "itemId": "544", "name": "福音の闇覆う恩寵", "obtains": [] },
   { "id": 205, "itemId": "547", "name": "真龍の金鱗", "obtains": [] },
   { "id": 206, "itemId": "548", "name": "祖なる欠片", "obtains": [] },
-  { "id": 207, "itemId": "549", "name": "イグナイトラブル", "obtains": [] },
+  {
+    "id": 207,
+    "itemId": "549",
+    "name": "イグナイトラブル",
+    "obtains": [
+      {
+        "name": "六竜討伐戦「朱」",
+        "isRecommended": true,
+        "isMulti": false
+      },
+      {
+        "name": "ウィルナスＨＬ",
+        "isRecommended": true,
+        "isMulti": true
+      }
+    ]
+  },
   {
     "id": 208,
     "itemId": "550",
