@@ -3,6 +3,7 @@ import Button from '@/components/Button'
 import SearchBox from '@/components/SearchBox'
 import useFilter from '@/hooks/useFilter'
 import { Weapon } from '@/types/Weapon'
+import { ArrowPathIcon } from '@heroicons/react/24/solid'
 import { useEffect, useState } from 'react'
 
 type WeaponFilterProps = {
@@ -33,6 +34,7 @@ const WeaponFilter = ({
     setFilters({
       type: [],
       element: [],
+      series: [],
     })
 
   useEffect(() => {
@@ -43,6 +45,14 @@ const WeaponFilter = ({
 
   return (
     <div className="flex flex-col gap-8">
+      <SearchBox
+        data={weapons}
+        searchFields={['jpName', 'enName', 'weaponId']}
+        onSearch={(results: Weapon[]) => setSearchResults(results)}
+        searchTerm={searchTerm}
+        setSearchTerm={setSearchTerm}
+        placeholder="武器名またはIDを入力してください"
+      />
       <div className="flex flex-wrap gap-8">
         <div className="flex flex-col gap-3">
           <div className="font-bold">属性</div>
@@ -140,14 +150,6 @@ const WeaponFilter = ({
           </div>
         </div>
       </div>
-      <SearchBox
-        data={weapons}
-        searchFields={['jpName', 'enName', 'weaponId']}
-        onSearch={(results: Weapon[]) => setSearchResults(results)}
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
-        placeholder="Search by name or age"
-      />
       <div>
         <Button
           appearance="danger"
@@ -162,6 +164,7 @@ const WeaponFilter = ({
             setSearchTerm('')
           }}
         >
+          <ArrowPathIcon className="h-5 w-5" />
           すべてのフィルタ条件をクリア
         </Button>
       </div>
