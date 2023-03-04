@@ -1669,5 +1669,11 @@
     "itemId": "30041",
     "name": "シェロカルテの特別交換券",
     "obtains": []
+  },
+  {
+    "id": 971,
+    "itemId": "lupi",
+    "name": "ルピ",
+    "obtains": []
   }
 ]
