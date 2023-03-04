@@ -1,1679 +1,3026 @@
 [
-  { "id": 1, "itemId": "2", "name": "柔らかい羽", "obtains": [] },
-  { "id": 2, "itemId": "3", "name": "風伯の羽", "obtains": [] },
-  { "id": 3, "itemId": "14", "name": "風切四つ葉", "obtains": [] },
-  { "id": 4, "itemId": "4", "name": "綺麗な砂", "obtains": [] },
-  { "id": 5, "itemId": "5", "name": "原初の砂", "obtains": [] },
-  { "id": 6, "itemId": "15", "name": "赤熱鉱", "obtains": [] },
-  { "id": 7, "itemId": "6", "name": "清らかな水", "obtains": [] },
-  { "id": 8, "itemId": "7", "name": "癒しの水", "obtains": [] },
-  { "id": 9, "itemId": "16", "name": "群青珊瑚", "obtains": [] },
-  { "id": 10, "itemId": "8", "name": "固い土", "obtains": [] },
-  { "id": 11, "itemId": "9", "name": "真理の土", "obtains": [] },
-  { "id": 12, "itemId": "17", "name": "渦琥珀", "obtains": [] },
-  { "id": 13, "itemId": "22", "name": "鷹の羽", "obtains": [] },
-  { "id": 14, "itemId": "23", "name": "厳峰の清水", "obtains": [] },
-  { "id": 15, "itemId": "24", "name": "紅黄石", "obtains": [] },
-  { "id": 16, "itemId": "27", "name": "粘っこい茸", "obtains": [] },
-  { "id": 17, "itemId": "28", "name": "虚ろなる魄", "obtains": [] },
-  { "id": 18, "itemId": "29", "name": "ラクリモサ", "obtains": [] },
-  { "id": 19, "itemId": "33", "name": "黄金小麦", "obtains": [] },
-  { "id": 20, "itemId": "34", "name": "鉄鉱石", "obtains": [] },
-  { "id": 21, "itemId": "35", "name": "ブロヴンフラクト", "obtains": [] },
-  { "id": 22, "itemId": "38", "name": "青い果実", "obtains": [] },
-  { "id": 23, "itemId": "39", "name": "予見の双葉", "obtains": [] },
-  { "id": 24, "itemId": "40", "name": "オルディネシュタイン", "obtains": [] },
-  { "id": 25, "itemId": "52", "name": "砂レンガ", "obtains": [] },
-  { "id": 26, "itemId": "53", "name": "古代樹の葉", "obtains": [] },
-  { "id": 27, "itemId": "54", "name": "古代布", "obtains": [] },
-  { "id": 28, "itemId": "69", "name": "栄華の炎", "obtains": [] },
-  { "id": 29, "itemId": "70", "name": "赤色火薬の原料", "obtains": [] },
-  { "id": 30, "itemId": "71", "name": "リキッド・スチール", "obtains": [] },
-  { "id": 31, "itemId": "89", "name": "ダイダロイトストーン", "obtains": [] },
-  { "id": 32, "itemId": "90", "name": "クガンノハナ", "obtains": [] },
-  { "id": 33, "itemId": "91", "name": "大縁の種", "obtains": [] },
-  { "id": 34, "itemId": "98", "name": "万年雪", "obtains": [] },
-  { "id": 35, "itemId": "99", "name": "冷氷の葉", "obtains": [] },
-  { "id": 36, "itemId": "100", "name": "氷傘茸", "obtains": [] },
-  { "id": 37, "itemId": "119", "name": "メルクマベリー", "obtains": [] },
-  { "id": 38, "itemId": "120", "name": "要塞の壁片", "obtains": [] },
-  { "id": 39, "itemId": "121", "name": "錆びた薬莢", "obtains": [] },
-  { "id": 40, "itemId": "122", "name": "騒乱の三つ葉", "obtains": [] },
-  { "id": 41, "itemId": "123", "name": "バシの実", "obtains": [] },
-  { "id": 42, "itemId": "124", "name": "天然翡翠", "obtains": [] },
-  { "id": 43, "itemId": "125", "name": "灰白砂岩", "obtains": [] },
-  { "id": 44, "itemId": "126", "name": "クルーガーハーブ", "obtains": [] },
-  { "id": 45, "itemId": "127", "name": "修行者の覚書", "obtains": [] },
-  { "id": 46, "itemId": "128", "name": "巨獣骨", "obtains": [] },
-  { "id": 47, "itemId": "129", "name": "ベスティエフルーツ", "obtains": [] },
-  { "id": 48, "itemId": "130", "name": "トキシックフラワー", "obtains": [] },
-  { "id": 49, "itemId": "144", "name": "レム・ペッパー", "obtains": [] },
-  { "id": 50, "itemId": "145", "name": "錆び付いた掛瓦", "obtains": [] },
-  { "id": 51, "itemId": "146", "name": "透き通るような絹", "obtains": [] },
-  { "id": 52, "itemId": "147", "name": "埃まみれの書物", "obtains": [] },
-  { "id": 53, "itemId": "148", "name": "割れたティーカップ", "obtains": [] },
-  { "id": 54, "itemId": "149", "name": "ワルンベハーブ", "obtains": [] },
-  { "id": 55, "itemId": "150", "name": "クロッシング・レイ", "obtains": [] },
-  { "id": 56, "itemId": "154", "name": "教科書『歴史』", "obtains": [] },
-  { "id": 57, "itemId": "151", "name": "光輝の神鏡", "obtains": [] },
-  { "id": 58, "itemId": "152", "name": "拍動の心臓", "obtains": [] },
-  { "id": 59, "itemId": "153", "name": "信仰の神代木", "obtains": [] },
-  { "id": 60, "itemId": "10", "name": "ティアマトのアニマ", "obtains": [] },
   {
-    "id": 61,
+    "id": 1,
+    "itemId": "2",
+    "name": "柔らかい羽",
+    "obtains": []
+  },
+  {
+    "id": 2,
+    "itemId": "3",
+    "name": "風伯の羽",
+    "obtains": []
+  },
+  {
+    "id": 3,
+    "itemId": "14",
+    "name": "風切四つ葉",
+    "obtains": []
+  },
+  {
+    "id": 4,
+    "itemId": "4",
+    "name": "綺麗な砂",
+    "obtains": []
+  },
+  {
+    "id": 5,
+    "itemId": "5",
+    "name": "原初の砂",
+    "obtains": []
+  },
+  {
+    "id": 6,
+    "itemId": "15",
+    "name": "赤熱鉱",
+    "obtains": []
+  },
+  {
+    "id": 7,
+    "itemId": "6",
+    "name": "清らかな水",
+    "obtains": []
+  },
+  {
+    "id": 8,
+    "itemId": "7",
+    "name": "癒しの水",
+    "obtains": []
+  },
+  {
+    "id": 9,
+    "itemId": "16",
+    "name": "群青珊瑚",
+    "obtains": []
+  },
+  {
+    "id": 10,
+    "itemId": "8",
+    "name": "固い土",
+    "obtains": []
+  },
+  {
+    "id": 11,
+    "itemId": "9",
+    "name": "真理の土",
+    "obtains": []
+  },
+  {
+    "id": 12,
+    "itemId": "17",
+    "name": "渦琥珀",
+    "obtains": []
+  },
+  {
+    "id": 13,
+    "itemId": "22",
+    "name": "鷹の羽",
+    "obtains": []
+  },
+  {
+    "id": 14,
+    "itemId": "23",
+    "name": "厳峰の清水",
+    "obtains": []
+  },
+  {
+    "id": 15,
+    "itemId": "24",
+    "name": "紅黄石",
+    "obtains": []
+  },
+  {
+    "id": 16,
+    "itemId": "27",
+    "name": "粘っこい茸",
+    "obtains": []
+  },
+  {
+    "id": 17,
+    "itemId": "28",
+    "name": "虚ろなる魄",
+    "obtains": []
+  },
+  {
+    "id": 18,
+    "itemId": "29",
+    "name": "ラクリモサ",
+    "obtains": []
+  },
+  {
+    "id": 19,
+    "itemId": "33",
+    "name": "黄金小麦",
+    "obtains": []
+  },
+  {
+    "id": 20,
+    "itemId": "34",
+    "name": "鉄鉱石",
+    "obtains": []
+  },
+  {
+    "id": 21,
+    "itemId": "35",
+    "name": "ブロヴンフラクト",
+    "obtains": []
+  },
+  {
+    "id": 22,
+    "itemId": "38",
+    "name": "青い果実",
+    "obtains": []
+  },
+  {
+    "id": 23,
+    "itemId": "39",
+    "name": "予見の双葉",
+    "obtains": []
+  },
+  {
+    "id": 24,
+    "itemId": "40",
+    "name": "オルディネシュタイン",
+    "obtains": []
+  },
+  {
+    "id": 25,
+    "itemId": "52",
+    "name": "砂レンガ",
+    "obtains": []
+  },
+  {
+    "id": 26,
+    "itemId": "53",
+    "name": "古代樹の葉",
+    "obtains": []
+  },
+  {
+    "id": 27,
+    "itemId": "54",
+    "name": "古代布",
+    "obtains": []
+  },
+  {
+    "id": 28,
+    "itemId": "69",
+    "name": "栄華の炎",
+    "obtains": []
+  },
+  {
+    "id": 29,
+    "itemId": "70",
+    "name": "赤色火薬の原料",
+    "obtains": []
+  },
+  {
+    "id": 30,
+    "itemId": "71",
+    "name": "リキッド・スチール",
+    "obtains": []
+  },
+  {
+    "id": 31,
+    "itemId": "89",
+    "name": "ダイダロイトストーン",
+    "obtains": []
+  },
+  {
+    "id": 32,
+    "itemId": "90",
+    "name": "クガンノハナ",
+    "obtains": []
+  },
+  {
+    "id": 33,
+    "itemId": "91",
+    "name": "大縁の種",
+    "obtains": []
+  },
+  {
+    "id": 34,
+    "itemId": "98",
+    "name": "万年雪",
+    "obtains": []
+  },
+  {
+    "id": 35,
+    "itemId": "99",
+    "name": "冷氷の葉",
+    "obtains": []
+  },
+  {
+    "id": 36,
+    "itemId": "100",
+    "name": "氷傘茸",
+    "obtains": []
+  },
+  {
+    "id": 37,
+    "itemId": "119",
+    "name": "メルクマベリー",
+    "obtains": []
+  },
+  {
+    "id": 38,
+    "itemId": "120",
+    "name": "要塞の壁片",
+    "obtains": []
+  },
+  {
+    "id": 39,
+    "itemId": "121",
+    "name": "錆びた薬莢",
+    "obtains": []
+  },
+  {
+    "id": 40,
+    "itemId": "122",
+    "name": "騒乱の三つ葉",
+    "obtains": []
+  },
+  {
+    "id": 41,
+    "itemId": "123",
+    "name": "バシの実",
+    "obtains": []
+  },
+  {
+    "id": 42,
+    "itemId": "124",
+    "name": "天然翡翠",
+    "obtains": []
+  },
+  {
+    "id": 43,
+    "itemId": "127",
+    "name": "修行者の覚書",
+    "obtains": []
+  },
+  {
+    "id": 44,
+    "itemId": "128",
+    "name": "巨獣骨",
+    "obtains": []
+  },
+  {
+    "id": 45,
+    "itemId": "130",
+    "name": "トキシックフラワー",
+    "obtains": []
+  },
+  {
+    "id": 46,
+    "itemId": "144",
+    "name": "レム・ペッパー",
+    "obtains": []
+  },
+  {
+    "id": 47,
+    "itemId": "145",
+    "name": "錆びついた掛瓦",
+    "obtains": []
+  },
+  {
+    "id": 48,
+    "itemId": "150",
+    "name": "クロッシング・レイ",
+    "obtains": []
+  },
+  {
+    "id": 49,
+    "itemId": "10",
+    "name": "ティアマトのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 50,
     "itemId": "18",
     "name": "ティアマトのマグナアニマ",
     "obtains": []
   },
-  { "id": 62, "itemId": "32", "name": "嵐竜の琥珀眼", "obtains": [] },
-  { "id": 63, "itemId": "11", "name": "コロッサスのアニマ", "obtains": [] },
   {
-    "id": 64,
+    "id": 51,
+    "itemId": "32",
+    "name": "嵐竜の琥珀眼",
+    "obtains": []
+  },
+  {
+    "id": 52,
+    "itemId": "11",
+    "name": "コロッサスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 53,
     "itemId": "19",
     "name": "コロッサスのマグナアニマ",
     "obtains": []
   },
-  { "id": 65, "itemId": "47", "name": "プロミネンスリアクター", "obtains": [] },
-  { "id": 66, "itemId": "12", "name": "リヴァイアサンのアニマ", "obtains": [] },
   {
-    "id": 67,
+    "id": 54,
+    "itemId": "47",
+    "name": "プロミネンスリアクター",
+    "obtains": []
+  },
+  {
+    "id": 55,
+    "itemId": "12",
+    "name": "リヴァイアサンのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 56,
     "itemId": "20",
     "name": "リヴァイアサンのマグナアニマ",
     "obtains": []
   },
-  { "id": 68, "itemId": "48", "name": "海神の扇尾", "obtains": [] },
-  { "id": 69, "itemId": "13", "name": "ユグドラシルのアニマ", "obtains": [] },
   {
-    "id": 70,
+    "id": 57,
+    "itemId": "48",
+    "name": "海神の扇尾",
+    "obtains": []
+  },
+  {
+    "id": 58,
+    "itemId": "13",
+    "name": "ユグドラシルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 59,
     "itemId": "21",
     "name": "ユグドラシルのマグナアニマ",
     "obtains": []
   },
-  { "id": 71, "itemId": "49", "name": "創樹の花蕾", "obtains": [] },
-  { "id": 72, "itemId": "25", "name": "シュヴァリエのアニマ", "obtains": [] },
   {
-    "id": 73,
+    "id": 60,
+    "itemId": "49",
+    "name": "創樹の花蕾",
+    "obtains": []
+  },
+  {
+    "id": 61,
+    "itemId": "25",
+    "name": "シュヴァリエのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 62,
     "itemId": "26",
     "name": "シュヴァリエのマグナアニマ",
     "obtains": []
   },
-  { "id": 74, "itemId": "50", "name": "プライマルビット", "obtains": [] },
-  { "id": 75, "itemId": "30", "name": "セレストのアニマ", "obtains": [] },
-  { "id": 76, "itemId": "31", "name": "セレストのマグナアニマ", "obtains": [] },
-  { "id": 77, "itemId": "51", "name": "黒霧の結晶", "obtains": [] },
-  { "id": 78, "itemId": "36", "name": "ミスラのアニマ", "obtains": [] },
-  { "id": 79, "itemId": "41", "name": "真なる火のアニマ", "obtains": [] },
-  { "id": 80, "itemId": "42", "name": "真なる水のアニマ", "obtains": [] },
-  { "id": 81, "itemId": "43", "name": "真なる土のアニマ", "obtains": [] },
-  { "id": 82, "itemId": "44", "name": "真なる風のアニマ", "obtains": [] },
-  { "id": 83, "itemId": "45", "name": "真なる光のアニマ", "obtains": [] },
-  { "id": 84, "itemId": "46", "name": "真なる闇のアニマ", "obtains": [] },
-  { "id": 85, "itemId": "55", "name": "マグナ・フラグメント", "obtains": [] },
-  { "id": 86, "itemId": "56", "name": "アルファ・アニマ", "obtains": [] },
-  { "id": 87, "itemId": "57", "name": "オメガ・アニマ", "obtains": [] },
-  { "id": 88, "itemId": "58", "name": "星の砂", "obtains": [] },
-  { "id": 89, "itemId": "59", "name": "バハムートの角", "obtains": [] },
-  { "id": 90, "itemId": "79", "name": "バハムートの紫電角", "obtains": [] },
-  { "id": 91, "itemId": "101", "name": "赤星の輝き", "obtains": [] },
-  { "id": 92, "itemId": "102", "name": "青星の輝き", "obtains": [] },
-  { "id": 93, "itemId": "103", "name": "黄星の輝き", "obtains": [] },
-  { "id": 94, "itemId": "104", "name": "緑星の輝き", "obtains": [] },
-  { "id": 95, "itemId": "105", "name": "白星の輝き", "obtains": [] },
-  { "id": 96, "itemId": "106", "name": "黒星の輝き", "obtains": [] },
-  { "id": 97, "itemId": "107", "name": "銀天の輝き", "obtains": [] },
-  { "id": 98, "itemId": "111", "name": "火のプシュケー", "obtains": [] },
-  { "id": 99, "itemId": "112", "name": "水のプシュケー", "obtains": [] },
-  { "id": 100, "itemId": "113", "name": "土のプシュケー", "obtains": [] },
-  { "id": 101, "itemId": "114", "name": "風のプシュケー", "obtains": [] },
-  { "id": 102, "itemId": "115", "name": "光のプシュケー", "obtains": [] },
-  { "id": 103, "itemId": "116", "name": "闇のプシュケー", "obtains": [] },
   {
-    "id": 104,
+    "id": 63,
+    "itemId": "50",
+    "name": "プライマルビット",
+    "obtains": []
+  },
+  {
+    "id": 64,
+    "itemId": "30",
+    "name": "セレストのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 65,
+    "itemId": "31",
+    "name": "セレストのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 66,
+    "itemId": "51",
+    "name": "黒霧の結晶",
+    "obtains": []
+  },
+  {
+    "id": 67,
+    "itemId": "36",
+    "name": "ミスラのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 68,
+    "itemId": "41",
+    "name": "真なる火のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 69,
+    "itemId": "42",
+    "name": "真なる水のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 70,
+    "itemId": "43",
+    "name": "真なる土のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 71,
+    "itemId": "44",
+    "name": "真なる風のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 72,
+    "itemId": "45",
+    "name": "真なる光のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 73,
+    "itemId": "46",
+    "name": "真なる闇のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 74,
+    "itemId": "55",
+    "name": "マグナ・フラグメント",
+    "obtains": []
+  },
+  {
+    "id": 75,
+    "itemId": "56",
+    "name": "アルファ・アニマ",
+    "obtains": []
+  },
+  {
+    "id": 76,
+    "itemId": "57",
+    "name": "オメガ・アニマ",
+    "obtains": []
+  },
+  {
+    "id": 77,
+    "itemId": "58",
+    "name": "星の砂",
+    "obtains": []
+  },
+  {
+    "id": 78,
+    "itemId": "59",
+    "name": "バハムートの角",
+    "obtains": []
+  },
+  {
+    "id": 79,
+    "itemId": "79",
+    "name": "バハムートの紫電角",
+    "obtains": []
+  },
+  {
+    "id": 80,
+    "itemId": "101",
+    "name": "赤星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 81,
+    "itemId": "102",
+    "name": "青星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 82,
+    "itemId": "103",
+    "name": "黄星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 83,
+    "itemId": "104",
+    "name": "緑星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 84,
+    "itemId": "105",
+    "name": "白星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 85,
+    "itemId": "106",
+    "name": "黒星の輝き",
+    "obtains": []
+  },
+  {
+    "id": 86,
+    "itemId": "107",
+    "name": "銀天の輝き",
+    "obtains": []
+  },
+  {
+    "id": 87,
+    "itemId": "111",
+    "name": "火のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 88,
+    "itemId": "112",
+    "name": "水のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 89,
+    "itemId": "113",
+    "name": "土のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 90,
+    "itemId": "114",
+    "name": "風のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 91,
+    "itemId": "115",
+    "name": "光のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 92,
+    "itemId": "116",
+    "name": "闇のプシュケー",
+    "obtains": []
+  },
+  {
+    "id": 93,
     "itemId": "64",
     "name": "フラム＝グラスのアニマ",
     "obtains": []
   },
   {
-    "id": 105,
+    "id": 94,
     "itemId": "76",
     "name": "フラム＝グラスのマグナアニマ",
     "obtains": []
   },
   {
-    "id": 106,
+    "id": 95,
     "itemId": "60",
     "name": "マキュラ・マリウスのアニマ",
     "obtains": []
   },
   {
-    "id": 107,
+    "id": 96,
     "itemId": "73",
     "name": "マキュラ・マリウスのマグナアニマ",
     "obtains": []
   },
-  { "id": 108, "itemId": "62", "name": "メドゥーサのアニマ", "obtains": [] },
   {
-    "id": 109,
+    "id": 97,
+    "itemId": "62",
+    "name": "メドゥーサのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 98,
     "itemId": "74",
     "name": "メドゥーサのマグナアニマ",
     "obtains": []
   },
-  { "id": 110, "itemId": "65", "name": "ナタクのアニマ", "obtains": [] },
-  { "id": 111, "itemId": "77", "name": "ナタクのマグナアニマ", "obtains": [] },
-  { "id": 112, "itemId": "66", "name": "アポロンのアニマ", "obtains": [] },
   {
-    "id": 113,
+    "id": 99,
+    "itemId": "65",
+    "name": "ナタクのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 100,
+    "itemId": "77",
+    "name": "ナタクのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 101,
+    "itemId": "66",
+    "name": "アポロンのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 102,
     "itemId": "78",
     "name": "アポロンのマグナアニマ",
     "obtains": []
   },
-  { "id": 114, "itemId": "63", "name": "オリヴィエのアニマ", "obtains": [] },
   {
-    "id": 115,
+    "id": 103,
+    "itemId": "63",
+    "name": "オリヴィエのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 104,
     "itemId": "75",
     "name": "オリヴィエのマグナアニマ",
     "obtains": []
   },
-  { "id": 116, "itemId": "80", "name": "白き魂", "obtains": [] },
-  { "id": 117, "itemId": "81", "name": "黒き魂", "obtains": [] },
-  { "id": 118, "itemId": "82", "name": "調停の明星", "obtains": [] },
-  { "id": 119, "itemId": "84", "name": "蒼の羽根", "obtains": [] },
-  { "id": 120, "itemId": "83", "name": "万象の蒼角", "obtains": [] },
-  { "id": 121, "itemId": "546", "name": "蒼翠の結晶", "obtains": [] },
-  { "id": 122, "itemId": "506", "name": "ミカエルのアニマ", "obtains": [] },
-  { "id": 123, "itemId": "507", "name": "ガブリエルのアニマ", "obtains": [] },
-  { "id": 124, "itemId": "508", "name": "ウリエルのアニマ", "obtains": [] },
-  { "id": 125, "itemId": "509", "name": "ラファエルのアニマ", "obtains": [] },
-  { "id": 126, "itemId": "85", "name": "アテナのアニマ", "obtains": [] },
-  { "id": 127, "itemId": "86", "name": "アテナのマグナアニマ", "obtains": [] },
-  { "id": 128, "itemId": "68", "name": "グラニのアニマ", "obtains": [] },
-  { "id": 129, "itemId": "142", "name": "グラニのマグナアニマ", "obtains": [] },
-  { "id": 130, "itemId": "87", "name": "バアルのアニマ", "obtains": [] },
-  { "id": 131, "itemId": "88", "name": "バアルのマグナアニマ", "obtains": [] },
-  { "id": 132, "itemId": "92", "name": "ガルーダのアニマ", "obtains": [] },
   {
-    "id": 133,
+    "id": 105,
+    "itemId": "80",
+    "name": "白き魂",
+    "obtains": []
+  },
+  {
+    "id": 106,
+    "itemId": "81",
+    "name": "黒き魂",
+    "obtains": []
+  },
+  {
+    "id": 107,
+    "itemId": "82",
+    "name": "調停の明星",
+    "obtains": []
+  },
+  {
+    "id": 108,
+    "itemId": "84",
+    "name": "蒼の羽根",
+    "obtains": []
+  },
+  {
+    "id": 109,
+    "itemId": "83",
+    "name": "万象の蒼角",
+    "obtains": []
+  },
+  {
+    "id": 110,
+    "itemId": "546",
+    "name": "蒼翠の結晶",
+    "obtains": []
+  },
+  {
+    "id": 111,
+    "itemId": "506",
+    "name": "ミカエルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 112,
+    "itemId": "507",
+    "name": "ガブリエルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 113,
+    "itemId": "508",
+    "name": "ウリエルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 114,
+    "itemId": "509",
+    "name": "ラファエルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 115,
+    "itemId": "85",
+    "name": "アテナのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 116,
+    "itemId": "86",
+    "name": "アテナのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 117,
+    "itemId": "68",
+    "name": "グラニのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 118,
+    "itemId": "142",
+    "name": "グラニのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 119,
+    "itemId": "87",
+    "name": "バアルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 120,
+    "itemId": "88",
+    "name": "バアルのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 121,
+    "itemId": "92",
+    "name": "ガルーダのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 122,
     "itemId": "93",
     "name": "ガルーダのマグナアニマ",
     "obtains": []
   },
-  { "id": 134, "itemId": "67", "name": "オーディンのアニマ", "obtains": [] },
   {
-    "id": 135,
+    "id": 123,
+    "itemId": "67",
+    "name": "オーディンのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 124,
     "itemId": "141",
     "name": "オーディンのマグナアニマ",
     "obtains": []
   },
-  { "id": 136, "itemId": "72", "name": "リッチのアニマ", "obtains": [] },
-  { "id": 137, "itemId": "143", "name": "リッチのマグナアニマ", "obtains": [] },
   {
-    "id": 138,
+    "id": 125,
+    "itemId": "72",
+    "name": "リッチのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 126,
+    "itemId": "143",
+    "name": "リッチのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 127,
     "itemId": "204",
     "name": "ローズクリスタルの欠片",
     "obtains": []
   },
-  { "id": 139, "itemId": "205", "name": "ローズクリスタル", "obtains": [] },
-  { "id": 140, "itemId": "96", "name": "プロメテウスのアニマ", "obtains": [] },
-  { "id": 141, "itemId": "117", "name": "カー・オンのアニマ", "obtains": [] },
   {
-    "id": 142,
-    "itemId": "94",
-    "name": "ギルガメッシュのアニマ",
+    "id": 128,
+    "itemId": "205",
+    "name": "ローズクリスタル",
     "obtains": []
   },
-  { "id": 143, "itemId": "500", "name": "バイヴカハのアニマ", "obtains": [] },
-  { "id": 144, "itemId": "502", "name": "ヘクトルのアニマ", "obtains": [] },
-  { "id": 145, "itemId": "504", "name": "アヌビスのアニマ", "obtains": [] },
-  { "id": 146, "itemId": "131", "name": "赤き魂", "obtains": [] },
-  { "id": 147, "itemId": "132", "name": "蒼き魂", "obtains": [] },
-  { "id": 148, "itemId": "133", "name": "プライマル・コア", "obtains": [] },
-  { "id": 149, "itemId": "136", "name": "星の欠片", "obtains": [] },
-  { "id": 150, "itemId": "137", "name": "メテオライト", "obtains": [] },
-  { "id": 151, "itemId": "138", "name": "オメガユニット", "obtains": [] },
-  { "id": 152, "itemId": "139", "name": "メテオライトの欠片", "obtains": [] },
-  { "id": 153, "itemId": "140", "name": "オメガの器", "obtains": [] },
-  { "id": 154, "itemId": "510", "name": "シヴァのアニマ", "obtains": [] },
-  { "id": 155, "itemId": "511", "name": "シヴァのマグナアニマ", "obtains": [] },
-  { "id": 156, "itemId": "512", "name": "エウロペのアニマ", "obtains": [] },
   {
-    "id": 157,
+    "id": 129,
+    "itemId": "96",
+    "name": "プロメテウスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 130,
+    "itemId": "117",
+    "name": "カー・オンのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 131,
+    "itemId": "500",
+    "name": "バイヴカハのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 132,
+    "itemId": "502",
+    "name": "ヘクトルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 133,
+    "itemId": "504",
+    "name": "アヌビスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 134,
+    "itemId": "131",
+    "name": "赤き魂",
+    "obtains": []
+  },
+  {
+    "id": 135,
+    "itemId": "132",
+    "name": "蒼き魂",
+    "obtains": []
+  },
+  {
+    "id": 136,
+    "itemId": "133",
+    "name": "プライマル・コア",
+    "obtains": []
+  },
+  {
+    "id": 137,
+    "itemId": "136",
+    "name": "星の欠片",
+    "obtains": []
+  },
+  {
+    "id": 138,
+    "itemId": "137",
+    "name": "メテオライト",
+    "obtains": []
+  },
+  {
+    "id": 139,
+    "itemId": "138",
+    "name": "オメガユニット",
+    "obtains": []
+  },
+  {
+    "id": 140,
+    "itemId": "139",
+    "name": "メテオライトの欠片",
+    "obtains": []
+  },
+  {
+    "id": 141,
+    "itemId": "140",
+    "name": "オメガの器",
+    "obtains": []
+  },
+  {
+    "id": 142,
+    "itemId": "510",
+    "name": "シヴァのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 143,
+    "itemId": "511",
+    "name": "シヴァのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 144,
+    "itemId": "512",
+    "name": "エウロペのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 145,
     "itemId": "513",
     "name": "エウロペのマグナアニマ",
     "obtains": []
   },
-  { "id": 158, "itemId": "514", "name": "ブローディアのアニマ", "obtains": [] },
   {
-    "id": 159,
+    "id": 146,
+    "itemId": "514",
+    "name": "ブローディアのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 147,
     "itemId": "515",
     "name": "ブローディアのマグナアニマ",
     "obtains": []
   },
-  { "id": 160, "itemId": "516", "name": "グリームニルのアニマ", "obtains": [] },
   {
-    "id": 161,
+    "id": 148,
+    "itemId": "516",
+    "name": "グリームニルのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 149,
     "itemId": "517",
     "name": "グリームニルのマグナアニマ",
     "obtains": []
   },
-  { "id": 162, "itemId": "518", "name": "メタトロンのアニマ", "obtains": [] },
   {
-    "id": 163,
+    "id": 150,
+    "itemId": "518",
+    "name": "メタトロンのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 151,
     "itemId": "519",
     "name": "メタトロンのマグナアニマ",
     "obtains": []
   },
-  { "id": 164, "itemId": "520", "name": "アバターのアニマ", "obtains": [] },
   {
-    "id": 165,
+    "id": 152,
+    "itemId": "520",
+    "name": "アバターのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 153,
     "itemId": "521",
     "name": "アバターのマグナアニマ",
     "obtains": []
   },
-  { "id": 166, "itemId": "522", "name": "火のクリスタル", "obtains": [] },
-  { "id": 167, "itemId": "523", "name": "水のクリスタル", "obtains": [] },
-  { "id": 168, "itemId": "524", "name": "土のクリスタル", "obtains": [] },
-  { "id": 169, "itemId": "525", "name": "風のクリスタル", "obtains": [] },
-  { "id": 170, "itemId": "526", "name": "光のクリスタル", "obtains": [] },
-  { "id": 171, "itemId": "527", "name": "闇のクリスタル", "obtains": [] },
-  { "id": 172, "itemId": "575", "name": "アトゥムのアニマ", "obtains": [] },
   {
-    "id": 173,
+    "id": 154,
+    "itemId": "522",
+    "name": "火のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 155,
+    "itemId": "523",
+    "name": "水のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 156,
+    "itemId": "524",
+    "name": "土のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 157,
+    "itemId": "525",
+    "name": "風のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 158,
+    "itemId": "526",
+    "name": "光のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 159,
+    "itemId": "527",
+    "name": "闇のクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 160,
+    "itemId": "575",
+    "name": "アトゥムのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 161,
     "itemId": "576",
     "name": "アトゥムのマグナアニマ",
     "obtains": []
   },
-  { "id": 174, "itemId": "577", "name": "テフヌトのアニマ", "obtains": [] },
   {
-    "id": 175,
+    "id": 162,
+    "itemId": "577",
+    "name": "テフヌトのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 163,
     "itemId": "578",
     "name": "テフヌトのマグナアニマ",
     "obtains": []
   },
-  { "id": 176, "itemId": "579", "name": "ベンヌのアニマ", "obtains": [] },
-  { "id": 177, "itemId": "580", "name": "ベンヌのマグナアニマ", "obtains": [] },
-  { "id": 178, "itemId": "581", "name": "ラーのアニマ", "obtains": [] },
-  { "id": 179, "itemId": "582", "name": "ラーのマグナアニマ", "obtains": [] },
-  { "id": 180, "itemId": "574", "name": "ホルスのアニマ", "obtains": [] },
-  { "id": 181, "itemId": "583", "name": "ホルスのマグナアニマ", "obtains": [] },
-  { "id": 182, "itemId": "573", "name": "オシリスのアニマ", "obtains": [] },
   {
-    "id": 183,
+    "id": 164,
+    "itemId": "579",
+    "name": "ベンヌのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 165,
+    "itemId": "580",
+    "name": "ベンヌのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 166,
+    "itemId": "581",
+    "name": "ラーのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 167,
+    "itemId": "582",
+    "name": "ラーのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 168,
+    "itemId": "574",
+    "name": "ホルスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 169,
+    "itemId": "583",
+    "name": "ホルスのマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 170,
+    "itemId": "573",
+    "name": "オシリスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 171,
     "itemId": "584",
     "name": "オシリスのマグナアニマ",
     "obtains": []
   },
-  { "id": 184, "itemId": "528", "name": "黄龍のアニマ", "obtains": [] },
-  { "id": 185, "itemId": "529", "name": "黄龍のマグナアニマ", "obtains": [] },
-  { "id": 186, "itemId": "530", "name": "黒麒麟のアニマ", "obtains": [] },
-  { "id": 187, "itemId": "531", "name": "黒麒麟のマグナアニマ", "obtains": [] },
   {
-    "id": 188,
+    "id": 172,
+    "itemId": "528",
+    "name": "黄龍のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 173,
+    "itemId": "529",
+    "name": "黄龍のマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 174,
+    "itemId": "530",
+    "name": "黒麒麟のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 175,
+    "itemId": "531",
+    "name": "黒麒麟のマグナアニマ",
+    "obtains": []
+  },
+  {
+    "id": 176,
     "itemId": "532",
     "name": "ティアマト・マリスのアニマ",
     "obtains": []
   },
   {
-    "id": 189,
+    "id": 177,
     "itemId": "545",
     "name": "リヴァイアサン・マリスのアニマ",
     "obtains": []
   },
-  { "id": 190, "itemId": "556", "name": "フロネシスのアニマ", "obtains": [] },
   {
-    "id": 191,
+    "id": 178,
+    "itemId": "556",
+    "name": "フロネシスのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 179,
     "itemId": "563",
     "name": "シュヴァリエ・マリスのアニマ",
     "obtains": []
   },
-  { "id": 192, "itemId": "571", "name": "群体神のアニマ", "obtains": [] },
-  { "id": 193, "itemId": "533", "name": "マリス・フラグメント", "obtains": [] },
-  { "id": 194, "itemId": "534", "name": "虚ろなる鍵", "obtains": [] },
   {
-    "id": 195,
+    "id": 180,
+    "itemId": "571",
+    "name": "群体神のアニマ",
+    "obtains": []
+  },
+  {
+    "id": 181,
+    "itemId": "533",
+    "name": "マリス・フラグメント",
+    "obtains": []
+  },
+  {
+    "id": 182,
+    "itemId": "534",
+    "name": "虚ろなる鍵",
+    "obtains": []
+  },
+  {
+    "id": 183,
     "itemId": "535",
     "name": "ジェネシス・フラグメント",
     "obtains": []
   },
   {
-    "id": 196,
+    "id": 184,
     "itemId": "536",
     "name": "シャード・オブ・ダークネス",
     "obtains": []
   },
   {
-    "id": 197,
+    "id": 185,
     "itemId": "537",
     "name": "ダークネス・マテリアル",
     "obtains": []
   },
-  { "id": 198, "itemId": "538", "name": "終末の暗晶", "obtains": [] },
-  { "id": 199, "itemId": "539", "name": "福音の火舞う恩寵", "obtains": [] },
-  { "id": 200, "itemId": "540", "name": "福音の水湧く恩寵", "obtains": [] },
-  { "id": 201, "itemId": "541", "name": "福音の土護る恩寵", "obtains": [] },
-  { "id": 202, "itemId": "542", "name": "福音の風囁く恩寵", "obtains": [] },
-  { "id": 203, "itemId": "543", "name": "福音の光降る恩寵", "obtains": [] },
-  { "id": 204, "itemId": "544", "name": "福音の闇覆う恩寵", "obtains": [] },
-  { "id": 205, "itemId": "547", "name": "真龍の金鱗", "obtains": [] },
-  { "id": 206, "itemId": "548", "name": "祖なる欠片", "obtains": [] },
   {
-    "id": 207,
-    "itemId": "549",
-    "name": "イグナイトラブル",
-    "obtains": [
-      {
-        "name": "六竜討伐戦「朱」",
-        "isRecommended": true,
-        "isMulti": false
-      },
-      {
-        "name": "ウィルナスＨＬ",
-        "isRecommended": true,
-        "isMulti": true
-      }
-    ]
+    "id": 186,
+    "itemId": "538",
+    "name": "終末の暗晶",
+    "obtains": []
   },
   {
-    "id": 208,
+    "id": 187,
+    "itemId": "547",
+    "name": "真龍の金鱗",
+    "obtains": []
+  },
+  {
+    "id": 188,
+    "itemId": "548",
+    "name": "祖なる欠片",
+    "obtains": []
+  },
+  {
+    "id": 189,
+    "itemId": "549",
+    "name": "イグナイトラブル",
+    "obtains": []
+  },
+  {
+    "id": 190,
     "itemId": "550",
     "name": "アビサル・トラジェディー",
     "obtains": []
   },
-  { "id": 209, "itemId": "551", "name": "インシュラーコア", "obtains": [] },
-  { "id": 210, "itemId": "552", "name": "ゲイルロック", "obtains": [] },
-  { "id": 211, "itemId": "553", "name": "靂輪", "obtains": [] },
-  { "id": 212, "itemId": "554", "name": "トーデストリープ", "obtains": [] },
-  { "id": 213, "itemId": "557", "name": "ウィルナスの竜珠", "obtains": [] },
-  { "id": 214, "itemId": "558", "name": "ワムデュスの竜珠", "obtains": [] },
-  { "id": 215, "itemId": "559", "name": "ガレヲンの竜珠", "obtains": [] },
-  { "id": 216, "itemId": "560", "name": "イーウィヤの竜珠", "obtains": [] },
-  { "id": 217, "itemId": "561", "name": "ル・オーの竜珠", "obtains": [] },
-  { "id": 218, "itemId": "562", "name": "フェディエルの竜珠", "obtains": [] },
-  { "id": 219, "itemId": "555", "name": "漆黒の棘翅", "obtains": [] },
-  { "id": 220, "itemId": "564", "name": "アグニスのアニマ", "obtains": [] },
-  { "id": 221, "itemId": "565", "name": "ヴァルナのアニマ", "obtains": [] },
-  { "id": 222, "itemId": "566", "name": "ティターンのアニマ", "obtains": [] },
-  { "id": 223, "itemId": "567", "name": "ゼピュロスのアニマ", "obtains": [] },
-  { "id": 224, "itemId": "568", "name": "ゼウスのアニマ", "obtains": [] },
-  { "id": 225, "itemId": "569", "name": "ハデスのアニマ", "obtains": [] },
-  { "id": 226, "itemId": "570", "name": "狡知の魔角", "obtains": [] },
-  { "id": 227, "itemId": "572", "name": "アルテマメモリ", "obtains": [] },
-  { "id": 228, "itemId": "586", "name": "滅尽の残気", "obtains": [] },
-  { "id": 229, "itemId": "585", "name": "機神の基板", "obtains": [] },
-  { "id": 230, "itemId": "1011", "name": "炎の宝珠", "obtains": [] },
-  { "id": 231, "itemId": "1021", "name": "水の宝珠", "obtains": [] },
-  { "id": 232, "itemId": "1031", "name": "土の宝珠", "obtains": [] },
-  { "id": 233, "itemId": "1041", "name": "風の宝珠", "obtains": [] },
-  { "id": 234, "itemId": "1051", "name": "光の宝珠", "obtains": [] },
-  { "id": 235, "itemId": "1061", "name": "闇の宝珠", "obtains": [] },
-  { "id": 236, "itemId": "1012", "name": "紅蓮の宝珠", "obtains": [] },
-  { "id": 237, "itemId": "1022", "name": "霧氷の宝珠", "obtains": [] },
-  { "id": 238, "itemId": "1032", "name": "大地の宝珠", "obtains": [] },
-  { "id": 239, "itemId": "1042", "name": "烈空の宝珠", "obtains": [] },
-  { "id": 240, "itemId": "1052", "name": "煌光の宝珠", "obtains": [] },
-  { "id": 241, "itemId": "1062", "name": "奈落の宝珠", "obtains": [] },
-  { "id": 242, "itemId": "1311", "name": "赤の書", "obtains": [] },
-  { "id": 243, "itemId": "1321", "name": "青の書", "obtains": [] },
-  { "id": 244, "itemId": "1331", "name": "橙の書", "obtains": [] },
-  { "id": 245, "itemId": "1341", "name": "緑の書", "obtains": [] },
-  { "id": 246, "itemId": "1351", "name": "白の書", "obtains": [] },
-  { "id": 247, "itemId": "1361", "name": "黒の書", "obtains": [] },
-  { "id": 248, "itemId": "1312", "name": "業火の巻", "obtains": [] },
-  { "id": 249, "itemId": "1322", "name": "濁流の巻", "obtains": [] },
-  { "id": 250, "itemId": "1332", "name": "地裂の巻", "obtains": [] },
-  { "id": 251, "itemId": "1342", "name": "疾風の巻", "obtains": [] },
-  { "id": 252, "itemId": "1352", "name": "天光の巻", "obtains": [] },
-  { "id": 253, "itemId": "1362", "name": "深淵の巻", "obtains": [] },
-  { "id": 254, "itemId": "1313", "name": "ファイア・ジーン", "obtains": [] },
-  { "id": 255, "itemId": "1323", "name": "アクア・ジーン", "obtains": [] },
-  { "id": 256, "itemId": "1333", "name": "アース・ジーン", "obtains": [] },
-  { "id": 257, "itemId": "1343", "name": "ウィンド・ジーン", "obtains": [] },
-  { "id": 258, "itemId": "1353", "name": "ホーリー・ジーン", "obtains": [] },
-  { "id": 259, "itemId": "1363", "name": "ダーク・ジーン", "obtains": [] },
-  { "id": 260, "itemId": "1201", "name": "星晶の破片", "obtains": [] },
-  { "id": 261, "itemId": "1202", "name": "星晶の欠片", "obtains": [] },
-  { "id": 262, "itemId": "1203", "name": "星晶塊", "obtains": [] },
-  { "id": 263, "itemId": "1204", "name": "虹星晶", "obtains": [] },
-  { "id": 264, "itemId": "1111", "name": "赤竜鱗", "obtains": [] },
-  { "id": 265, "itemId": "1121", "name": "青竜鱗", "obtains": [] },
-  { "id": 266, "itemId": "1131", "name": "地竜鱗", "obtains": [] },
-  { "id": 267, "itemId": "1141", "name": "風竜鱗", "obtains": [] },
-  { "id": 268, "itemId": "1151", "name": "白竜鱗", "obtains": [] },
-  { "id": 269, "itemId": "1161", "name": "黒竜鱗", "obtains": [] },
-  { "id": 270, "itemId": "2001", "name": "栄光の証", "obtains": [] },
-  { "id": 271, "itemId": "2002", "name": "覇者の証", "obtains": [] },
-  { "id": 272, "itemId": "2003", "name": "究竟の証", "obtains": [] },
-  { "id": 273, "itemId": "6001", "name": "朱雀印符", "obtains": [] },
-  { "id": 274, "itemId": "6002", "name": "玄武印符", "obtains": [] },
-  { "id": 275, "itemId": "6003", "name": "白虎印符", "obtains": [] },
-  { "id": 276, "itemId": "6004", "name": "青竜印符", "obtains": [] },
-  { "id": 277, "itemId": "6005", "name": "四象金印", "obtains": [] },
-  { "id": 278, "itemId": "213", "name": "四象霊晶", "obtains": [] },
-  { "id": 279, "itemId": "6006", "name": "南朱の霊宝", "obtains": [] },
-  { "id": 280, "itemId": "6007", "name": "北玄の霊宝", "obtains": [] },
-  { "id": 281, "itemId": "6008", "name": "西白の霊宝", "obtains": [] },
-  { "id": 282, "itemId": "6009", "name": "東青の霊宝", "obtains": [] },
-  { "id": 283, "itemId": "206", "name": "黄金の札", "obtains": [] },
-  { "id": 284, "itemId": "207", "name": "黄金の札束", "obtains": [] },
-  { "id": 285, "itemId": "208", "name": "黒曜石の札", "obtains": [] },
-  { "id": 286, "itemId": "209", "name": "黒曜石の札束", "obtains": [] },
-  { "id": 287, "itemId": "6010", "name": "南朱の魂玉", "obtains": [] },
-  { "id": 288, "itemId": "6011", "name": "北玄の魂玉", "obtains": [] },
-  { "id": 289, "itemId": "6013", "name": "東青の魂玉", "obtains": [] },
-  { "id": 290, "itemId": "6014", "name": "南朱の煌魂玉", "obtains": [] },
-  { "id": 291, "itemId": "6015", "name": "北玄の煌魂玉", "obtains": [] },
-  { "id": 292, "itemId": "6017", "name": "東青の煌魂玉", "obtains": [] },
-  { "id": 293, "itemId": "6018", "name": "南方守護の王飾", "obtains": [] },
-  { "id": 294, "itemId": "6019", "name": "南方守護の覇紋", "obtains": [] },
-  { "id": 295, "itemId": "6020", "name": "南方守護の邪刃", "obtains": [] },
-  { "id": 296, "itemId": "6021", "name": "北方守護の王布", "obtains": [] },
-  { "id": 297, "itemId": "6022", "name": "北方守護の覇飾", "obtains": [] },
-  { "id": 298, "itemId": "6023", "name": "北方守護の邪甲", "obtains": [] },
-  { "id": 299, "itemId": "6027", "name": "東方守護の王面", "obtains": [] },
-  { "id": 300, "itemId": "6028", "name": "東方守護の覇刃", "obtains": [] },
-  { "id": 301, "itemId": "6029", "name": "東方守護の邪玉", "obtains": [] },
-  { "id": 302, "itemId": "1", "name": "碧空の結晶", "obtains": [] },
-  { "id": 303, "itemId": "4011", "name": "剣のエレメント", "obtains": [] },
-  { "id": 304, "itemId": "4021", "name": "短剣のエレメント", "obtains": [] },
-  { "id": 305, "itemId": "4031", "name": "槍のエレメント", "obtains": [] },
-  { "id": 306, "itemId": "4041", "name": "斧のエレメント", "obtains": [] },
-  { "id": 307, "itemId": "4051", "name": "杖のエレメント", "obtains": [] },
-  { "id": 308, "itemId": "4061", "name": "銃のエレメント", "obtains": [] },
-  { "id": 309, "itemId": "4071", "name": "格闘のエレメント", "obtains": [] },
-  { "id": 310, "itemId": "4081", "name": "弓のエレメント", "obtains": [] },
-  { "id": 311, "itemId": "4091", "name": "楽器のエレメント", "obtains": [] },
-  { "id": 312, "itemId": "4101", "name": "刀のエレメント", "obtains": [] },
-  { "id": 313, "itemId": "5011", "name": "火晶のエレメント", "obtains": [] },
-  { "id": 314, "itemId": "5021", "name": "水晶のエレメント", "obtains": [] },
-  { "id": 315, "itemId": "5031", "name": "土晶のエレメント", "obtains": [] },
-  { "id": 316, "itemId": "5041", "name": "風晶のエレメント", "obtains": [] },
-  { "id": 317, "itemId": "5051", "name": "光晶のエレメント", "obtains": [] },
-  { "id": 318, "itemId": "5061", "name": "闇晶のエレメント", "obtains": [] },
-  { "id": 319, "itemId": "5111", "name": "業火の石片", "obtains": [] },
-  { "id": 320, "itemId": "5121", "name": "玉水の石片", "obtains": [] },
-  { "id": 321, "itemId": "5131", "name": "荒土の石片", "obtains": [] },
-  { "id": 322, "itemId": "5141", "name": "狂風の石片", "obtains": [] },
-  { "id": 323, "itemId": "5311", "name": "火の羽根", "obtains": [] },
-  { "id": 324, "itemId": "5321", "name": "水の羽根", "obtains": [] },
-  { "id": 325, "itemId": "5331", "name": "土の羽根", "obtains": [] },
-  { "id": 326, "itemId": "5341", "name": "風の羽根", "obtains": [] },
-  { "id": 327, "itemId": "5211", "name": "火の光輪", "obtains": [] },
-  { "id": 328, "itemId": "5221", "name": "水の光輪", "obtains": [] },
-  { "id": 329, "itemId": "5231", "name": "土の光輪", "obtains": [] },
-  { "id": 330, "itemId": "5241", "name": "風の光輪", "obtains": [] },
-  { "id": 331, "itemId": "25000", "name": "セフィラストーン", "obtains": [] },
-  { "id": 332, "itemId": "25001", "name": "火精のアストラ", "obtains": [] },
-  { "id": 333, "itemId": "25002", "name": "水精のアストラ", "obtains": [] },
-  { "id": 334, "itemId": "25003", "name": "土精のアストラ", "obtains": [] },
-  { "id": 335, "itemId": "25004", "name": "風精のアストラ", "obtains": [] },
-  { "id": 336, "itemId": "25005", "name": "光精のアストラ", "obtains": [] },
-  { "id": 337, "itemId": "25006", "name": "闇精のアストラ", "obtains": [] },
-  { "id": 338, "itemId": "25007", "name": "正義のイデア", "obtains": [] },
-  { "id": 339, "itemId": "25008", "name": "刑死者のイデア", "obtains": [] },
-  { "id": 340, "itemId": "25009", "name": "死神のイデア", "obtains": [] },
-  { "id": 341, "itemId": "25010", "name": "節制のイデア", "obtains": [] },
-  { "id": 342, "itemId": "25011", "name": "悪魔のイデア", "obtains": [] },
-  { "id": 343, "itemId": "25012", "name": "塔のイデア", "obtains": [] },
-  { "id": 344, "itemId": "25013", "name": "星のイデア", "obtains": [] },
-  { "id": 345, "itemId": "25014", "name": "月のイデア", "obtains": [] },
-  { "id": 346, "itemId": "25015", "name": "太陽のイデア", "obtains": [] },
-  { "id": 347, "itemId": "25016", "name": "審判のイデア", "obtains": [] },
-  { "id": 348, "itemId": "25018", "name": "ヴェルム文書", "obtains": [] },
   {
-    "id": 349,
-    "itemId": "25019",
-    "name": "ノスタルジック・ヘイズ",
+    "id": 191,
+    "itemId": "551",
+    "name": "インシュラーコア",
     "obtains": []
   },
-  { "id": 350, "itemId": "25020", "name": "オーロラ・ヘイズ", "obtains": [] },
   {
-    "id": 351,
+    "id": 192,
+    "itemId": "552",
+    "name": "ゲイルロック",
+    "obtains": []
+  },
+  {
+    "id": 193,
+    "itemId": "553",
+    "name": "靂輪",
+    "obtains": []
+  },
+  {
+    "id": 194,
+    "itemId": "554",
+    "name": "トーデストリープ",
+    "obtains": []
+  },
+  {
+    "id": 195,
+    "itemId": "557",
+    "name": "ウィルナスの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 196,
+    "itemId": "558",
+    "name": "ワムデュスの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 197,
+    "itemId": "559",
+    "name": "ガレヲンの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 198,
+    "itemId": "560",
+    "name": "イーウィヤの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 199,
+    "itemId": "561",
+    "name": "ル・オーの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 200,
+    "itemId": "562",
+    "name": "フェディエルの竜珠",
+    "obtains": []
+  },
+  {
+    "id": 201,
+    "itemId": "555",
+    "name": "漆黒の棘翅",
+    "obtains": []
+  },
+  {
+    "id": 202,
+    "itemId": "1011",
+    "name": "炎の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 203,
+    "itemId": "1021",
+    "name": "水の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 204,
+    "itemId": "1031",
+    "name": "土の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 205,
+    "itemId": "1041",
+    "name": "風の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 206,
+    "itemId": "1051",
+    "name": "光の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 207,
+    "itemId": "1061",
+    "name": "闇の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 208,
+    "itemId": "1012",
+    "name": "紅蓮の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 209,
+    "itemId": "1022",
+    "name": "霧氷の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 210,
+    "itemId": "1032",
+    "name": "大地の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 211,
+    "itemId": "1042",
+    "name": "烈空の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 212,
+    "itemId": "1052",
+    "name": "煌光の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 213,
+    "itemId": "1062",
+    "name": "奈落の宝珠",
+    "obtains": []
+  },
+  {
+    "id": 214,
+    "itemId": "1311",
+    "name": "赤の書",
+    "obtains": []
+  },
+  {
+    "id": 215,
+    "itemId": "1321",
+    "name": "青の書",
+    "obtains": []
+  },
+  {
+    "id": 216,
+    "itemId": "1331",
+    "name": "橙の書",
+    "obtains": []
+  },
+  {
+    "id": 217,
+    "itemId": "1341",
+    "name": "緑の書",
+    "obtains": []
+  },
+  {
+    "id": 218,
+    "itemId": "1351",
+    "name": "白の書",
+    "obtains": []
+  },
+  {
+    "id": 219,
+    "itemId": "1361",
+    "name": "黒の書",
+    "obtains": []
+  },
+  {
+    "id": 220,
+    "itemId": "1312",
+    "name": "業火の巻",
+    "obtains": []
+  },
+  {
+    "id": 221,
+    "itemId": "1322",
+    "name": "濁流の巻",
+    "obtains": []
+  },
+  {
+    "id": 222,
+    "itemId": "1332",
+    "name": "地裂の巻",
+    "obtains": []
+  },
+  {
+    "id": 223,
+    "itemId": "1342",
+    "name": "疾風の巻",
+    "obtains": []
+  },
+  {
+    "id": 224,
+    "itemId": "1352",
+    "name": "天光の巻",
+    "obtains": []
+  },
+  {
+    "id": 225,
+    "itemId": "1362",
+    "name": "深淵の巻",
+    "obtains": []
+  },
+  {
+    "id": 226,
+    "itemId": "1313",
+    "name": "ファイア・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 227,
+    "itemId": "1323",
+    "name": "アクア・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 228,
+    "itemId": "1333",
+    "name": "アース・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 229,
+    "itemId": "1343",
+    "name": "ウィンド・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 230,
+    "itemId": "1353",
+    "name": "ホーリー・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 231,
+    "itemId": "1363",
+    "name": "ダーク・ジーン",
+    "obtains": []
+  },
+  {
+    "id": 232,
+    "itemId": "1201",
+    "name": "星晶の破片",
+    "obtains": []
+  },
+  {
+    "id": 233,
+    "itemId": "1202",
+    "name": "星晶の欠片",
+    "obtains": []
+  },
+  {
+    "id": 234,
+    "itemId": "1203",
+    "name": "星晶塊",
+    "obtains": []
+  },
+  {
+    "id": 235,
+    "itemId": "1204",
+    "name": "虹星晶",
+    "obtains": []
+  },
+  {
+    "id": 236,
+    "itemId": "1111",
+    "name": "赤竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 237,
+    "itemId": "1121",
+    "name": "青竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 238,
+    "itemId": "1131",
+    "name": "地竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 239,
+    "itemId": "1141",
+    "name": "風竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 240,
+    "itemId": "1151",
+    "name": "白竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 241,
+    "itemId": "1161",
+    "name": "黒竜鱗",
+    "obtains": []
+  },
+  {
+    "id": 242,
+    "itemId": "2001",
+    "name": "栄光の証",
+    "obtains": []
+  },
+  {
+    "id": 243,
+    "itemId": "2002",
+    "name": "覇者の証",
+    "obtains": []
+  },
+  {
+    "id": 244,
+    "itemId": "2003",
+    "name": "究竟の証",
+    "obtains": []
+  },
+  {
+    "id": 245,
+    "itemId": "6001",
+    "name": "朱雀印符",
+    "obtains": []
+  },
+  {
+    "id": 246,
+    "itemId": "6002",
+    "name": "玄武印符",
+    "obtains": []
+  },
+  {
+    "id": 247,
+    "itemId": "6003",
+    "name": "白虎印符",
+    "obtains": []
+  },
+  {
+    "id": 248,
+    "itemId": "6004",
+    "name": "青竜印符",
+    "obtains": []
+  },
+  {
+    "id": 249,
+    "itemId": "213",
+    "name": "四象霊晶",
+    "obtains": []
+  },
+  {
+    "id": 250,
+    "itemId": "6006",
+    "name": "南朱の霊宝",
+    "obtains": []
+  },
+  {
+    "id": 251,
+    "itemId": "6007",
+    "name": "北玄の霊宝",
+    "obtains": []
+  },
+  {
+    "id": 252,
+    "itemId": "6008",
+    "name": "西白の霊宝",
+    "obtains": []
+  },
+  {
+    "id": 253,
+    "itemId": "6009",
+    "name": "東青の霊宝",
+    "obtains": []
+  },
+  {
+    "id": 254,
+    "itemId": "206",
+    "name": "黄金の札",
+    "obtains": []
+  },
+  {
+    "id": 255,
+    "itemId": "207",
+    "name": "黄金の札束",
+    "obtains": []
+  },
+  {
+    "id": 256,
+    "itemId": "208",
+    "name": "黒曜石の札",
+    "obtains": []
+  },
+  {
+    "id": 257,
+    "itemId": "209",
+    "name": "黒曜石の札束",
+    "obtains": []
+  },
+  {
+    "id": 258,
+    "itemId": "6010",
+    "name": "南朱の魂玉",
+    "obtains": []
+  },
+  {
+    "id": 259,
+    "itemId": "6011",
+    "name": "北玄の魂玉",
+    "obtains": []
+  },
+  {
+    "id": 260,
+    "itemId": "6012",
+    "name": "西白の魂玉",
+    "obtains": []
+  },
+  {
+    "id": 261,
+    "itemId": "6013",
+    "name": "東青の魂玉",
+    "obtains": []
+  },
+  {
+    "id": 262,
+    "itemId": "6014",
+    "name": "南朱の煌魂玉",
+    "obtains": []
+  },
+  {
+    "id": 263,
+    "itemId": "6015",
+    "name": "北玄の煌魂玉",
+    "obtains": []
+  },
+  {
+    "id": 264,
+    "itemId": "6016",
+    "name": "西白の煌魂玉",
+    "obtains": []
+  },
+  {
+    "id": 265,
+    "itemId": "6017",
+    "name": "東青の煌魂玉",
+    "obtains": []
+  },
+  {
+    "id": 266,
+    "itemId": "1",
+    "name": "碧空の結晶",
+    "obtains": []
+  },
+  {
+    "id": 267,
+    "itemId": "4011",
+    "name": "剣のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 268,
+    "itemId": "4031",
+    "name": "槍のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 269,
+    "itemId": "4041",
+    "name": "斧のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 270,
+    "itemId": "4051",
+    "name": "杖のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 271,
+    "itemId": "4061",
+    "name": "銃のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 272,
+    "itemId": "4071",
+    "name": "格闘のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 273,
+    "itemId": "4081",
+    "name": "弓のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 274,
+    "itemId": "4091",
+    "name": "楽器のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 275,
+    "itemId": "4101",
+    "name": "刀のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 276,
+    "itemId": "5011",
+    "name": "火晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 277,
+    "itemId": "5021",
+    "name": "水晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 278,
+    "itemId": "5031",
+    "name": "土晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 279,
+    "itemId": "5041",
+    "name": "風晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 280,
+    "itemId": "5051",
+    "name": "光晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 281,
+    "itemId": "5061",
+    "name": "闇晶のエレメント",
+    "obtains": []
+  },
+  {
+    "id": 282,
+    "itemId": "5111",
+    "name": "業火の石片",
+    "obtains": []
+  },
+  {
+    "id": 283,
+    "itemId": "5121",
+    "name": "玉水の石片",
+    "obtains": []
+  },
+  {
+    "id": 284,
+    "itemId": "5131",
+    "name": "荒土の石片",
+    "obtains": []
+  },
+  {
+    "id": 285,
+    "itemId": "5141",
+    "name": "狂風の石片",
+    "obtains": []
+  },
+  {
+    "id": 286,
+    "itemId": "5311",
+    "name": "火の羽根",
+    "obtains": []
+  },
+  {
+    "id": 287,
+    "itemId": "5321",
+    "name": "水の羽根",
+    "obtains": []
+  },
+  {
+    "id": 288,
+    "itemId": "5331",
+    "name": "土の羽根",
+    "obtains": []
+  },
+  {
+    "id": 289,
+    "itemId": "5341",
+    "name": "風の羽根",
+    "obtains": []
+  },
+  {
+    "id": 290,
+    "itemId": "5211",
+    "name": "火の光輪",
+    "obtains": []
+  },
+  {
+    "id": 291,
+    "itemId": "5221",
+    "name": "水の光輪",
+    "obtains": []
+  },
+  {
+    "id": 292,
+    "itemId": "5231",
+    "name": "土の光輪",
+    "obtains": []
+  },
+  {
+    "id": 293,
+    "itemId": "5241",
+    "name": "風の光輪",
+    "obtains": []
+  },
+  {
+    "id": 294,
+    "itemId": "25000",
+    "name": "セフィラストーン",
+    "obtains": []
+  },
+  {
+    "id": 295,
+    "itemId": "25001",
+    "name": "火精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 296,
+    "itemId": "25002",
+    "name": "水精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 297,
+    "itemId": "25003",
+    "name": "土精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 298,
+    "itemId": "25004",
+    "name": "風精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 299,
+    "itemId": "25005",
+    "name": "光精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 300,
+    "itemId": "25006",
+    "name": "闇精のアストラ",
+    "obtains": []
+  },
+  {
+    "id": 301,
+    "itemId": "25007",
+    "name": "正義のイデア",
+    "obtains": []
+  },
+  {
+    "id": 302,
+    "itemId": "25008",
+    "name": "刑死者のイデア",
+    "obtains": []
+  },
+  {
+    "id": 303,
+    "itemId": "25009",
+    "name": "死神のイデア",
+    "obtains": []
+  },
+  {
+    "id": 304,
+    "itemId": "25010",
+    "name": "節制のイデア",
+    "obtains": []
+  },
+  {
+    "id": 305,
+    "itemId": "25011",
+    "name": "悪魔のイデア",
+    "obtains": []
+  },
+  {
+    "id": 306,
+    "itemId": "25012",
+    "name": "塔のイデア",
+    "obtains": []
+  },
+  {
+    "id": 307,
+    "itemId": "25013",
+    "name": "星のイデア",
+    "obtains": []
+  },
+  {
+    "id": 308,
+    "itemId": "25014",
+    "name": "月のイデア",
+    "obtains": []
+  },
+  {
+    "id": 309,
+    "itemId": "25015",
+    "name": "太陽のイデア",
+    "obtains": []
+  },
+  {
+    "id": 310,
+    "itemId": "25016",
+    "name": "審判のイデア",
+    "obtains": []
+  },
+  {
+    "id": 311,
+    "itemId": "25020",
+    "name": "オーロラ・ヘイズ",
+    "obtains": []
+  },
+  {
+    "id": 312,
     "itemId": "25021",
     "name": "カオティック・ヘイズ",
     "obtains": []
   },
   {
-    "id": 352,
+    "id": 313,
     "itemId": "25033",
     "name": "アクイラ・フラグメント",
     "obtains": []
   },
   {
-    "id": 353,
+    "id": 314,
     "itemId": "25034",
     "name": "ベラトール・フラグメント",
     "obtains": []
   },
   {
-    "id": 354,
+    "id": 315,
     "itemId": "25035",
     "name": "ケルサス・フラグメント",
     "obtains": []
   },
-  { "id": 355, "itemId": "25023", "name": "ヴェルム文書・火", "obtains": [] },
-  { "id": 356, "itemId": "25024", "name": "ヴェルム文書・水", "obtains": [] },
-  { "id": 357, "itemId": "25025", "name": "ヴェルム文書・土", "obtains": [] },
-  { "id": 358, "itemId": "25026", "name": "ヴェルム文書・風", "obtains": [] },
-  { "id": 359, "itemId": "25036", "name": "セフィラ玉髄", "obtains": [] },
   {
-    "id": 360,
-    "itemId": "25037",
-    "name": "ジャスティスが描かれたカード",
+    "id": 316,
+    "itemId": "25023",
+    "name": "ヴェルム文書・火",
     "obtains": []
   },
   {
-    "id": 361,
-    "itemId": "25038",
-    "name": "ザ・ハングドマンが描かれたカード",
+    "id": 317,
+    "itemId": "25024",
+    "name": "ヴェルム文書・水",
     "obtains": []
   },
   {
-    "id": 362,
-    "itemId": "25039",
-    "name": "デスが描かれたカード",
+    "id": 318,
+    "itemId": "25025",
+    "name": "ヴェルム文書・土",
     "obtains": []
   },
   {
-    "id": 363,
-    "itemId": "25040",
-    "name": "テンペランスが描かれたカード",
+    "id": 319,
+    "itemId": "25026",
+    "name": "ヴェルム文書・風",
     "obtains": []
   },
   {
-    "id": 364,
-    "itemId": "25041",
-    "name": "ザ・デビルが描かれたカード",
+    "id": 320,
+    "itemId": "25047",
+    "name": "正義のウェリタス",
     "obtains": []
   },
   {
-    "id": 365,
-    "itemId": "25042",
-    "name": "ザ・タワーが描かれたカード",
+    "id": 321,
+    "itemId": "25049",
+    "name": "死神のウェリタス",
     "obtains": []
   },
   {
-    "id": 366,
-    "itemId": "25043",
-    "name": "ザ・スターが描かれたカード",
+    "id": 322,
+    "itemId": "25054",
+    "name": "月のウェリタス",
     "obtains": []
   },
   {
-    "id": 367,
-    "itemId": "25044",
-    "name": "ザ・ムーンが描かれたカード",
+    "id": 323,
+    "itemId": "25071",
+    "name": "アクア・ブライト",
     "obtains": []
   },
   {
-    "id": 368,
-    "itemId": "25045",
-    "name": "ザ・サンが描かれたカード",
+    "id": 324,
+    "itemId": "25061",
+    "name": "フェイム・オーゲン",
     "obtains": []
   },
   {
-    "id": 369,
-    "itemId": "25046",
-    "name": "ジャッジメントが描かれたカード",
-    "obtains": []
-  },
-  { "id": 370, "itemId": "25047", "name": "正義のウェリタス", "obtains": [] },
-  { "id": 371, "itemId": "25048", "name": "刑死者のウェリタス", "obtains": [] },
-  { "id": 372, "itemId": "25049", "name": "死神のウェリタス", "obtains": [] },
-  { "id": 373, "itemId": "25050", "name": "節制のウェリタス", "obtains": [] },
-  { "id": 374, "itemId": "25051", "name": "悪魔のウェリタス", "obtains": [] },
-  { "id": 375, "itemId": "25052", "name": "塔のウェリタス", "obtains": [] },
-  { "id": 376, "itemId": "25053", "name": "星のウェリタス", "obtains": [] },
-  { "id": 377, "itemId": "25054", "name": "月のウェリタス", "obtains": [] },
-  { "id": 378, "itemId": "25055", "name": "太陽のウェリタス", "obtains": [] },
-  { "id": 379, "itemId": "25056", "name": "審判のウェリタス", "obtains": [] },
-  { "id": 380, "itemId": "25070", "name": "イグニス・ブライト", "obtains": [] },
-  { "id": 381, "itemId": "25071", "name": "アクア・ブライト", "obtains": [] },
-  { "id": 382, "itemId": "25072", "name": "テラ・ブライト", "obtains": [] },
-  {
-    "id": 383,
-    "itemId": "25073",
-    "name": "ウェントス・ブライト",
+    "id": 325,
+    "itemId": "25062",
+    "name": "フェイム・リブ",
     "obtains": []
   },
   {
-    "id": 384,
-    "itemId": "25058",
-    "name": "エローシオ・オーゲン",
+    "id": 326,
+    "itemId": "25063",
+    "name": "フェイム・コア",
     "obtains": []
   },
-  { "id": 385, "itemId": "25059", "name": "エローシオ・リブ", "obtains": [] },
-  { "id": 386, "itemId": "25060", "name": "エローシオ・コア", "obtains": [] },
-  { "id": 387, "itemId": "25061", "name": "フェイム・オーゲン", "obtains": [] },
-  { "id": 388, "itemId": "25062", "name": "フェイム・リブ", "obtains": [] },
-  { "id": 389, "itemId": "25063", "name": "フェイム・コア", "obtains": [] },
-  { "id": 390, "itemId": "25064", "name": "ゴリアテ・オーゲン", "obtains": [] },
-  { "id": 391, "itemId": "25065", "name": "ゴリアテ・リブ", "obtains": [] },
-  { "id": 392, "itemId": "25066", "name": "ゴリアテ・コア", "obtains": [] },
   {
-    "id": 393,
-    "itemId": "25067",
-    "name": "ハービンガー・オーゲン",
-    "obtains": []
-  },
-  { "id": 394, "itemId": "25068", "name": "ハービンガー・リブ", "obtains": [] },
-  { "id": 395, "itemId": "25069", "name": "ハービンガー・コア", "obtains": [] },
-  {
-    "id": 396,
+    "id": 327,
     "itemId": "25074",
     "name": "ニューワールド・クォーツ",
     "obtains": []
   },
-  { "id": 397, "itemId": "25075", "name": "神喚の聖炎", "obtains": [] },
-  { "id": 398, "itemId": "25076", "name": "神喚の聖水", "obtains": [] },
-  { "id": 399, "itemId": "25077", "name": "神喚の聖石", "obtains": [] },
-  { "id": 400, "itemId": "25078", "name": "神喚の聖風", "obtains": [] },
-  { "id": 401, "itemId": "25079", "name": "神槍のマスカレイド", "obtains": [] },
-  { "id": 402, "itemId": "25080", "name": "漣のマスカレイド", "obtains": [] },
-  { "id": 403, "itemId": "25081", "name": "雷鳴のマスカレイド", "obtains": [] },
-  { "id": 404, "itemId": "25082", "name": "旋風のマスカレイド", "obtains": [] },
-  { "id": 405, "itemId": "5411", "name": "剣の銀片", "obtains": [] },
-  { "id": 406, "itemId": "5421", "name": "刃の銀片", "obtains": [] },
-  { "id": 407, "itemId": "5431", "name": "槍の銀片", "obtains": [] },
-  { "id": 408, "itemId": "5441", "name": "斧の銀片", "obtains": [] },
-  { "id": 409, "itemId": "5451", "name": "杖の銀片", "obtains": [] },
-  { "id": 410, "itemId": "5461", "name": "銃の銀片", "obtains": [] },
-  { "id": 411, "itemId": "5471", "name": "手甲の銀片", "obtains": [] },
-  { "id": 412, "itemId": "5481", "name": "弓の銀片", "obtains": [] },
-  { "id": 413, "itemId": "5491", "name": "竪琴の銀片", "obtains": [] },
-  { "id": 414, "itemId": "5501", "name": "太刀の銀片", "obtains": [] },
-  { "id": 415, "itemId": "5511", "name": "純然たる剣の魂", "obtains": [] },
-  { "id": 416, "itemId": "5521", "name": "純然たる刃の魂", "obtains": [] },
-  { "id": 417, "itemId": "5531", "name": "純然たる槍の魂", "obtains": [] },
-  { "id": 418, "itemId": "5541", "name": "純然たる斧の魂", "obtains": [] },
-  { "id": 419, "itemId": "5551", "name": "純然たる杖の魂", "obtains": [] },
-  { "id": 420, "itemId": "5561", "name": "純然たる銃の魂", "obtains": [] },
-  { "id": 421, "itemId": "5571", "name": "純然たる手甲の魂", "obtains": [] },
-  { "id": 422, "itemId": "5581", "name": "純然たる弓の魂", "obtains": [] },
-  { "id": 423, "itemId": "5591", "name": "純然たる竪琴の魂", "obtains": [] },
-  { "id": 424, "itemId": "5601", "name": "純然たる太刀の魂", "obtains": [] },
-  { "id": 425, "itemId": "5611", "name": "一番天星の欠片", "obtains": [] },
-  { "id": 426, "itemId": "5621", "name": "二番天星の欠片", "obtains": [] },
-  { "id": 427, "itemId": "5631", "name": "三番天星の欠片", "obtains": [] },
-  { "id": 428, "itemId": "5641", "name": "四番天星の欠片", "obtains": [] },
-  { "id": 429, "itemId": "5651", "name": "五番天星の欠片", "obtains": [] },
-  { "id": 430, "itemId": "5661", "name": "六番天星の欠片", "obtains": [] },
-  { "id": 431, "itemId": "5671", "name": "七番天星の欠片", "obtains": [] },
-  { "id": 432, "itemId": "5681", "name": "八番天星の欠片", "obtains": [] },
-  { "id": 433, "itemId": "5691", "name": "九番天星の欠片", "obtains": [] },
-  { "id": 434, "itemId": "5701", "name": "十番天星の欠片", "obtains": [] },
-  { "id": 435, "itemId": "5731", "name": "窮極たる槍の極意", "obtains": [] },
-  { "id": 436, "itemId": "5781", "name": "窮極たる弓の極意", "obtains": [] },
-  { "id": 437, "itemId": "5741", "name": "窮極たる斧の極意", "obtains": [] },
-  { "id": 438, "itemId": "5721", "name": "窮極たる刃の極意", "obtains": [] },
-  { "id": 439, "itemId": "5751", "name": "窮極たる杖の極意", "obtains": [] },
-  { "id": 440, "itemId": "5771", "name": "窮極たる手甲の極意", "obtains": [] },
-  { "id": 441, "itemId": "5711", "name": "窮極たる剣の極意", "obtains": [] },
-  { "id": 442, "itemId": "5801", "name": "窮極たる太刀の極意", "obtains": [] },
-  { "id": 443, "itemId": "5791", "name": "窮極たる竪琴の極意", "obtains": [] },
-  { "id": 444, "itemId": "5761", "name": "窮極たる銃の極意", "obtains": [] },
-  { "id": 445, "itemId": "6500", "name": "無我・天伐槍", "obtains": [] },
-  { "id": 446, "itemId": "6501", "name": "真滅・覇王弓", "obtains": [] },
-  { "id": 447, "itemId": "6502", "name": "絶壊・威寅斧", "obtains": [] },
-  { "id": 448, "itemId": "6503", "name": "双葬・落天刃", "obtains": [] },
-  { "id": 449, "itemId": "6504", "name": "献誠・煌神杖", "obtains": [] },
-  { "id": 450, "itemId": "6505", "name": "盟道・廻崩拳", "obtains": [] },
-  { "id": 451, "itemId": "6506", "name": "天枢・極星剣", "obtains": [] },
-  { "id": 452, "itemId": "6507", "name": "真打・無命切", "obtains": [] },
-  { "id": 453, "itemId": "6508", "name": "幻奏・沙界琴", "obtains": [] },
-  { "id": 454, "itemId": "6509", "name": "双創・凱狼雷", "obtains": [] },
-  { "id": 455, "itemId": "6510", "name": "蒼天の魂", "obtains": [] },
-  { "id": 456, "itemId": "6511", "name": "碧麗の証", "obtains": [] },
-  { "id": 457, "itemId": "6512", "name": "雄偉者たちの矜持", "obtains": [] },
-  { "id": 458, "itemId": "10001", "name": "揺らめく灯籠", "obtains": [] },
-  { "id": 459, "itemId": "10002", "name": "荒ぶる大灯籠", "obtains": [] },
-  { "id": 460, "itemId": "10007", "name": "降呼の楔", "obtains": [] },
-  { "id": 461, "itemId": "10008", "name": "降引の像", "obtains": [] },
-  { "id": 462, "itemId": "10013", "name": "雨神の髪飾り", "obtains": [] },
-  { "id": 463, "itemId": "10014", "name": "梔子のかんざし", "obtains": [] },
-  { "id": 464, "itemId": "10015", "name": "魔晶サンプル", "obtains": [] },
-  { "id": 465, "itemId": "10020", "name": "世界蛇の牙", "obtains": [] },
-  { "id": 466, "itemId": "10021", "name": "ドルミールライト", "obtains": [] },
-  { "id": 467, "itemId": "10023", "name": "特大団子", "obtains": [] },
   {
-    "id": 468,
+    "id": 328,
+    "itemId": "5411",
+    "name": "剣の銀片",
+    "obtains": []
+  },
+  {
+    "id": 329,
+    "itemId": "5421",
+    "name": "刃の銀片",
+    "obtains": []
+  },
+  {
+    "id": 330,
+    "itemId": "5461",
+    "name": "銃の銀片",
+    "obtains": []
+  },
+  {
+    "id": 331,
+    "itemId": "5491",
+    "name": "竪琴の銀片",
+    "obtains": []
+  },
+  {
+    "id": 332,
+    "itemId": "5501",
+    "name": "太刀の銀片",
+    "obtains": []
+  },
+  {
+    "id": 333,
+    "itemId": "5701",
+    "name": "十番天星の欠片",
+    "obtains": []
+  },
+  {
+    "id": 334,
+    "itemId": "6511",
+    "name": "碧麗の証",
+    "obtains": []
+  },
+  {
+    "id": 335,
+    "itemId": "10001",
+    "name": "揺らめく灯籠",
+    "obtains": []
+  },
+  {
+    "id": 336,
+    "itemId": "10002",
+    "name": "荒ぶる大灯籠",
+    "obtains": []
+  },
+  {
+    "id": 337,
+    "itemId": "10007",
+    "name": "降呼の楔",
+    "obtains": []
+  },
+  {
+    "id": 338,
+    "itemId": "10008",
+    "name": "降引の像",
+    "obtains": []
+  },
+  {
+    "id": 339,
+    "itemId": "10023",
+    "name": "特大団子",
+    "obtains": []
+  },
+  {
+    "id": 340,
     "itemId": "10024",
     "name": "ユディスティラシュリンプ",
     "obtains": []
   },
-  { "id": 469, "itemId": "10029", "name": "呪怨の数珠", "obtains": [] },
-  { "id": 470, "itemId": "10030", "name": "光の巨人像", "obtains": [] },
-  { "id": 471, "itemId": "10035", "name": "水還の儀酒", "obtains": [] },
-  { "id": 472, "itemId": "10036", "name": "大真珠", "obtains": [] },
-  { "id": 473, "itemId": "10042", "name": "憎悪の嘆き", "obtains": [] },
-  { "id": 474, "itemId": "10043", "name": "憤怒のイドラ", "obtains": [] },
-  { "id": 475, "itemId": "10172", "name": "救国のメダリオン", "obtains": [] },
-  { "id": 476, "itemId": "10048", "name": "黄金の欠片", "obtains": [] },
-  { "id": 477, "itemId": "10049", "name": "黄金の指輪", "obtains": [] },
-  { "id": 478, "itemId": "10187", "name": "神境のメダリオン", "obtains": [] },
-  { "id": 479, "itemId": "10055", "name": "古びた書物の破片", "obtains": [] },
-  { "id": 480, "itemId": "10056", "name": "ログノスの金印", "obtains": [] },
-  { "id": 481, "itemId": "10061", "name": "慟哭の残骸", "obtains": [] },
-  { "id": 482, "itemId": "10062", "name": "悲哀の仮面", "obtains": [] },
-  { "id": 483, "itemId": "10073", "name": "靄苔石", "obtains": [] },
   {
-    "id": 484,
-    "itemId": "10074",
-    "name": "エンシェントバクテリウム",
+    "id": 341,
+    "itemId": "10035",
+    "name": "水還の儀酒",
     "obtains": []
   },
-  { "id": 485, "itemId": "10075", "name": "グロキシニアの花", "obtains": [] },
-  { "id": 486, "itemId": "10076", "name": "魅惑の宝石", "obtains": [] },
-  { "id": 487, "itemId": "10214", "name": "鉱山のメダリオン", "obtains": [] },
-  { "id": 488, "itemId": "10079", "name": "シデロス鉱", "obtains": [] },
-  { "id": 489, "itemId": "10080", "name": "蠱惑の宝玉", "obtains": [] },
-  { "id": 490, "itemId": "10082", "name": "凍れる炎", "obtains": [] },
-  { "id": 491, "itemId": "10083", "name": "エスカラス王の紋章", "obtains": [] },
-  { "id": 492, "itemId": "10084", "name": "壊獣標本", "obtains": [] },
-  { "id": 493, "itemId": "10085", "name": "デストロイ・コア", "obtains": [] },
-  { "id": 494, "itemId": "10090", "name": "カニのこませ", "obtains": [] },
-  { "id": 495, "itemId": "10091", "name": "オキアミ", "obtains": [] },
-  { "id": 496, "itemId": "10093", "name": "うねる影塊", "obtains": [] },
-  { "id": 497, "itemId": "10094", "name": "鏡の群晶", "obtains": [] },
-  { "id": 498, "itemId": "10219", "name": "真龍のメダリオン", "obtains": [] },
-  { "id": 499, "itemId": "10095", "name": "汚れた麻袋", "obtains": [] },
-  { "id": 500, "itemId": "10096", "name": "法陣の魔晶石", "obtains": [] },
-  { "id": 501, "itemId": "10273", "name": "秋山のメダリオン", "obtains": [] },
-  { "id": 502, "itemId": "10101", "name": "針葉樹の木片", "obtains": [] },
-  { "id": 503, "itemId": "10102", "name": "闘虫禍草の切れ端", "obtains": [] },
-  { "id": 504, "itemId": "10175", "name": "亡国のメダリオン", "obtains": [] },
-  { "id": 505, "itemId": "10107", "name": "呪印の刻まれた紙", "obtains": [] },
   {
-    "id": 506,
+    "id": 342,
+    "itemId": "10036",
+    "name": "大真珠",
+    "obtains": []
+  },
+  {
+    "id": 343,
+    "itemId": "10048",
+    "name": "黄金の欠片",
+    "obtains": []
+  },
+  {
+    "id": 344,
+    "itemId": "10049",
+    "name": "黄金の指輪",
+    "obtains": []
+  },
+  {
+    "id": 345,
+    "itemId": "10090",
+    "name": "カニのこませ",
+    "obtains": []
+  },
+  {
+    "id": 346,
+    "itemId": "10091",
+    "name": "オキアミ",
+    "obtains": []
+  },
+  {
+    "id": 347,
+    "itemId": "10107",
+    "name": "呪印の刻まれた紙",
+    "obtains": []
+  },
+  {
+    "id": 348,
     "itemId": "10108",
     "name": "オールド・タリスマン",
     "obtains": []
   },
-  { "id": 507, "itemId": "10181", "name": "自由のメダリオン", "obtains": [] },
-  { "id": 508, "itemId": "10114", "name": "犬まっしぐら骨肉", "obtains": [] },
   {
-    "id": 509,
-    "itemId": "10115",
-    "name": "シンボルオブリバティー",
-    "obtains": []
-  },
-  { "id": 510, "itemId": "10117", "name": "カニカゴ", "obtains": [] },
-  { "id": 511, "itemId": "10118", "name": "カニカゴDX", "obtains": [] },
-  { "id": 512, "itemId": "10230", "name": "巫女のメダリオン", "obtains": [] },
-  { "id": 513, "itemId": "10119", "name": "忘却の信仰心", "obtains": [] },
-  { "id": 514, "itemId": "10120", "name": "絆の信仰心", "obtains": [] },
-  { "id": 515, "itemId": "10207", "name": "談笑のメダリオン", "obtains": [] },
-  { "id": 516, "itemId": "10126", "name": "山盛りポテト", "obtains": [] },
-  { "id": 517, "itemId": "10127", "name": "メガジャンボパフェ", "obtains": [] },
-  { "id": 518, "itemId": "10132", "name": "魔物の血壺", "obtains": [] },
-  { "id": 519, "itemId": "10133", "name": "不浄の逆鱗", "obtains": [] },
-  { "id": 520, "itemId": "10254", "name": "夢見のメダリオン", "obtains": [] },
-  { "id": 521, "itemId": "10138", "name": "夢閉錠", "obtains": [] },
-  { "id": 522, "itemId": "10139", "name": "夢の欠片", "obtains": [] },
-  { "id": 523, "itemId": "10266", "name": "正義のメダリオン", "obtains": [] },
-  { "id": 524, "itemId": "10144", "name": "壊獣コントローラー", "obtains": [] },
-  {
-    "id": 525,
-    "itemId": "10145",
-    "name": "抗斥力フィールド発生装置",
-    "obtains": []
-  },
-  { "id": 526, "itemId": "10227", "name": "盛夏のメダリオン", "obtains": [] },
-  { "id": 527, "itemId": "10146", "name": "シージュエル", "obtains": [] },
-  { "id": 528, "itemId": "10147", "name": "心眼鉢巻", "obtains": [] },
-  { "id": 529, "itemId": "10318", "name": "財宝のメダリオン", "obtains": [] },
-  { "id": 530, "itemId": "10148", "name": "木製パズル", "obtains": [] },
-  { "id": 531, "itemId": "10149", "name": "トレントの葉", "obtains": [] },
-  { "id": 532, "itemId": "10152", "name": "ヴェローナの壁片", "obtains": [] },
-  { "id": 533, "itemId": "10153", "name": "ヴェローナ・リリー", "obtains": [] },
-  { "id": 534, "itemId": "10313", "name": "氷晶宮のメダリオン", "obtains": [] },
-  { "id": 535, "itemId": "10168", "name": "残火の灰", "obtains": [] },
-  { "id": 536, "itemId": "10169", "name": "烈火の息吹", "obtains": [] },
-  { "id": 537, "itemId": "10176", "name": "ウェールズ記章", "obtains": [] },
-  {
-    "id": 538,
-    "itemId": "10177",
-    "name": "エルトベーレ・クォーツ",
-    "obtains": []
-  },
-  { "id": 539, "itemId": "10239", "name": "走艇のメダリオン", "obtains": [] },
-  { "id": 540, "itemId": "10183", "name": "整備士のスパナ", "obtains": [] },
-  { "id": 541, "itemId": "10184", "name": "BTJエンジン", "obtains": [] },
-  { "id": 542, "itemId": "10297", "name": "閃雷のメダリオン", "obtains": [] },
-  { "id": 543, "itemId": "10191", "name": "閃雷の暗雲", "obtains": [] },
-  {
-    "id": 544,
-    "itemId": "10192",
-    "name": "レヴィオンブラックオパール",
-    "obtains": []
-  },
-  {
-    "id": 545,
+    "id": 349,
     "itemId": "10199",
     "name": "高潔のレッドクリスタル",
     "obtains": []
   },
   {
-    "id": 546,
+    "id": 350,
     "itemId": "10200",
     "name": "支配のパープルクリスタル",
     "obtains": []
   },
-  { "id": 547, "itemId": "10303", "name": "恋話のメダリオン", "obtains": [] },
-  { "id": 548, "itemId": "10208", "name": "イカ", "obtains": [] },
-  { "id": 549, "itemId": "10209", "name": "フォーレン草", "obtains": [] },
   {
-    "id": 550,
-    "itemId": "10307",
-    "name": "錬金術師のメダリオン",
+    "id": 351,
+    "itemId": "10262",
+    "name": "破損したコア",
     "obtains": []
   },
-  { "id": 551, "itemId": "10215", "name": "ヘルメスの実験器具", "obtains": [] },
-  { "id": 552, "itemId": "10216", "name": "ヘルメスの錬金術書", "obtains": [] },
-  { "id": 553, "itemId": "10220", "name": "珍味大全", "obtains": [] },
   {
-    "id": 554,
-    "itemId": "10338",
-    "name": "お子様ランチのメダリオン",
-    "obtains": []
-  },
-  { "id": 555, "itemId": "10221", "name": "大人様ランチ用の旗", "obtains": [] },
-  { "id": 556, "itemId": "10292", "name": "友情のメダリオン", "obtains": [] },
-  { "id": 557, "itemId": "10225", "name": "木の棒", "obtains": [] },
-  { "id": 558, "itemId": "10226", "name": "思い出の石版", "obtains": [] },
-  { "id": 559, "itemId": "10282", "name": "密漁のメダリオン", "obtains": [] },
-  {
-    "id": 560,
-    "itemId": "10228",
-    "name": "ベンディクブルークラブ",
-    "obtains": []
-  },
-  { "id": 561, "itemId": "10229", "name": "香油", "obtains": [] },
-  { "id": 562, "itemId": "10233", "name": "モノリスの断片", "obtains": [] },
-  { "id": 563, "itemId": "10234", "name": "禁忌の魔導書", "obtains": [] },
-  { "id": 564, "itemId": "10240", "name": "フラワークッキー", "obtains": [] },
-  { "id": 565, "itemId": "10241", "name": "シャローム・ボレン", "obtains": [] },
-  { "id": 566, "itemId": "10328", "name": "千年のメダリオン", "obtains": [] },
-  { "id": 567, "itemId": "10250", "name": "フートン焼き", "obtains": [] },
-  { "id": 568, "itemId": "10385", "name": "ミレニアム・ライト", "obtains": [] },
-  { "id": 569, "itemId": "10295", "name": "騎士道のメダリオン", "obtains": [] },
-  {
-    "id": 570,
-    "itemId": "10296",
-    "name": "シヴァルリィ・ライト",
-    "obtains": []
-  },
-  { "id": 571, "itemId": "10253", "name": "研ぎ澄まされた狼爪", "obtains": [] },
-  { "id": 572, "itemId": "10333", "name": "紅黒のメダリオン", "obtains": [] },
-  {
-    "id": 573,
-    "itemId": "10369",
-    "name": "リライアンス・ライト",
-    "obtains": []
-  },
-  { "id": 574, "itemId": "10257", "name": "古代遺跡の遺物", "obtains": [] },
-  { "id": 575, "itemId": "10335", "name": "煩悩のメダリオン", "obtains": [] },
-  { "id": 576, "itemId": "10258", "name": "彷徨う煩悩", "obtains": [] },
-  { "id": 577, "itemId": "10261", "name": "チョコレートの材料", "obtains": [] },
-  { "id": 578, "itemId": "10262", "name": "破損したコア", "obtains": [] },
-  {
-    "id": 579,
+    "id": 352,
     "itemId": "10310",
     "name": "オブセニティ・ライト",
     "obtains": []
   },
-  { "id": 580, "itemId": "10351", "name": "相克のメダリオン", "obtains": [] },
-  { "id": 581, "itemId": "10267", "name": "壊獣細胞", "obtains": [] },
-  { "id": 582, "itemId": "10268", "name": "SGFパンフレット", "obtains": [] },
   {
-    "id": 583,
+    "id": 353,
+    "itemId": "10268",
+    "name": "SGFパンフレット",
+    "obtains": []
+  },
+  {
+    "id": 354,
     "itemId": "10362",
     "name": "マスキュラリティ・ライト",
     "obtains": []
   },
-  { "id": 584, "itemId": "10402", "name": "ワイルド・ライト", "obtains": [] },
   {
-    "id": 585,
-    "itemId": "10361",
-    "name": "ハンサムゴリラのメダリオン",
+    "id": 355,
+    "itemId": "10402",
+    "name": "ワイルド・ライト",
     "obtains": []
   },
-  { "id": 586, "itemId": "10278", "name": "ハンサム・ゴリラTA", "obtains": [] },
-  { "id": 587, "itemId": "10326", "name": "伴奏のメダリオン", "obtains": [] },
-  { "id": 588, "itemId": "10279", "name": "使い古された筆", "obtains": [] },
-  { "id": 589, "itemId": "10324", "name": "雷夏のメダリオン", "obtains": [] },
-  { "id": 590, "itemId": "10280", "name": "小魚", "obtains": [] },
-  { "id": 591, "itemId": "10387", "name": "特攻のメダリオン", "obtains": [] },
-  { "id": 592, "itemId": "10291", "name": "裏ボタン", "obtains": [] },
-  { "id": 593, "itemId": "10357", "name": "工房のメダリオン", "obtains": [] },
-  { "id": 594, "itemId": "10293", "name": "スファレライト", "obtains": [] },
-  { "id": 595, "itemId": "10383", "name": "美食のメダリオン", "obtains": [] },
-  { "id": 596, "itemId": "10294", "name": "クロトーネラッヘ", "obtains": [] },
-  { "id": 597, "itemId": "10298", "name": "妖しき刀鍔", "obtains": [] },
-  { "id": 598, "itemId": "10302", "name": "月の研究資料", "obtains": [] },
-  { "id": 599, "itemId": "10370", "name": "イモータル・ライト", "obtains": [] },
-  { "id": 600, "itemId": "10304", "name": "マタタタブの枝", "obtains": [] },
-  { "id": 601, "itemId": "10411", "name": "肉球のメダリオン", "obtains": [] },
-  { "id": 602, "itemId": "10305", "name": "虚無の欠片", "obtains": [] },
-  { "id": 603, "itemId": "10384", "name": "エターナル・ライト", "obtains": [] },
-  { "id": 604, "itemId": "10394", "name": "散歩のメダリオン", "obtains": [] },
-  { "id": 605, "itemId": "10308", "name": "思い出の豆菓子", "obtains": [] },
   {
-    "id": 606,
-    "itemId": "10405",
-    "name": "ゴルゴーンのメダリオン",
+    "id": 356,
+    "itemId": "10278",
+    "name": "ハンサム・ゴリラTA",
     "obtains": []
   },
-  { "id": 607, "itemId": "10311", "name": "岩の楔", "obtains": [] },
-  { "id": 608, "itemId": "10452", "name": "虹のメダリオン", "obtains": [] },
-  { "id": 609, "itemId": "10312", "name": "トニックフラワー", "obtains": [] },
-  { "id": 610, "itemId": "10349", "name": "サメのメダリオン", "obtains": [] },
-  { "id": 611, "itemId": "10317", "name": "サーフボードの欠片", "obtains": [] },
-  { "id": 612, "itemId": "10390", "name": "神饌のメダリオン", "obtains": [] },
-  { "id": 613, "itemId": "10319", "name": "瑞々しいきゅうり", "obtains": [] },
-  { "id": 614, "itemId": "10323", "name": "名もなき愛の詩", "obtains": [] },
-  { "id": 615, "itemId": "10395", "name": "屠竜のメダリオン", "obtains": [] },
-  { "id": 616, "itemId": "10325", "name": "竜鱗の破片", "obtains": [] },
-  { "id": 617, "itemId": "10423", "name": "影法師のメダリオン", "obtains": [] },
   {
-    "id": 618,
-    "itemId": "10327",
-    "name": "こんがりお揚げの炊いたん",
+    "id": 357,
+    "itemId": "10305",
+    "name": "虚無の欠片",
     "obtains": []
   },
-  { "id": 619, "itemId": "10329", "name": "AMEクリスタル", "obtains": [] },
-  { "id": 620, "itemId": "10373", "name": "除夜のメダリオン", "obtains": [] },
-  { "id": 621, "itemId": "10334", "name": "木製の麺棒", "obtains": [] },
-  { "id": 622, "itemId": "10377", "name": "帰還のメダリオン", "obtains": [] },
-  { "id": 623, "itemId": "10336", "name": "ジャンクパーツ", "obtains": [] },
-  { "id": 624, "itemId": "10339", "name": "想像力と玩具箱", "obtains": [] },
   {
-    "id": 625,
+    "id": 358,
+    "itemId": "10384",
+    "name": "エターナル・ライト",
+    "obtains": []
+  },
+  {
+    "id": 359,
+    "itemId": "10460",
+    "name": "紫電のメダリオン",
+    "obtains": []
+  },
+  {
+    "id": 360,
+    "itemId": "10329",
+    "name": "AMEクリスタル",
+    "obtains": []
+  },
+  {
+    "id": 361,
+    "itemId": "10339",
+    "name": "想像力と玩具箱",
+    "obtains": []
+  },
+  {
+    "id": 362,
     "itemId": "10433",
     "name": "ヴェンジフル・ライト",
     "obtains": []
   },
-  { "id": 626, "itemId": "10430", "name": "傭兵のメダリオン", "obtains": [] },
-  { "id": 627, "itemId": "10341", "name": "香油のアロマボトル", "obtains": [] },
-  { "id": 628, "itemId": "10342", "name": "調査報告書", "obtains": [] },
-  { "id": 629, "itemId": "10404", "name": "残虐のメダリオン", "obtains": [] },
-  { "id": 630, "itemId": "10343", "name": "処刑用の剣", "obtains": [] },
-  { "id": 631, "itemId": "10348", "name": "樹クラゲの傘身", "obtains": [] },
-  { "id": 632, "itemId": "10350", "name": "バカンスの想い出", "obtains": [] },
-  { "id": 633, "itemId": "10389", "name": "リボーン・ライト", "obtains": [] },
-  { "id": 634, "itemId": "10352", "name": "ローズ座のチケット", "obtains": [] },
-  { "id": 635, "itemId": "10458", "name": "同盟のメダリオン", "obtains": [] },
-  { "id": 636, "itemId": "10358", "name": "傷ついた兜", "obtains": [] },
-  { "id": 637, "itemId": "10359", "name": "識者の秘薬", "obtains": [] },
-  { "id": 638, "itemId": "10363", "name": "神獣の護符", "obtains": [] },
-  { "id": 639, "itemId": "10368", "name": "世壊結晶", "obtains": [] },
-  { "id": 640, "itemId": "10371", "name": "ジョルハの実験器具", "obtains": [] },
-  { "id": 641, "itemId": "10374", "name": "プロトコルテープ", "obtains": [] },
-  { "id": 642, "itemId": "10378", "name": "ファイヤーナイフ", "obtains": [] },
-  { "id": 643, "itemId": "10380", "name": "雷華晶", "obtains": [] },
-  { "id": 644, "itemId": "10386", "name": "ビリー・クラブ", "obtains": [] },
-  { "id": 645, "itemId": "10388", "name": "求道者の三道具", "obtains": [] },
-  { "id": 646, "itemId": "10391", "name": "治療薬ゾンピタン", "obtains": [] },
-  { "id": 647, "itemId": "10392", "name": "龍血の小瓶", "obtains": [] },
-  { "id": 648, "itemId": "10396", "name": "聖剣伝承録", "obtains": [] },
-  { "id": 649, "itemId": "10400", "name": "ポポル・サーガ", "obtains": [] },
   {
-    "id": 650,
-    "itemId": "10403",
-    "name": "クラッシング・ソウル",
-    "obtains": []
-  },
-  { "id": 651, "itemId": "10409", "name": "煌めく燐光", "obtains": [] },
-  {
-    "id": 652,
-    "itemId": "10410",
-    "name": "こだわりの自家製チャーシュー",
+    "id": 363,
+    "itemId": "10458",
+    "name": "同盟のメダリオン",
     "obtains": []
   },
   {
-    "id": 653,
-    "itemId": "10417",
-    "name": "プライマル・レガシー",
+    "id": 364,
+    "itemId": "10358",
+    "name": "傷ついた兜",
     "obtains": []
   },
   {
-    "id": 654,
-    "itemId": "10422",
-    "name": "ビリビリぶどうサイダー",
-    "obtains": []
-  },
-  { "id": 655, "itemId": "10426", "name": "狂徒の証", "obtains": [] },
-  { "id": 656, "itemId": "10431", "name": "仁義の盃", "obtains": [] },
-  {
-    "id": 657,
-    "itemId": "10434",
-    "name": "わくわくキャンプセット",
+    "id": 365,
+    "itemId": "10468",
+    "name": "鋼鉄のメダリオン",
     "obtains": []
   },
   {
-    "id": 658,
-    "itemId": "10435",
-    "name": "りんたろーくんストラップ",
-    "obtains": []
-  },
-  { "id": 659, "itemId": "10448", "name": "異形の制御キー", "obtains": [] },
-  { "id": 660, "itemId": "10453", "name": "過日の旋律", "obtains": [] },
-  { "id": 661, "itemId": "10456", "name": "翠炎の撥", "obtains": [] },
-  { "id": 662, "itemId": "10110", "name": "撞木の欠片", "obtains": [] },
-  { "id": 663, "itemId": "10111", "name": "ひつじの御守り", "obtains": [] },
-  { "id": 664, "itemId": "10182", "name": "さるの御守り", "obtains": [] },
-  { "id": 665, "itemId": "10112", "name": "ジョヤのアニマ", "obtains": [] },
-  {
-    "id": 666,
-    "itemId": "10113",
-    "name": "ジョヤのマグナアニマ",
-    "obtains": []
-  },
-  { "id": 667, "itemId": "10022", "name": "妖しい臓肉", "obtains": [] },
-  { "id": 668, "itemId": "10116", "name": "グラッジチャンク", "obtains": [] },
-  {
-    "id": 669,
-    "itemId": "10041",
-    "name": "ジャック・キャンドル",
-    "obtains": []
-  },
-  { "id": 670, "itemId": "10167", "name": "チャンクキャンドル", "obtains": [] },
-  {
-    "id": 671,
-    "itemId": "10109",
-    "name": "スノウマンズ・メメント",
-    "obtains": []
-  },
-  { "id": 672, "itemId": "10178", "name": "メメントチャンク", "obtains": [] },
-  { "id": 673, "itemId": "10259", "name": "妖しい黒片", "obtains": [] },
-  {
-    "id": 674,
-    "itemId": "10260",
-    "name": "ソリッドチョコレート",
-    "obtains": []
-  },
-  { "id": 675, "itemId": "10412", "name": "ヒメタケ", "obtains": [] },
-  { "id": 676, "itemId": "10413", "name": "新鮮なたけのこ", "obtains": [] },
-  { "id": 677, "itemId": "10067", "name": "カカオ", "obtains": [] },
-  { "id": 678, "itemId": "10068", "name": "ミルク", "obtains": [] },
-  { "id": 679, "itemId": "10069", "name": "砂糖", "obtains": [] },
-  { "id": 680, "itemId": "10070", "name": "黒い球体", "obtains": [] },
-  { "id": 681, "itemId": "10071", "name": "シロップ", "obtains": [] },
-  { "id": 682, "itemId": "10072", "name": "バラの花びら", "obtains": [] },
-  { "id": 683, "itemId": "10210", "name": "異次元の闇", "obtains": [] },
-  { "id": 684, "itemId": "10211", "name": "ビィボール", "obtains": [] },
-  { "id": 685, "itemId": "10425", "name": "ガネメ", "obtains": [] },
-  { "id": 686, "itemId": "10424", "name": "ブーメランパンツ", "obtains": [] },
-  {
-    "id": 687,
-    "itemId": "10372",
-    "name": "エビフライフォーエバー",
-    "obtains": []
-  },
-  { "id": 688, "itemId": "10158", "name": "シャイニングスター", "obtains": [] },
-  { "id": 689, "itemId": "10037", "name": "ヘルロードクラウン", "obtains": [] },
-  { "id": 690, "itemId": "10038", "name": "ヘルロードゴシック", "obtains": [] },
-  { "id": 691, "itemId": "10039", "name": "銀のぴにゃこら太", "obtains": [] },
-  { "id": 692, "itemId": "10040", "name": "金のぴにゃこら太", "obtains": [] },
-  { "id": 693, "itemId": "10057", "name": "きらりんはんまー", "obtains": [] },
-  {
-    "id": 694,
-    "itemId": "10058",
-    "name": "カラフルフリルアンサンブル",
+    "id": 366,
+    "itemId": "10368",
+    "name": "世壊結晶",
     "obtains": []
   },
   {
-    "id": 695,
-    "itemId": "10059",
-    "name": "サファイアのぴにゃこら太",
+    "id": 367,
+    "itemId": "10462",
+    "name": "廻天のメダリオン",
     "obtains": []
   },
   {
-    "id": 696,
-    "itemId": "10060",
-    "name": "ルビーのぴにゃこら太",
-    "obtains": []
-  },
-  { "id": 697, "itemId": "10081", "name": "ぴにゃのぬいぐるみ", "obtains": [] },
-  { "id": 698, "itemId": "10122", "name": "黒曜石の像", "obtains": [] },
-  { "id": 699, "itemId": "10121", "name": "パープルジュエル", "obtains": [] },
-  {
-    "id": 700,
-    "itemId": "10154",
-    "name": "パールのぴにゃこら太",
+    "id": 368,
+    "itemId": "10371",
+    "name": "ジョルハの実験器具",
     "obtains": []
   },
   {
-    "id": 701,
-    "itemId": "10155",
-    "name": "アメジストのぴにゃこら太",
+    "id": 369,
+    "itemId": "10470",
+    "name": "魔泥のメダリオン",
     "obtains": []
   },
   {
-    "id": 702,
-    "itemId": "10156",
-    "name": "マルメターノソーセージ",
+    "id": 370,
+    "itemId": "10409",
+    "name": "煌めく燐光",
     "obtains": []
   },
   {
-    "id": 703,
-    "itemId": "10157",
-    "name": "ブラートヴルスト・シュネッケン",
-    "obtains": []
-  },
-  { "id": 704, "itemId": "10222", "name": "桃色のメダリオン", "obtains": [] },
-  { "id": 705, "itemId": "10223", "name": "おはぎ", "obtains": [] },
-  { "id": 706, "itemId": "10224", "name": "キタミ草", "obtains": [] },
-  { "id": 707, "itemId": "10159", "name": "風の守護者の絵画", "obtains": [] },
-  { "id": 708, "itemId": "10160", "name": "鋼鉄の巨人の絵画", "obtains": [] },
-  {
-    "id": 709,
-    "itemId": "10161",
-    "name": "水満ちる島の竜の絵画",
-    "obtains": []
-  },
-  { "id": 710, "itemId": "10162", "name": "大樹の守護者の絵画", "obtains": [] },
-  { "id": 711, "itemId": "10163", "name": "黒鉄の稲妻の絵画", "obtains": [] },
-  { "id": 712, "itemId": "10164", "name": "幽霊船の絵画", "obtains": [] },
-  { "id": 713, "itemId": "10165", "name": "同胞との魂の共鳴", "obtains": [] },
-  {
-    "id": 714,
-    "itemId": "10166",
-    "name": "覚醒せしグリモワール",
-    "obtains": []
-  },
-  { "id": 715, "itemId": "10086", "name": "時象の巻鍵", "obtains": [] },
-  { "id": 716, "itemId": "10087", "name": "悠久のクロノグラフ", "obtains": [] },
-  {
-    "id": 717,
-    "itemId": "10088",
-    "name": "ヴァシュロンのアニマ",
+    "id": 371,
+    "itemId": "10448",
+    "name": "異形の制御キー",
     "obtains": []
   },
   {
-    "id": 718,
-    "itemId": "10089",
-    "name": "ヴァシュロンのマグナアニマ",
-    "obtains": []
-  },
-  { "id": 719, "itemId": "10140", "name": "暗雲の残滓", "obtains": [] },
-  { "id": 720, "itemId": "10141", "name": "蜃楼の紋章", "obtains": [] },
-  { "id": 721, "itemId": "10142", "name": "フラクテラのアニマ", "obtains": [] },
-  {
-    "id": 722,
-    "itemId": "10143",
-    "name": "フラクテラのマグナアニマ",
+    "id": 372,
+    "itemId": "10453",
+    "name": "過日の旋律",
     "obtains": []
   },
   {
-    "id": 723,
-    "itemId": "10103",
-    "name": "ヴィクトリーシンボル",
+    "id": 373,
+    "itemId": "10456",
+    "name": "翠炎の撥",
     "obtains": []
   },
   {
-    "id": 724,
-    "itemId": "10104",
-    "name": "スーパーコンボシンボル",
+    "id": 374,
+    "itemId": "10459",
+    "name": "エレメンタル・タービュランス",
     "obtains": []
   },
   {
-    "id": 725,
-    "itemId": "10105",
-    "name": "銀のシャドルーのエンブレム",
+    "id": 375,
+    "itemId": "10461",
+    "name": "証文の模造品",
     "obtains": []
   },
   {
-    "id": 726,
-    "itemId": "10106",
-    "name": "金のシャドルーのエンブレム",
+    "id": 376,
+    "itemId": "10467",
+    "name": "夢いっぱいの構想図",
     "obtains": []
   },
-  { "id": 727, "itemId": "10128", "name": "ファイトマネー", "obtains": [] },
-  { "id": 728, "itemId": "10129", "name": "ゼニー", "obtains": [] },
-  { "id": 729, "itemId": "10130", "name": "強者の思念", "obtains": [] },
-  { "id": 730, "itemId": "10131", "name": "強者の魂", "obtains": [] },
-  { "id": 731, "itemId": "10097", "name": "ぷかぷかバルーン", "obtains": [] },
-  { "id": 732, "itemId": "10098", "name": "ぺかぺかクラウン", "obtains": [] },
-  { "id": 733, "itemId": "10099", "name": "銀蛙護符", "obtains": [] },
-  { "id": 734, "itemId": "10100", "name": "金蛙護符", "obtains": [] },
-  { "id": 735, "itemId": "10134", "name": "古の楔", "obtains": [] },
-  { "id": 736, "itemId": "10135", "name": "叉丹の髪飾り", "obtains": [] },
-  { "id": 737, "itemId": "10136", "name": "霊子結晶", "obtains": [] },
-  { "id": 738, "itemId": "10137", "name": "良質な霊子水晶", "obtains": [] },
-  { "id": 739, "itemId": "10188", "name": "剣客の猪口", "obtains": [] },
-  { "id": 740, "itemId": "10189", "name": "剣客の酒瓶", "obtains": [] },
-  { "id": 741, "itemId": "10190", "name": "ガダマーの宝珠", "obtains": [] },
-  { "id": 742, "itemId": "10195", "name": "神秘の土塊", "obtains": [] },
-  { "id": 743, "itemId": "10196", "name": "フラワーリング", "obtains": [] },
-  { "id": 744, "itemId": "10197", "name": "不滅の闘志", "obtains": [] },
-  { "id": 745, "itemId": "10198", "name": "地獄の魔炎", "obtains": [] },
-  { "id": 746, "itemId": "10235", "name": "刀剣のメダリオン", "obtains": [] },
-  { "id": 747, "itemId": "10236", "name": "油揚げ", "obtains": [] },
-  { "id": 748, "itemId": "10237", "name": "白銀砥", "obtains": [] },
-  { "id": 749, "itemId": "10238", "name": "桜花の煌めき", "obtains": [] },
-  { "id": 750, "itemId": "10242", "name": "さくらのメダリオン", "obtains": [] },
-  { "id": 751, "itemId": "10243", "name": "たこ焼き", "obtains": [] },
-  { "id": 752, "itemId": "10244", "name": "知世のビデオカメラ", "obtains": [] },
-  { "id": 753, "itemId": "10245", "name": "封印の鍵", "obtains": [] },
-  { "id": 754, "itemId": "10246", "name": "巨人のメダリオン", "obtains": [] },
-  { "id": 755, "itemId": "10247", "name": "蒸かし芋", "obtains": [] },
-  { "id": 756, "itemId": "10248", "name": "立体機動装置", "obtains": [] },
-  { "id": 757, "itemId": "10249", "name": "調査兵団紋章", "obtains": [] },
-  { "id": 758, "itemId": "10269", "name": "探偵のメダリオン", "obtains": [] },
-  { "id": 759, "itemId": "10270", "name": "DBバッジ", "obtains": [] },
-  { "id": 760, "itemId": "10271", "name": "蝶ネクタイ型変声機", "obtains": [] },
-  { "id": 761, "itemId": "10272", "name": "犯人追跡メガネ", "obtains": [] },
-  { "id": 762, "itemId": "10274", "name": "怪盗のメダリオン", "obtains": [] },
   {
-    "id": 763,
+    "id": 377,
+    "itemId": "10471",
+    "name": "定理の楔",
+    "obtains": []
+  },
+  {
+    "id": 378,
+    "itemId": "10022",
+    "name": "妖しい臓肉",
+    "obtains": []
+  },
+  {
+    "id": 379,
+    "itemId": "10116",
+    "name": "グラッジチャンク",
+    "obtains": []
+  },
+  {
+    "id": 380,
+    "itemId": "10086",
+    "name": "時象の巻鍵",
+    "obtains": []
+  },
+  {
+    "id": 381,
+    "itemId": "10087",
+    "name": "悠久のクロノグラフ",
+    "obtains": []
+  },
+  {
+    "id": 382,
+    "itemId": "10195",
+    "name": "神秘の土塊",
+    "obtains": []
+  },
+  {
+    "id": 383,
+    "itemId": "10197",
+    "name": "不滅の闘志",
+    "obtains": []
+  },
+  {
+    "id": 384,
+    "itemId": "10242",
+    "name": "さくらのメダリオン",
+    "obtains": []
+  },
+  {
+    "id": 385,
+    "itemId": "10243",
+    "name": "たこ焼き",
+    "obtains": []
+  },
+  {
+    "id": 386,
+    "itemId": "10245",
+    "name": "封印の鍵",
+    "obtains": []
+  },
+  {
+    "id": 387,
+    "itemId": "10465",
+    "name": "クロウカード",
+    "obtains": []
+  },
+  {
+    "id": 388,
+    "itemId": "10274",
+    "name": "怪盗のメダリオン",
+    "obtains": []
+  },
+  {
+    "id": 389,
     "itemId": "10275",
     "name": "ジャックフロスト人形",
     "obtains": []
   },
-  { "id": 764, "itemId": "10276", "name": "ブランクカード", "obtains": [] },
-  { "id": 765, "itemId": "10277", "name": "予告状", "obtains": [] },
-  { "id": 766, "itemId": "10283", "name": "踊子のメダリオン", "obtains": [] },
-  { "id": 767, "itemId": "10284", "name": "浦女魂扇子", "obtains": [] },
-  { "id": 768, "itemId": "10285", "name": "黒い羽根", "obtains": [] },
-  { "id": 769, "itemId": "10286", "name": "摘みたてみかん", "obtains": [] },
   {
-    "id": 770,
-    "itemId": "10287",
-    "name": "プリキュアのメダリオン",
-    "obtains": []
-  },
-  { "id": 771, "itemId": "10288", "name": "プリキュア手帳", "obtains": [] },
-  { "id": 772, "itemId": "10289", "name": "クイーンのカード", "obtains": [] },
-  { "id": 773, "itemId": "10290", "name": "カードコミューン", "obtains": [] },
-  {
-    "id": 774,
-    "itemId": "10299",
-    "name": "プリンセスメダリオン",
-    "obtains": []
-  },
-  { "id": 775, "itemId": "10300", "name": "身代わりのバングル", "obtains": [] },
-  { "id": 776, "itemId": "10301", "name": "精錬結晶", "obtains": [] },
-  {
-    "id": 777,
-    "itemId": "10314",
-    "name": "ブラック・メダリオン",
+    "id": 390,
+    "itemId": "10277",
+    "name": "予告状",
     "obtains": []
   },
   {
-    "id": 778,
+    "id": 391,
+    "itemId": "10463",
+    "name": "Completion of P5B",
+    "obtains": []
+  },
+  {
+    "id": 392,
+    "itemId": "10284",
+    "name": "浦女魂扇子",
+    "obtains": []
+  },
+  {
+    "id": 393,
+    "itemId": "10285",
+    "name": "黒い羽根",
+    "obtains": []
+  },
+  {
+    "id": 394,
+    "itemId": "10300",
+    "name": "身代わりのバングル",
+    "obtains": []
+  },
+  {
+    "id": 395,
+    "itemId": "10301",
+    "name": "精錬結晶",
+    "obtains": []
+  },
+  {
+    "id": 396,
     "itemId": "10315",
     "name": "キングのチェスピース",
     "obtains": []
   },
-  { "id": 779, "itemId": "10316", "name": "騎士章", "obtains": [] },
-  { "id": 780, "itemId": "10320", "name": "笑顔のメダリオン", "obtains": [] },
-  { "id": 781, "itemId": "10321", "name": "黄金米のおにぎり", "obtains": [] },
-  { "id": 782, "itemId": "10322", "name": "穗むらまんじゅう", "obtains": [] },
   {
-    "id": 783,
-    "itemId": "10330",
-    "name": "ガチャピン・ムックメダリオン",
+    "id": 397,
+    "itemId": "10316",
+    "name": "騎士章",
     "obtains": []
   },
-  { "id": 784, "itemId": "10331", "name": "ムック人形", "obtains": [] },
-  { "id": 785, "itemId": "10332", "name": "ガチャピン人形", "obtains": [] },
   {
-    "id": 786,
-    "itemId": "10344",
-    "name": "シンデレラのメダリオン",
+    "id": 398,
+    "itemId": "10322",
+    "name": "穂むらまんじゅう",
     "obtains": []
   },
-  { "id": 787, "itemId": "10345", "name": "3本角の生物の像", "obtains": [] },
-  { "id": 788, "itemId": "10346", "name": "黒い翼の生物の像", "obtains": [] },
-  { "id": 789, "itemId": "10354", "name": "絆のメダリオン", "obtains": [] },
-  { "id": 790, "itemId": "10355", "name": "カードスリーブ", "obtains": [] },
-  { "id": 791, "itemId": "10356", "name": "晶板", "obtains": [] },
-  { "id": 792, "itemId": "10365", "name": "鬼殺のメダリオン", "obtains": [] },
-  { "id": 793, "itemId": "10366", "name": "藤の花の香り袋", "obtains": [] },
-  { "id": 794, "itemId": "10367", "name": "厄除の面", "obtains": [] },
-  { "id": 795, "itemId": "10397", "name": "万事屋のメダリオン", "obtains": [] },
-  { "id": 796, "itemId": "10398", "name": "土方スペシャル", "obtains": [] },
-  { "id": 797, "itemId": "10399", "name": "フルーツパフェ", "obtains": [] },
   {
-    "id": 798,
-    "itemId": "10406",
-    "name": "ドラえもんのメダリオン",
+    "id": 399,
+    "itemId": "10321",
+    "name": "黄金米のおにぎり",
     "obtains": []
   },
-  { "id": 799, "itemId": "10407", "name": "どら焼き", "obtains": [] },
-  { "id": 800, "itemId": "10408", "name": "タケコプター", "obtains": [] },
-  { "id": 801, "itemId": "10414", "name": "ウマ娘のメダリオン", "obtains": [] },
-  { "id": 802, "itemId": "10415", "name": "中距離シューズ", "obtains": [] },
-  { "id": 803, "itemId": "10416", "name": "夢の煌めき", "obtains": [] },
-  { "id": 804, "itemId": "10427", "name": "冒険者のメダリオン", "obtains": [] },
-  { "id": 805, "itemId": "10428", "name": "クルオ", "obtains": [] },
-  { "id": 806, "itemId": "10429", "name": "アートマ", "obtains": [] },
   {
-    "id": 807,
+    "id": 400,
     "itemId": "10449",
     "name": "麦わらの一味のメダリオン",
     "obtains": []
   },
-  { "id": 808, "itemId": "10450", "name": "舵輪", "obtains": [] },
-  { "id": 809, "itemId": "10451", "name": "ベリー", "obtains": [] },
-  { "id": 810, "itemId": "10454", "name": "麦わら帽子", "obtains": [] },
-  { "id": 811, "itemId": "10455", "name": "輝くパズルピース", "obtains": [] },
-  { "id": 812, "itemId": "10438", "name": "水の金鎚", "obtains": [] },
-  { "id": 813, "itemId": "10439", "name": "澄青の大鎚", "obtains": [] },
-  { "id": 814, "itemId": "10442", "name": "風の金鎚", "obtains": [] },
-  { "id": 815, "itemId": "10443", "name": "翠緑の大鎚", "obtains": [] },
-  { "id": 816, "itemId": "10446", "name": "闇の金鎚", "obtains": [] },
-  { "id": 817, "itemId": "10447", "name": "漆黒の大鎚", "obtains": [] },
-  { "id": 818, "itemId": "10016", "name": "紅の岩鱗", "obtains": [] },
-  { "id": 819, "itemId": "10017", "name": "灼熱の尖角", "obtains": [] },
-  { "id": 820, "itemId": "10018", "name": "イフリートのアニマ", "obtains": [] },
   {
-    "id": 821,
+    "id": 401,
+    "itemId": "10450",
+    "name": "舵輪",
+    "obtains": []
+  },
+  {
+    "id": 402,
+    "itemId": "10451",
+    "name": "ベリー",
+    "obtains": []
+  },
+  {
+    "id": 403,
+    "itemId": "10454",
+    "name": "麦わら帽子",
+    "obtains": []
+  },
+  {
+    "id": 404,
+    "itemId": "10455",
+    "name": "輝くパズルピース",
+    "obtains": []
+  },
+  {
+    "id": 405,
+    "itemId": "10436",
+    "name": "火の金鎚",
+    "obtains": []
+  },
+  {
+    "id": 406,
+    "itemId": "10437",
+    "name": "灼赤の大鎚",
+    "obtains": []
+  },
+  {
+    "id": 407,
+    "itemId": "10442",
+    "name": "風の金鎚",
+    "obtains": []
+  },
+  {
+    "id": 408,
+    "itemId": "10443",
+    "name": "翠緑の大鎚",
+    "obtains": []
+  },
+  {
+    "id": 409,
+    "itemId": "10016",
+    "name": "紅の岩鱗",
+    "obtains": []
+  },
+  {
+    "id": 410,
+    "itemId": "10017",
+    "name": "灼熱の尖角",
+    "obtains": []
+  },
+  {
+    "id": 411,
+    "itemId": "10018",
+    "name": "イフリートのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 412,
     "itemId": "10019",
     "name": "イフリートのマグナアニマ",
     "obtains": []
   },
-  { "id": 822, "itemId": "20611", "name": "灼滅の焔角", "obtains": [] },
-  { "id": 823, "itemId": "10194", "name": "灼滅の金剛杵", "obtains": [] },
   {
-    "id": 824,
-    "itemId": "10193",
-    "name": "ゼノ・イフリートの真なるアニマ",
+    "id": 413,
+    "itemId": "20611",
+    "name": "灼滅の焔角",
     "obtains": []
   },
-  { "id": 825, "itemId": "10003", "name": "嘆きの氷片", "obtains": [] },
-  { "id": 826, "itemId": "10004", "name": "氷獄の六角晶", "obtains": [] },
   {
-    "id": 827,
+    "id": 414,
+    "itemId": "10003",
+    "name": "嘆きの氷片",
+    "obtains": []
+  },
+  {
+    "id": 415,
+    "itemId": "10004",
+    "name": "氷獄の六角晶",
+    "obtains": []
+  },
+  {
+    "id": 416,
     "itemId": "10005",
     "name": "コキュートスのアニマ",
     "obtains": []
   },
   {
-    "id": 828,
+    "id": 417,
     "itemId": "10006",
     "name": "コキュートスのマグナアニマ",
     "obtains": []
   },
-  { "id": 829, "itemId": "20621", "name": "氷獄の結晶", "obtains": [] },
-  { "id": 830, "itemId": "10252", "name": "氷獄大帝の翼", "obtains": [] },
   {
-    "id": 831,
-    "itemId": "10251",
-    "name": "ゼノ・コキュートスの真なるアニマ",
+    "id": 418,
+    "itemId": "20621",
+    "name": "氷獄の結晶",
     "obtains": []
   },
-  { "id": 832, "itemId": "10009", "name": "像の石片", "obtains": [] },
-  { "id": 833, "itemId": "10010", "name": "裁輝晶", "obtains": [] },
   {
-    "id": 834,
+    "id": 419,
+    "itemId": "10009",
+    "name": "像の石片",
+    "obtains": []
+  },
+  {
+    "id": 420,
+    "itemId": "10010",
+    "name": "裁輝晶",
+    "obtains": []
+  },
+  {
+    "id": 421,
     "itemId": "10011",
     "name": "ウォフマナフのアニマ",
     "obtains": []
   },
   {
-    "id": 835,
+    "id": 422,
     "itemId": "10012",
     "name": "ウォフマナフのマグナアニマ",
     "obtains": []
   },
-  { "id": 836, "itemId": "20631", "name": "裁考の水晶", "obtains": [] },
-  { "id": 837, "itemId": "10204", "name": "聖性の経典", "obtains": [] },
   {
-    "id": 838,
-    "itemId": "10203",
-    "name": "ゼノ・ウォフマナフの真なるアニマ",
+    "id": 423,
+    "itemId": "20631",
+    "name": "裁考の水晶",
     "obtains": []
   },
-  { "id": 839, "itemId": "10025", "name": "アルナスルの矢じり", "obtains": [] },
   {
-    "id": 840,
+    "id": 424,
+    "itemId": "10025",
+    "name": "アルナスルの矢じり",
+    "obtains": []
+  },
+  {
+    "id": 425,
     "itemId": "10026",
     "name": "ゾディアックルーン・サジタリウス",
     "obtains": []
   },
   {
-    "id": 841,
+    "id": 426,
     "itemId": "10027",
     "name": "サジタリウスのアニマ",
     "obtains": []
   },
   {
-    "id": 842,
+    "id": 427,
     "itemId": "10028",
     "name": "サジタリウスのマグナアニマ",
     "obtains": []
   },
-  { "id": 843, "itemId": "20641", "name": "人馬の円盤", "obtains": [] },
   {
-    "id": 844,
-    "itemId": "10232",
-    "name": "ゾディアック・ホーフ",
+    "id": 428,
+    "itemId": "20641",
+    "name": "人馬の円盤",
     "obtains": []
   },
   {
-    "id": 845,
-    "itemId": "10231",
-    "name": "ゼノ・サジタリウスの真なるアニマ",
+    "id": 429,
+    "itemId": "10044",
+    "name": "紅炎のリング",
     "obtains": []
   },
-  { "id": 846, "itemId": "10044", "name": "紅炎のリング", "obtains": [] },
-  { "id": 847, "itemId": "10045", "name": "サンライトクォーツ", "obtains": [] },
-  { "id": 848, "itemId": "10046", "name": "コロゥのアニマ", "obtains": [] },
   {
-    "id": 849,
+    "id": 430,
+    "itemId": "10045",
+    "name": "サンライトクォーツ",
+    "obtains": []
+  },
+  {
+    "id": 431,
+    "itemId": "10046",
+    "name": "コロゥのアニマ",
+    "obtains": []
+  },
+  {
+    "id": 432,
     "itemId": "10047",
     "name": "コロゥのマグナアニマ",
     "obtains": []
   },
-  { "id": 850, "itemId": "20651", "name": "妃光の水晶", "obtains": [] },
-  { "id": 851, "itemId": "10265", "name": "劫火の鉄扇", "obtains": [] },
   {
-    "id": 852,
+    "id": 433,
+    "itemId": "20651",
+    "name": "妃光の水晶",
+    "obtains": []
+  },
+  {
+    "id": 434,
+    "itemId": "10265",
+    "name": "劫火の鉄扇",
+    "obtains": []
+  },
+  {
+    "id": 435,
     "itemId": "10264",
     "name": "ゼノ・コロゥの真なるアニマ",
     "obtains": []
   },
-  { "id": 853, "itemId": "10063", "name": "昏き外衣の切れ端", "obtains": [] },
-  { "id": 854, "itemId": "10064", "name": "暗玉の破片", "obtains": [] },
   {
-    "id": 855,
+    "id": 436,
+    "itemId": "10063",
+    "name": "昏き外衣の切れ端",
+    "obtains": []
+  },
+  {
+    "id": 437,
+    "itemId": "10064",
+    "name": "暗玉の破片",
+    "obtains": []
+  },
+  {
+    "id": 438,
     "itemId": "10065",
     "name": "ディアボロスのアニマ",
     "obtains": []
   },
   {
-    "id": 856,
+    "id": 439,
     "itemId": "10066",
     "name": "ディアボロスのマグナアニマ",
     "obtains": []
   },
-  { "id": 857, "itemId": "20661", "name": "幻魔の破片", "obtains": [] },
-  { "id": 858, "itemId": "10256", "name": "妖魔の枷鎖", "obtains": [] },
   {
-    "id": 859,
+    "id": 440,
+    "itemId": "20661",
+    "name": "幻魔の破片",
+    "obtains": []
+  },
+  {
+    "id": 441,
+    "itemId": "10256",
+    "name": "妖魔の枷鎖",
+    "obtains": []
+  },
+  {
+    "id": 442,
     "itemId": "10255",
     "name": "ゼノ・ディアボロスの真なるアニマ",
     "obtains": []
   },
-  { "id": 860, "itemId": "10031", "name": "カローンクッキー", "obtains": [] },
-  { "id": 861, "itemId": "10032", "name": "ケルベロッテリボン", "obtains": [] },
-  { "id": 862, "itemId": "10033", "name": "ケルベロスのアニマ", "obtains": [] },
   {
-    "id": 863,
-    "itemId": "10034",
-    "name": "ケルベロスのマグナアニマ",
-    "obtains": []
-  },
-  { "id": 864, "itemId": "10150", "name": "マジックヘイロー", "obtains": [] },
-  { "id": 865, "itemId": "10050", "name": "ホワイトフレーク", "obtains": [] },
-  { "id": 866, "itemId": "10051", "name": "ホーリーナイトベル", "obtains": [] },
-  { "id": 867, "itemId": "10052", "name": "フェンリルのアニマ", "obtains": [] },
-  {
-    "id": 868,
-    "itemId": "10053",
-    "name": "フェンリルのマグナアニマ",
+    "id": 443,
+    "itemId": "20001",
+    "name": "赤銅の古紋",
     "obtains": []
   },
   {
-    "id": 869,
-    "itemId": "10151",
-    "name": "クレセントシャックル",
+    "id": 444,
+    "itemId": "20002",
+    "name": "白銀の古紋",
     "obtains": []
   },
-  { "id": 870, "itemId": "10054", "name": "サンタのプレゼント", "obtains": [] },
-  { "id": 871, "itemId": "20001", "name": "赤銅の古紋", "obtains": [] },
-  { "id": 872, "itemId": "20002", "name": "白銀の古紋", "obtains": [] },
-  { "id": 873, "itemId": "20003", "name": "黄金の古紋", "obtains": [] },
-  { "id": 874, "itemId": "20011", "name": "幽光の砂", "obtains": [] },
-  { "id": 875, "itemId": "20012", "name": "泡影の火砂", "obtains": [] },
-  { "id": 876, "itemId": "20021", "name": "幽光の水", "obtains": [] },
-  { "id": 877, "itemId": "20022", "name": "泡影の水流", "obtains": [] },
-  { "id": 878, "itemId": "20031", "name": "幽光の岩", "obtains": [] },
-  { "id": 879, "itemId": "20032", "name": "泡影の岩砂", "obtains": [] },
-  { "id": 880, "itemId": "20041", "name": "幽光の羽", "obtains": [] },
-  { "id": 881, "itemId": "20042", "name": "泡影の風羽", "obtains": [] },
-  { "id": 882, "itemId": "20111", "name": "烈火の岩石", "obtains": [] },
-  { "id": 883, "itemId": "20121", "name": "麗水の珊瑚", "obtains": [] },
-  { "id": 884, "itemId": "20131", "name": "豊沃の琥珀", "obtains": [] },
-  { "id": 885, "itemId": "20141", "name": "雄風の葉", "obtains": [] },
-  { "id": 886, "itemId": "20211", "name": "戦士の信念", "obtains": [] },
-  { "id": 887, "itemId": "20221", "name": "魔導士の信念", "obtains": [] },
-  { "id": 888, "itemId": "20231", "name": "騎士の誇り", "obtains": [] },
-  { "id": 889, "itemId": "20241", "name": "賢者の誇り", "obtains": [] },
-  { "id": 890, "itemId": "20411", "name": "剣闘士の証", "obtains": [] },
-  { "id": 891, "itemId": "20421", "name": ";守護騎士の証", "obtains": [] },
-  { "id": 892, "itemId": "20431", "name": "聖職者の証", "obtains": [] },
-  { "id": 893, "itemId": "20441", "name": "魔導士の証", "obtains": [] },
-  { "id": 894, "itemId": "20451", "name": "盗賊の証", "obtains": [] },
-  { "id": 895, "itemId": "20461", "name": "魔剣士の証", "obtains": [] },
-  { "id": 896, "itemId": "20471", "name": "格闘士の証", "obtains": [] },
-  { "id": 897, "itemId": "20481", "name": "射手の証", "obtains": [] },
-  { "id": 898, "itemId": "20491", "name": "吟遊詩人の証", "obtains": [] },
-  { "id": 899, "itemId": "20501", "name": "槍騎兵の証", "obtains": [] },
-  { "id": 900, "itemId": "20511", "name": "錬金術師の証", "obtains": [] },
-  { "id": 901, "itemId": "20671", "name": "侍の証", "obtains": [] },
-  { "id": 902, "itemId": "20681", "name": "忍の証", "obtains": [] },
-  { "id": 903, "itemId": "20691", "name": "剣聖の証", "obtains": [] },
-  { "id": 904, "itemId": "20701", "name": "撃手の証", "obtains": [] },
-  { "id": 905, "itemId": "20751", "name": "賢者の証", "obtains": [] },
-  { "id": 906, "itemId": "20761", "name": "暗殺者の証", "obtains": [] },
-  { "id": 907, "itemId": "20791", "name": "双剣士の証", "obtains": [] },
-  { "id": 908, "itemId": "20801", "name": "楽師の証", "obtains": [] },
-  { "id": 909, "itemId": "20811", "name": "森人の証", "obtains": [] },
-  { "id": 910, "itemId": "20821", "name": "重竜騎兵の証", "obtains": [] },
-  { "id": 911, "itemId": "20831", "name": "僧兵の証", "obtains": [] },
-  { "id": 912, "itemId": "20841", "name": "義弓の証", "obtains": [] },
-  { "id": 913, "itemId": "20851", "name": "踊手の証", "obtains": [] },
-  { "id": 914, "itemId": "20861", "name": "契約者の証", "obtains": [] },
-  { "id": 915, "itemId": "20771", "name": "幽世の黒紫刃", "obtains": [] },
-  { "id": 916, "itemId": "20781", "name": "アスタロトのアニマ", "obtains": [] },
-  { "id": 917, "itemId": "20711", "name": "灼熱の書", "obtains": [] },
-  { "id": 918, "itemId": "20721", "name": "水分の書", "obtains": [] },
-  { "id": 919, "itemId": "20731", "name": "巨人の書", "obtains": [] },
-  { "id": 920, "itemId": "20741", "name": "風凪の書", "obtains": [] },
-  { "id": 921, "itemId": "30031", "name": "ブロンズムーン", "obtains": [] },
-  { "id": 922, "itemId": "30032", "name": "シルバームーン", "obtains": [] },
-  { "id": 923, "itemId": "30033", "name": "ゴールドムーン", "obtains": [] },
-  { "id": 924, "itemId": "10281", "name": "ダマスカスダスト", "obtains": [] },
-  { "id": 925, "itemId": "202", "name": "ダマスカス磁性粒子", "obtains": [] },
-  { "id": 926, "itemId": "203", "name": "ダマスカス骸晶", "obtains": [] },
-  { "id": 927, "itemId": "61", "name": "クロム鋼", "obtains": [] },
-  { "id": 928, "itemId": "10382", "name": "金剛晶の欠片", "obtains": [] },
-  { "id": 929, "itemId": "91001", "name": "勲章", "obtains": [] },
-  { "id": 930, "itemId": "40001", "name": "ベッティングカード", "obtains": [] },
-  { "id": 931, "itemId": "201", "name": "ハピネスキャロット", "obtains": [] },
-  { "id": 932, "itemId": "90005", "name": "星土の結晶", "obtains": [] },
-  { "id": 933, "itemId": "211", "name": "蒼穹のトロフィー", "obtains": [] },
-  { "id": 934, "itemId": "212", "name": "天上のトロフィー", "obtains": [] },
-  { "id": 935, "itemId": "210", "name": "エビフライ・レプリカ", "obtains": [] },
-  { "id": 936, "itemId": "10202", "name": "バハムートの鉤爪", "obtains": [] },
-  { "id": 937, "itemId": "10263", "name": "サモン・クレイドル", "obtains": [] },
-  { "id": 938, "itemId": "10306", "name": "預言者の腕輪", "obtains": [] },
-  { "id": 939, "itemId": "10309", "name": "白い羽根", "obtains": [] },
-  { "id": 940, "itemId": "10337", "name": "穿光のパトス", "obtains": [] },
-  { "id": 941, "itemId": "10340", "name": "雄偉者たちの羽織物", "obtains": [] },
-  { "id": 942, "itemId": "10347", "name": "練磨のギターピック", "obtains": [] },
-  { "id": 943, "itemId": "10353", "name": "約束のブートニア", "obtains": [] },
-  { "id": 944, "itemId": "10360", "name": "討伐手形", "obtains": [] },
   {
-    "id": 945,
-    "itemId": "10364",
-    "name": "クー・ケオロエワの爪",
+    "id": 445,
+    "itemId": "20003",
+    "name": "黄金の古紋",
     "obtains": []
   },
-  { "id": 946, "itemId": "10375", "name": "静寂のエートス", "obtains": [] },
   {
-    "id": 947,
+    "id": 446,
+    "itemId": "20011",
+    "name": "幽光の砂",
+    "obtains": []
+  },
+  {
+    "id": 447,
+    "itemId": "20012",
+    "name": "泡影の火砂",
+    "obtains": []
+  },
+  {
+    "id": 448,
+    "itemId": "20021",
+    "name": "幽光の水",
+    "obtains": []
+  },
+  {
+    "id": 449,
+    "itemId": "20022",
+    "name": "泡影の水流",
+    "obtains": []
+  },
+  {
+    "id": 450,
+    "itemId": "20031",
+    "name": "幽光の岩",
+    "obtains": []
+  },
+  {
+    "id": 451,
+    "itemId": "20032",
+    "name": "泡影の岩砂",
+    "obtains": []
+  },
+  {
+    "id": 452,
+    "itemId": "20041",
+    "name": "幽光の羽",
+    "obtains": []
+  },
+  {
+    "id": 453,
+    "itemId": "20042",
+    "name": "泡影の風羽",
+    "obtains": []
+  },
+  {
+    "id": 454,
+    "itemId": "20111",
+    "name": "烈火の岩石",
+    "obtains": []
+  },
+  {
+    "id": 455,
+    "itemId": "20121",
+    "name": "麗水の珊瑚",
+    "obtains": []
+  },
+  {
+    "id": 456,
+    "itemId": "20131",
+    "name": "豊沃の琥珀",
+    "obtains": []
+  },
+  {
+    "id": 457,
+    "itemId": "20141",
+    "name": "雄風の葉",
+    "obtains": []
+  },
+  {
+    "id": 458,
+    "itemId": "20211",
+    "name": "戦士の信念",
+    "obtains": []
+  },
+  {
+    "id": 459,
+    "itemId": "20221",
+    "name": "魔導士の信念",
+    "obtains": []
+  },
+  {
+    "id": 460,
+    "itemId": "20231",
+    "name": "騎士の誇り",
+    "obtains": []
+  },
+  {
+    "id": 461,
+    "itemId": "20241",
+    "name": "賢者の誇り",
+    "obtains": []
+  },
+  {
+    "id": 462,
+    "itemId": "20411",
+    "name": "剣闘士の証",
+    "obtains": []
+  },
+  {
+    "id": 463,
+    "itemId": "20461",
+    "name": "魔剣士の証",
+    "obtains": []
+  },
+  {
+    "id": 464,
+    "itemId": "20471",
+    "name": "格闘士の証",
+    "obtains": []
+  },
+  {
+    "id": 465,
+    "itemId": "20501",
+    "name": "槍騎兵の証",
+    "obtains": []
+  },
+  {
+    "id": 466,
+    "itemId": "20511",
+    "name": "錬金術師の証",
+    "obtains": []
+  },
+  {
+    "id": 467,
+    "itemId": "20671",
+    "name": "侍の証",
+    "obtains": []
+  },
+  {
+    "id": 468,
+    "itemId": "20681",
+    "name": "忍の証",
+    "obtains": []
+  },
+  {
+    "id": 469,
+    "itemId": "20691",
+    "name": "剣聖の証",
+    "obtains": []
+  },
+  {
+    "id": 470,
+    "itemId": "20761",
+    "name": "暗殺者の証",
+    "obtains": []
+  },
+  {
+    "id": 471,
+    "itemId": "20791",
+    "name": "双剣士の証",
+    "obtains": []
+  },
+  {
+    "id": 472,
+    "itemId": "20801",
+    "name": "楽師の証",
+    "obtains": []
+  },
+  {
+    "id": 473,
+    "itemId": "20831",
+    "name": "僧兵の証",
+    "obtains": []
+  },
+  {
+    "id": 474,
+    "itemId": "20861",
+    "name": "契約者の証",
+    "obtains": []
+  },
+  {
+    "id": 475,
+    "itemId": "20771",
+    "name": "幽世の黒紫刃",
+    "obtains": []
+  },
+  {
+    "id": 476,
+    "itemId": "20711",
+    "name": "灼熱の書",
+    "obtains": []
+  },
+  {
+    "id": 477,
+    "itemId": "20721",
+    "name": "水分の書",
+    "obtains": []
+  },
+  {
+    "id": 478,
+    "itemId": "20731",
+    "name": "巨人の書",
+    "obtains": []
+  },
+  {
+    "id": 479,
+    "itemId": "20741",
+    "name": "風凪の書",
+    "obtains": []
+  },
+  {
+    "id": 480,
+    "itemId": "30031",
+    "name": "ブロンズムーン",
+    "obtains": []
+  },
+  {
+    "id": 481,
+    "itemId": "30032",
+    "name": "シルバームーン",
+    "obtains": []
+  },
+  {
+    "id": 482,
+    "itemId": "30033",
+    "name": "ゴールドムーン",
+    "obtains": []
+  },
+  {
+    "id": 483,
+    "itemId": "202",
+    "name": "ダマスカス磁性粒子",
+    "obtains": []
+  },
+  {
+    "id": 484,
+    "itemId": "203",
+    "name": "ダマスカス骸晶",
+    "obtains": []
+  },
+  {
+    "id": 485,
+    "itemId": "61",
+    "name": "クロム鋼",
+    "obtains": []
+  },
+  {
+    "id": 486,
+    "itemId": "10382",
+    "name": "金剛晶の欠片",
+    "obtains": []
+  },
+  {
+    "id": 487,
+    "itemId": "91001",
+    "name": "勲章",
+    "obtains": []
+  },
+  {
+    "id": 488,
+    "itemId": "210",
+    "name": "エビフライ・レプリカ",
+    "obtains": []
+  },
+  {
+    "id": 489,
+    "itemId": "10202",
+    "name": "バハムートの鉤爪",
+    "obtains": []
+  },
+  {
+    "id": 490,
+    "itemId": "10263",
+    "name": "サモン・クレイドル",
+    "obtains": []
+  },
+  {
+    "id": 491,
+    "itemId": "10306",
+    "name": "預言者の腕輪",
+    "obtains": []
+  },
+  {
+    "id": 492,
+    "itemId": "10309",
+    "name": "白い羽根",
+    "obtains": []
+  },
+  {
+    "id": 493,
+    "itemId": "10337",
+    "name": "穿光のパトス",
+    "obtains": []
+  },
+  {
+    "id": 494,
+    "itemId": "10340",
+    "name": "雄偉者たちの羽織物",
+    "obtains": []
+  },
+  {
+    "id": 495,
+    "itemId": "10360",
+    "name": "討伐手形",
+    "obtains": []
+  },
+  {
+    "id": 496,
     "itemId": "10376",
-    "name": "シンクロシニティ・コア",
-    "obtains": []
-  },
-  { "id": 948, "itemId": "10379", "name": "ナーヴマテリアル", "obtains": [] },
-  { "id": 949, "itemId": "10381", "name": "雷神卿からの贈り物", "obtains": [] },
-  { "id": 950, "itemId": "10393", "name": "安寧のアミュレット", "obtains": [] },
-  {
-    "id": 951,
-    "itemId": "10401",
-    "name": "プレシャス・パートナー",
-    "obtains": []
-  },
-  { "id": 952, "itemId": "10418", "name": "小さな語り部", "obtains": [] },
-  { "id": 953, "itemId": "10419", "name": "進化への餞", "obtains": [] },
-  { "id": 954, "itemId": "10420", "name": "隣に立つ覚悟", "obtains": [] },
-  { "id": 955, "itemId": "10421", "name": "使命のグロブルス", "obtains": [] },
-  {
-    "id": 956,
-    "itemId": "10432",
-    "name": "暴戻の魔具 ヴァースリア",
-    "obtains": []
-  },
-  { "id": 957, "itemId": "10457", "name": "「愛」の証", "obtains": [] },
-  { "id": 958, "itemId": "30021", "name": "ステラストーン", "obtains": [] },
-  { "id": 959, "itemId": "95002", "name": "蒼光の輝石", "obtains": [] },
-  { "id": 960, "itemId": "96001", "name": "ビィの青りんご", "obtains": [] },
-  { "id": 961, "itemId": "96012", "name": "押し花の手紙", "obtains": [] },
-  {
-    "id": 962,
-    "itemId": "96014",
-    "name": "ビィの似顔絵入りりんご",
-    "obtains": []
-  },
-  { "id": 963, "itemId": "96015", "name": "思い出のアルバム", "obtains": [] },
-  {
-    "id": 964,
-    "itemId": "30011",
-    "name": "ニコニコテレビちゃん",
+    "name": "シンクロニシティ・コア",
     "obtains": []
   },
   {
-    "id": 965,
-    "itemId": "30001",
-    "name": "アニバーサリートロフィー",
+    "id": 497,
+    "itemId": "10457",
+    "name": "「愛」の証",
     "obtains": []
   },
   {
-    "id": 966,
-    "itemId": "30051",
-    "name": "6th Anniversary記念コイン",
+    "id": 498,
+    "itemId": "95002",
+    "name": "蒼光の輝石",
     "obtains": []
   },
   {
-    "id": 967,
-    "itemId": "30061",
-    "name": "7th Anniversary記念コイン",
-    "obtains": []
-  },
-  { "id": 968, "itemId": "30071", "name": "フォーチュンカード", "obtains": [] },
-  { "id": 969, "itemId": "30081", "name": "フォーチュンカード", "obtains": [] },
-  {
-    "id": 970,
-    "itemId": "30041",
-    "name": "シェロカルテの特別交換券",
+    "id": 499,
+    "itemId": "96019",
+    "name": "約束の苗木",
     "obtains": []
   },
   {
-    "id": 971,
+    "id": 500,
+    "itemId": "96020",
+    "name": "ルリアお手製弁当",
+    "obtains": []
+  },
+  {
+    "id": 501,
     "itemId": "lupi",
     "name": "ルピ",
+    "obtains": []
+  },
+  {
+    "id": 502,
+    "itemId": "steel_brick",
+    "name": "玉鋼",
+    "obtains": []
+  },
+  {
+    "id": 503,
+    "itemId": "gold_brick",
+    "name": "ヒヒイロカネ",
+    "obtains": []
+  },
+  {
+    "id": 504,
+    "itemId": "damascus_ingot",
+    "name": "ダマスカス鋼",
     "obtains": []
   }
 ]
