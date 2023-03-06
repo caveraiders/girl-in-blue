@@ -10,13 +10,7 @@
     "element": "水",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "最終上限解放（4凸）の必要素材",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "バレンタインガチャ武器"
   },
   {
@@ -46,7 +40,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 20 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -60,7 +54,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -127,7 +121,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -153,7 +147,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 300 },
@@ -211,7 +205,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -240,7 +234,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -274,7 +268,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -392,7 +386,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -421,7 +415,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -450,7 +444,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -479,7 +473,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -508,7 +502,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -537,7 +531,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -566,7 +560,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -595,7 +589,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -624,7 +618,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -653,7 +647,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -682,7 +676,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -711,7 +705,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銀天の輝き", "requiredAmount": 5 },
           { "name": "真龍の金鱗", "requiredAmount": 30 },
@@ -810,7 +804,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -849,7 +843,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -911,7 +905,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -959,7 +953,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -1015,7 +1009,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1049,7 +1043,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 40 },
@@ -1076,7 +1070,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 40 },
@@ -1145,7 +1139,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -1184,7 +1178,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -1227,7 +1221,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -1313,7 +1307,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -1341,7 +1335,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -1369,7 +1363,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -1397,7 +1391,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -1439,7 +1433,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1459,7 +1453,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1493,7 +1487,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1527,7 +1521,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -1556,7 +1550,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -1623,7 +1617,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -1651,7 +1645,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -1679,7 +1673,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1713,7 +1707,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "アース・ジーン", "requiredAmount": 40 },
@@ -1740,7 +1734,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -1770,7 +1764,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -1814,7 +1808,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -1842,7 +1836,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -1870,7 +1864,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -1900,7 +1894,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -1930,7 +1924,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -1960,7 +1954,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -1994,7 +1988,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -2024,7 +2018,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -2054,7 +2048,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -2084,7 +2078,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -2296,7 +2290,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -2324,7 +2318,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -2352,7 +2346,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -2400,7 +2394,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 60 },
           { "name": "アース・ジーン", "requiredAmount": 40 },
@@ -2427,7 +2421,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -2457,7 +2451,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -2486,7 +2480,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -2530,7 +2524,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -2550,7 +2544,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -2580,7 +2574,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -2610,7 +2604,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -2654,7 +2648,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -2684,7 +2678,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -2727,7 +2721,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -2755,7 +2749,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -2783,7 +2777,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -2803,7 +2797,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -2823,7 +2817,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 40 },
@@ -2850,7 +2844,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -2880,7 +2874,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -2924,7 +2918,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -2958,7 +2952,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3020,7 +3014,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3040,7 +3034,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 40 },
@@ -3067,7 +3061,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 20 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -3081,7 +3075,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -3106,7 +3100,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3126,7 +3120,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3160,7 +3154,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3180,7 +3174,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -3210,7 +3204,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3258,7 +3252,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3292,7 +3286,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -3336,7 +3330,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -3364,7 +3358,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -3420,7 +3414,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3468,7 +3462,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -3540,7 +3534,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -3570,7 +3564,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -3600,7 +3594,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -3630,7 +3624,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3664,7 +3658,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3684,7 +3678,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -3714,7 +3708,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -3743,7 +3737,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3777,7 +3771,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 20 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -3791,7 +3785,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -3830,7 +3824,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3864,7 +3858,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -3894,7 +3888,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -3928,7 +3922,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -3955,7 +3949,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -4342,7 +4336,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -4362,7 +4356,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -4410,7 +4404,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -4438,7 +4432,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -4466,7 +4460,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -4494,7 +4488,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -4522,7 +4516,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -4551,7 +4545,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "踊手の証", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 150 },
@@ -5056,7 +5050,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -5114,7 +5108,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -5148,7 +5142,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -5192,7 +5186,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -5226,7 +5220,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -5256,7 +5250,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -5318,7 +5312,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -5361,7 +5355,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -5381,7 +5375,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 40 },
@@ -6360,7 +6354,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -6390,7 +6384,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -6462,7 +6456,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 20 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -6505,7 +6499,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -6567,7 +6561,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -6789,7 +6783,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "ファイア・ジーン", "requiredAmount": 60 },
@@ -6816,7 +6810,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -6846,7 +6840,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -6873,7 +6867,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -6900,7 +6894,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -6927,7 +6921,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -6954,7 +6948,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -6982,7 +6976,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -7024,7 +7018,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -7067,7 +7061,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "東青の霊宝", "requiredAmount": 8 },
           { "name": "銃のエレメント", "requiredAmount": 20 },
@@ -7092,7 +7086,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "西白の霊宝", "requiredAmount": 8 },
           { "name": "短剣のエレメント", "requiredAmount": 20 },
@@ -7117,7 +7111,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "北玄の霊宝", "requiredAmount": 8 },
           { "name": "剣のエレメント", "requiredAmount": 20 },
@@ -7142,7 +7136,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "南朱の霊宝", "requiredAmount": 8 },
           { "name": "斧のエレメント", "requiredAmount": 20 },
@@ -7181,7 +7175,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -7201,7 +7195,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -7231,7 +7225,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -7265,7 +7259,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -7292,7 +7286,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -7319,7 +7313,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -7346,7 +7340,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -7373,7 +7367,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -7400,7 +7394,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -7427,7 +7421,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 20 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -7469,7 +7463,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -7877,7 +7871,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -7920,7 +7914,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -7950,7 +7944,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -7980,7 +7974,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -8888,7 +8882,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "ダーク・ジーン", "requiredAmount": 60 },
@@ -8915,7 +8909,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -8935,7 +8929,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -8993,7 +8987,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -9050,7 +9044,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -9080,7 +9074,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 20 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -9094,7 +9088,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -9132,7 +9126,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -9190,7 +9184,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -9220,7 +9214,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -9249,7 +9243,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9261,7 +9255,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "トーデストリープ", "requiredAmount": 15 },
@@ -9288,7 +9282,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9300,7 +9294,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": null, "requiredAmount": 15 },
@@ -9327,7 +9321,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9339,7 +9333,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "ゲイルロック", "requiredAmount": 15 },
@@ -9366,7 +9360,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9378,7 +9372,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "インシュラーコア", "requiredAmount": 15 },
@@ -9405,7 +9399,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9417,7 +9411,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "アビサル・トラジェディー", "requiredAmount": 15 },
@@ -9444,7 +9438,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "真龍の金鱗", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9456,7 +9450,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "イグナイトラブル", "requiredAmount": 15 },
@@ -9493,7 +9487,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "アバターのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9504,7 +9498,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9542,7 +9536,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "メタトロンのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9553,7 +9547,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9590,7 +9584,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "グリームニルのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9601,7 +9595,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9638,7 +9632,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ブローディアのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9649,7 +9643,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9686,7 +9680,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "エウロペのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9697,7 +9691,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9734,7 +9728,7 @@
         "type": "uncap"
       },
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "シヴァのマグナアニマ", "requiredAmount": 10 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -9745,7 +9739,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "漆黒の棘翅", "requiredAmount": 10 },
           { "name": "ダマスカス骸晶", "requiredAmount": 5 },
@@ -9773,7 +9767,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -9816,7 +9810,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -9860,7 +9854,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -9890,7 +9884,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -9910,7 +9904,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -9968,7 +9962,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -10012,7 +10006,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -10042,7 +10036,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10076,7 +10070,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10110,7 +10104,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -10140,7 +10134,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 20 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -10168,7 +10162,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -10196,7 +10190,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -10224,7 +10218,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -10268,7 +10262,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -10365,7 +10359,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10385,7 +10379,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10405,7 +10399,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10425,7 +10419,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10445,7 +10439,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10465,7 +10459,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -10947,7 +10941,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -10977,7 +10971,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -11007,7 +11001,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "煌光の宝珠", "requiredAmount": 150 },
@@ -11037,7 +11031,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 300 },
           { "name": "霧氷の宝珠", "requiredAmount": 150 },
@@ -11163,7 +11157,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -11207,7 +11201,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 20 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -11222,7 +11216,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -11247,7 +11241,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -11277,7 +11271,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 300 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -11796,7 +11790,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -11922,7 +11916,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -11952,7 +11946,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 60 },
@@ -11980,7 +11974,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -12008,7 +12002,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -12035,7 +12029,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -12062,7 +12056,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -12089,7 +12083,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -12116,7 +12110,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -12143,7 +12137,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -12226,7 +12220,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -12256,7 +12250,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青竜印符", "requiredAmount": 1 },
           { "name": "楽器のエレメント", "requiredAmount": 20 },
@@ -12281,7 +12275,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白虎印符", "requiredAmount": 1 },
           { "name": "槍のエレメント", "requiredAmount": 20 },
@@ -12306,7 +12300,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "玄武印符", "requiredAmount": 1 },
           { "name": "短剣のエレメント", "requiredAmount": 20 },
@@ -12331,7 +12325,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "朱雀印符", "requiredAmount": 1 },
           { "name": "銃のエレメント", "requiredAmount": 20 },
@@ -12398,7 +12392,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -12428,7 +12422,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -12440,7 +12434,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "緑星の輝き", "requiredAmount": 20 },
@@ -12467,7 +12461,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 20 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -12481,7 +12475,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -13009,7 +13003,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -13998,7 +13992,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -14027,7 +14021,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14040,7 +14034,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の闇覆う恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14069,7 +14063,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14082,7 +14076,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の闇覆う恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14111,7 +14105,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14124,7 +14118,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の光降る恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14153,7 +14147,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14166,7 +14160,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の光降る恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14195,7 +14189,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14208,7 +14202,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の風囁く恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14237,7 +14231,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14250,7 +14244,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の風囁く恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14279,7 +14273,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14292,7 +14286,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の土護る恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14321,7 +14315,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14334,7 +14328,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の土護る恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14363,7 +14357,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14376,7 +14370,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の水湧く恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14405,7 +14399,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14418,7 +14412,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の水湧く恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14447,7 +14441,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14460,7 +14454,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の火舞う恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14489,7 +14483,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ダークネス・マテリアル", "requiredAmount": 5 },
           { "name": "銀天の輝き", "requiredAmount": 5 },
@@ -14502,7 +14496,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "福音の火舞う恩寵", "requiredAmount": 1 },
           { "name": "終末の暗晶", "requiredAmount": 5 },
@@ -14545,7 +14539,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -14712,7 +14706,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -14798,7 +14792,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -14828,7 +14822,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -14872,7 +14866,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 20 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -14886,7 +14880,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -14953,7 +14947,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "エビフライ・レプリカ", "requiredAmount": 2 },
           { "name": "ルピ", "requiredAmount": 10000 }
@@ -14976,7 +14970,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -15006,7 +15000,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "烈空の宝珠", "requiredAmount": 150 },
           { "name": "ウィンド・ジーン", "requiredAmount": 125 },
@@ -15064,7 +15058,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -15098,7 +15092,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -15603,7 +15597,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -15631,7 +15625,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -15659,7 +15653,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "虚ろなる鍵", "requiredAmount": 30 },
           { "name": "剣のエレメント", "requiredAmount": 200 },
@@ -15688,7 +15682,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "虚ろなる鍵", "requiredAmount": 30 },
           { "name": "弓のエレメント", "requiredAmount": 200 },
@@ -15717,7 +15711,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "虚ろなる鍵", "requiredAmount": 30 },
           { "name": "斧のエレメント", "requiredAmount": 200 },
@@ -15746,7 +15740,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "虚ろなる鍵", "requiredAmount": 30 },
           { "name": "杖のエレメント", "requiredAmount": 200 },
@@ -15775,7 +15769,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "虚ろなる鍵", "requiredAmount": 30 },
           { "name": "槍のエレメント", "requiredAmount": 200 },
@@ -15818,7 +15812,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 60 },
@@ -15845,7 +15839,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 60 },
@@ -15886,7 +15880,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -15920,7 +15914,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -15950,7 +15944,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 20 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -15964,7 +15958,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -15989,7 +15983,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -16047,7 +16041,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -16076,7 +16070,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -16106,7 +16100,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 60 },
@@ -16149,7 +16143,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -16683,7 +16677,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -16712,7 +16706,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -16742,7 +16736,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 60 },
@@ -16769,7 +16763,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 60 },
           { "name": "ファイア・ジーン", "requiredAmount": 60 },
@@ -16840,7 +16834,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -16898,7 +16892,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -16928,7 +16922,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 100 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -16940,7 +16934,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "黒星の輝き", "requiredAmount": 20 },
@@ -17034,7 +17028,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -17064,7 +17058,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -17121,7 +17115,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -17693,7 +17687,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -17722,7 +17716,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -17751,7 +17745,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 60 },
@@ -18284,7 +18278,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -18313,7 +18307,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -18342,7 +18336,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -18371,7 +18365,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -18400,7 +18394,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -18429,7 +18423,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -18458,7 +18452,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -18484,7 +18478,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -18510,7 +18504,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -18536,7 +18530,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -18562,7 +18556,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -18589,7 +18583,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -18616,7 +18610,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -18642,7 +18636,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -18668,7 +18662,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -18694,7 +18688,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -18774,7 +18768,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -18846,7 +18840,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -18874,7 +18868,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -18902,7 +18896,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -18930,7 +18924,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -18958,7 +18952,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -18986,7 +18980,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -19014,7 +19008,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -19042,7 +19036,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -19070,7 +19064,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -19098,7 +19092,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -19126,7 +19120,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -19154,7 +19148,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -24292,7 +24286,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -24336,7 +24330,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -24366,7 +24360,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -24438,7 +24432,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -24468,7 +24462,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -24573,7 +24567,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -24603,7 +24597,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -24713,7 +24707,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -24799,7 +24793,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -24829,7 +24823,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 100 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -24841,7 +24835,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "黒星の輝き", "requiredAmount": 20 },
@@ -24910,7 +24904,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 60 },
           { "name": "ホーリー・ジーン", "requiredAmount": 60 },
@@ -24939,7 +24933,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 60 },
@@ -25471,7 +25465,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25481,7 +25475,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -25507,7 +25501,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25517,7 +25511,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -25543,7 +25537,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25553,7 +25547,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -25579,7 +25573,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25589,7 +25583,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -25615,7 +25609,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25625,7 +25619,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -25651,7 +25645,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -25661,7 +25655,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26053,7 +26047,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26063,7 +26057,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26089,7 +26083,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26099,7 +26093,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26125,7 +26119,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26135,7 +26129,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26161,7 +26155,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26171,7 +26165,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26197,7 +26191,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26207,7 +26201,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26233,7 +26227,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26243,7 +26237,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26635,7 +26629,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26645,7 +26639,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26671,7 +26665,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26681,7 +26675,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26707,7 +26701,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26717,7 +26711,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26743,7 +26737,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26753,7 +26747,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26779,7 +26773,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26789,7 +26783,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -26815,7 +26809,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -26825,7 +26819,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27217,7 +27211,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27227,7 +27221,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27253,7 +27247,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27263,7 +27257,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27289,7 +27283,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27299,7 +27293,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27325,7 +27319,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27335,7 +27329,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27361,7 +27355,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27371,7 +27365,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27397,7 +27391,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27407,7 +27401,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27799,7 +27793,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27809,7 +27803,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27835,7 +27829,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27845,7 +27839,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27871,7 +27865,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27881,7 +27875,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27907,7 +27901,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27917,7 +27911,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27943,7 +27937,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27953,7 +27947,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -27979,7 +27973,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -27989,7 +27983,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28381,7 +28375,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28391,7 +28385,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28417,7 +28411,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28427,7 +28421,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28453,7 +28447,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28463,7 +28457,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28489,7 +28483,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28499,7 +28493,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28525,7 +28519,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28535,7 +28529,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28561,7 +28555,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28571,7 +28565,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28963,7 +28957,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -28973,7 +28967,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -28999,7 +28993,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29009,7 +29003,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29035,7 +29029,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29045,7 +29039,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29071,7 +29065,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29081,7 +29075,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29107,7 +29101,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29117,7 +29111,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29143,7 +29137,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29153,7 +29147,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29545,7 +29539,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29555,7 +29549,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29581,7 +29575,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29591,7 +29585,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29617,7 +29611,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29627,7 +29621,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29653,7 +29647,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29663,7 +29657,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29689,7 +29683,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29699,7 +29693,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -29725,7 +29719,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -29735,7 +29729,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30127,7 +30121,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30137,7 +30131,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30163,7 +30157,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30173,7 +30167,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30199,7 +30193,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30209,7 +30203,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30235,7 +30229,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30245,7 +30239,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30271,7 +30265,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30281,7 +30275,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30307,7 +30301,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30317,7 +30311,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30709,7 +30703,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30719,7 +30713,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30745,7 +30739,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30755,7 +30749,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30781,7 +30775,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30791,7 +30785,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30817,7 +30811,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30827,7 +30821,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30853,7 +30847,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30863,7 +30857,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30889,7 +30883,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "オメガユニット", "requiredAmount": 30 },
           { "name": "銀天の輝き", "requiredAmount": 30 },
@@ -30899,7 +30893,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "アルテマメモリ", "requiredAmount": 20 },
           { "name": "オメガユニット", "requiredAmount": 30 },
@@ -30995,7 +30989,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -31023,7 +31017,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -31051,7 +31045,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -31079,7 +31073,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -31107,7 +31101,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -31135,7 +31129,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -31219,7 +31213,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -31262,7 +31256,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -31334,7 +31328,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -31363,7 +31357,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [],
         "type": "uncap"
       }
@@ -31383,7 +31377,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "アース・ジーン", "requiredAmount": 100 },
           { "name": "白虎印符", "requiredAmount": 1 },
@@ -31408,7 +31402,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "アクア・ジーン", "requiredAmount": 100 },
           { "name": "玄武印符", "requiredAmount": 1 },
@@ -31433,7 +31427,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ファイア・ジーン", "requiredAmount": 100 },
           { "name": "朱雀印符", "requiredAmount": 1 },
@@ -31458,7 +31452,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ウィンド・ジーン", "requiredAmount": 100 },
           { "name": "青竜印符", "requiredAmount": 1 },
@@ -31483,7 +31477,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "アース・ジーン", "requiredAmount": 100 },
           { "name": "白虎印符", "requiredAmount": 1 },
@@ -31508,7 +31502,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "アクア・ジーン", "requiredAmount": 100 },
           { "name": "玄武印符", "requiredAmount": 1 },
@@ -31533,7 +31527,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ファイア・ジーン", "requiredAmount": 100 },
           { "name": "朱雀印符", "requiredAmount": 1 },
@@ -31894,7 +31888,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 5 },
           { "name": "ミカエルのアニマ", "requiredAmount": 5 },
@@ -31908,7 +31902,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 10 },
           { "name": "南朱の霊宝", "requiredAmount": 3 },
@@ -31938,7 +31932,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 5 },
           { "name": "ミカエルのアニマ", "requiredAmount": 5 },
@@ -31952,7 +31946,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 10 },
           { "name": "南朱の霊宝", "requiredAmount": 3 },
@@ -31982,7 +31976,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 5 },
           { "name": "ミカエルのアニマ", "requiredAmount": 5 },
@@ -31996,7 +31990,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄金の札束", "requiredAmount": 10 },
           { "name": "南朱の霊宝", "requiredAmount": 3 },
@@ -32026,7 +32020,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 5 },
           { "name": "ガブリエルのアニマ", "requiredAmount": 5 },
@@ -32040,7 +32034,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 10 },
           { "name": "北玄の霊宝", "requiredAmount": 3 },
@@ -32070,7 +32064,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 5 },
           { "name": "ガブリエルのアニマ", "requiredAmount": 5 },
@@ -32084,7 +32078,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 10 },
           { "name": "北玄の霊宝", "requiredAmount": 3 },
@@ -32114,7 +32108,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 5 },
           { "name": "ガブリエルのアニマ", "requiredAmount": 5 },
@@ -32128,7 +32122,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒曜石の札束", "requiredAmount": 10 },
           { "name": "北玄の霊宝", "requiredAmount": 3 },
@@ -32186,7 +32180,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -32931,7 +32925,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -32975,7 +32969,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "奈落の宝珠", "requiredAmount": 50 },
@@ -33004,7 +32998,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 60 },
           { "name": "烈空の宝珠", "requiredAmount": 50 },
@@ -33086,7 +33080,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -33228,7 +33222,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -33342,7 +33336,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -33372,7 +33366,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -33415,7 +33409,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 60 },
           { "name": "ファイア・ジーン", "requiredAmount": 60 },
@@ -33486,7 +33480,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -33558,7 +33552,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -33587,7 +33581,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -33616,7 +33610,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -33645,7 +33639,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -33674,7 +33668,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -33703,7 +33697,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -33732,7 +33726,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -33761,7 +33755,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -33790,7 +33784,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -33819,7 +33813,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -33848,7 +33842,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -33877,7 +33871,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -33920,7 +33914,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 60 },
           { "name": "奈落の宝珠", "requiredAmount": 75 },
@@ -33950,7 +33944,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 60 },
           { "name": "霧氷の宝珠", "requiredAmount": 75 },
@@ -34036,7 +34030,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -34178,7 +34172,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -34206,7 +34200,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -34248,7 +34242,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -34278,7 +34272,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -34364,7 +34358,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -34422,7 +34416,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -34466,7 +34460,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -34496,7 +34490,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 60 },
           { "name": "ファイア・ジーン", "requiredAmount": 60 },
@@ -34625,7 +34619,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -34654,7 +34648,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -34683,7 +34677,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -34691,7 +34685,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -35216,7 +35210,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -35245,7 +35239,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "闇晶のエレメント", "requiredAmount": 200 },
@@ -35373,7 +35367,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -35381,7 +35375,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -36001,7 +35995,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -36030,7 +36024,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -36059,7 +36053,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -36067,7 +36061,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -36692,7 +36686,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -36700,7 +36694,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -37325,7 +37319,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -37333,7 +37327,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -37945,7 +37939,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -37953,7 +37947,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -38413,7 +38407,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -38442,7 +38436,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -38571,7 +38565,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -38579,7 +38573,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -39104,7 +39098,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -39133,7 +39127,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -39262,7 +39256,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -39270,7 +39264,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -39795,7 +39789,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -39824,7 +39818,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -39953,7 +39947,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -39961,7 +39955,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -40586,7 +40580,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 5 },
           { "name": "究竟の証", "requiredAmount": 3 }
@@ -40594,7 +40588,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "バハムートの紫電角", "requiredAmount": 30 },
           { "name": "オメガユニット", "requiredAmount": 5 },
@@ -41119,7 +41113,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "剣のエレメント", "requiredAmount": 200 },
@@ -41146,7 +41140,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "短剣のエレメント", "requiredAmount": 200 },
@@ -41173,7 +41167,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "槍のエレメント", "requiredAmount": 200 },
@@ -41200,7 +41194,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "斧のエレメント", "requiredAmount": 200 },
@@ -41227,7 +41221,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "杖のエレメント", "requiredAmount": 200 },
@@ -41254,7 +41248,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "銃のエレメント", "requiredAmount": 200 },
@@ -41281,7 +41275,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "格闘のエレメント", "requiredAmount": 200 },
@@ -41308,7 +41302,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "弓のエレメント", "requiredAmount": 200 },
@@ -41335,7 +41329,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "楽器のエレメント", "requiredAmount": 200 },
@@ -41362,7 +41356,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "蒼翠の結晶", "requiredAmount": 30 },
           { "name": "刀のエレメント", "requiredAmount": 200 },
@@ -41417,7 +41411,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -41447,7 +41441,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 300 },
           { "name": "土晶のエレメント", "requiredAmount": 200 },
@@ -41476,7 +41470,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -41506,7 +41500,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 15 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -41521,7 +41515,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -41550,7 +41544,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 15 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -41565,7 +41559,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -41608,7 +41602,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -41666,7 +41660,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -41696,7 +41690,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 15 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -41711,7 +41705,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -41739,7 +41733,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 15 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -41754,7 +41748,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -41796,7 +41790,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -41826,7 +41820,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -41870,7 +41864,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 300 },
           { "name": "風晶のエレメント", "requiredAmount": 200 },
@@ -41941,7 +41935,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -41985,7 +41979,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 15 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -42000,7 +41994,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -42028,7 +42022,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 300 },
           { "name": "光晶のエレメント", "requiredAmount": 200 },
@@ -42058,7 +42052,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -42116,7 +42110,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 15 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -42131,7 +42125,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -42159,7 +42153,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -42189,7 +42183,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -42219,7 +42213,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -42277,7 +42271,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -42307,7 +42301,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 300 },
           { "name": "火晶のエレメント", "requiredAmount": 200 },
@@ -42336,7 +42330,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -42422,7 +42416,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 60 },
           { "name": "アクア・ジーン", "requiredAmount": 60 },
@@ -42479,7 +42473,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 300 },
           { "name": "水晶のエレメント", "requiredAmount": 200 },
@@ -42522,7 +42516,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -42622,7 +42616,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "刀のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -42652,7 +42646,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -42696,7 +42690,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -42726,7 +42720,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -42784,7 +42778,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -42814,7 +42808,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "烈空の宝珠", "requiredAmount": 150 },
           { "name": "ウィンド・ジーン", "requiredAmount": 125 },
@@ -43684,7 +43678,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -43728,7 +43722,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -43982,7 +43976,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -44152,7 +44146,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "紅蓮の宝珠", "requiredAmount": 150 },
           { "name": "ファイア・ジーン", "requiredAmount": 125 },
@@ -44182,7 +44176,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "霧氷の宝珠", "requiredAmount": 150 },
           { "name": "アクア・ジーン", "requiredAmount": 125 },
@@ -44226,7 +44220,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -44270,7 +44264,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -44314,7 +44308,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 20 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -44357,7 +44351,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -44387,7 +44381,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "楽器のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -44529,7 +44523,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -44601,7 +44595,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -44631,7 +44625,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -45375,7 +45369,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 15 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -45390,7 +45384,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -45419,7 +45413,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 15 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -45434,7 +45428,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -45463,7 +45457,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 15 },
           { "name": "闇のプシュケー", "requiredAmount": 3 },
@@ -45478,7 +45472,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黒星の輝き", "requiredAmount": 30 },
           { "name": "闇のプシュケー", "requiredAmount": 5 },
@@ -45507,7 +45501,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 60 },
           { "name": "霧氷の宝珠", "requiredAmount": 75 },
@@ -45551,7 +45545,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 60 },
           { "name": "紅蓮の宝珠", "requiredAmount": 75 },
@@ -45581,7 +45575,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -45623,7 +45617,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 15 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -45638,7 +45632,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -45667,7 +45661,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 15 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -45682,7 +45676,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -45711,7 +45705,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 15 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -45726,7 +45720,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 30 },
           { "name": "光のプシュケー", "requiredAmount": 5 },
@@ -45769,7 +45763,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -45799,7 +45793,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "白星の輝き", "requiredAmount": 20 },
           { "name": "光のプシュケー", "requiredAmount": 3 },
@@ -45842,7 +45836,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "銃のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -45900,7 +45894,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 60 },
           { "name": "ウィンド・ジーン", "requiredAmount": 60 },
@@ -45929,7 +45923,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 15 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -45944,7 +45938,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -45972,7 +45966,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 15 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -45987,7 +45981,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -46015,7 +46009,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 15 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -46030,7 +46024,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 30 },
           { "name": "火のプシュケー", "requiredAmount": 5 },
@@ -46072,7 +46066,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -46158,7 +46152,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 60 },
           { "name": "奈落の宝珠", "requiredAmount": 75 },
@@ -46202,7 +46196,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "短剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -46232,7 +46226,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 15 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -46247,7 +46241,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -46275,7 +46269,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 15 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -46290,7 +46284,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -46318,7 +46312,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 15 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -46333,7 +46327,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 30 },
           { "name": "水のプシュケー", "requiredAmount": 5 },
@@ -46375,7 +46369,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "格闘のエレメント", "requiredAmount": 200 },
           { "name": "奈落の宝珠", "requiredAmount": 100 },
@@ -46405,7 +46399,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 15 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -46420,7 +46414,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -46448,7 +46442,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 15 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -46463,7 +46457,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -46491,7 +46485,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 15 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -46506,7 +46500,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 30 },
           { "name": "土のプシュケー", "requiredAmount": 5 },
@@ -46534,7 +46528,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 20 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -46633,7 +46627,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 15 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -46648,7 +46642,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -46676,7 +46670,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 15 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -46691,7 +46685,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -46719,7 +46713,7 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 15 },
           { "name": "風のプシュケー", "requiredAmount": 3 },
@@ -46734,7 +46728,7 @@
         "type": "uncap"
       },
       {
-        "title": "さらなる上限解放（5凸）の必要素材",
+        "title": "5凸",
         "requiredItems": [
           { "name": "緑星の輝き", "requiredAmount": 30 },
           { "name": "風のプシュケー", "requiredAmount": 5 },
@@ -46762,7 +46756,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -46806,7 +46800,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "弓のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -46850,7 +46844,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -46880,7 +46874,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "赤星の輝き", "requiredAmount": 20 },
           { "name": "火のプシュケー", "requiredAmount": 3 },
@@ -46909,7 +46903,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "大地の宝珠", "requiredAmount": 150 },
           { "name": "アース・ジーン", "requiredAmount": 125 },
@@ -46939,7 +46933,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -46997,7 +46991,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -47027,7 +47021,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "大地の宝珠", "requiredAmount": 150 },
           { "name": "アース・ジーン", "requiredAmount": 125 },
@@ -47057,7 +47051,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "大地の宝珠", "requiredAmount": 150 },
           { "name": "アース・ジーン", "requiredAmount": 125 },
@@ -47087,7 +47081,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -47117,7 +47111,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "黄星の輝き", "requiredAmount": 20 },
           { "name": "土のプシュケー", "requiredAmount": 3 },
@@ -47146,7 +47140,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "奈落の宝珠", "requiredAmount": 150 },
           { "name": "ダーク・ジーン", "requiredAmount": 125 },
@@ -47176,7 +47170,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "霧氷の宝珠", "requiredAmount": 150 },
           { "name": "アクア・ジーン", "requiredAmount": 125 },
@@ -47234,7 +47228,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -47264,7 +47258,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "烈空の宝珠", "requiredAmount": 150 },
           { "name": "ウィンド・ジーン", "requiredAmount": 125 },
@@ -47294,7 +47288,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -47324,7 +47318,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "紅蓮の宝珠", "requiredAmount": 150 },
           { "name": "ファイア・ジーン", "requiredAmount": 125 },
@@ -47354,7 +47348,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "紅蓮の宝珠", "requiredAmount": 150 },
           { "name": "ファイア・ジーン", "requiredAmount": 125 },
@@ -47384,7 +47378,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "青星の輝き", "requiredAmount": 20 },
           { "name": "水のプシュケー", "requiredAmount": 3 },
@@ -47413,7 +47407,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -47443,7 +47437,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "大地の宝珠", "requiredAmount": 150 },
           { "name": "アース・ジーン", "requiredAmount": 125 },
@@ -47473,7 +47467,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "剣のエレメント", "requiredAmount": 200 },
           { "name": "大地の宝珠", "requiredAmount": 100 },
@@ -47517,7 +47511,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "烈空の宝珠", "requiredAmount": 150 },
           { "name": "ウィンド・ジーン", "requiredAmount": 125 },
@@ -47547,7 +47541,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "霧氷の宝珠", "requiredAmount": 100 },
@@ -47577,7 +47571,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "槍のエレメント", "requiredAmount": 200 },
           { "name": "紅蓮の宝珠", "requiredAmount": 100 },
@@ -47607,7 +47601,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "斧のエレメント", "requiredAmount": 200 },
           { "name": "煌光の宝珠", "requiredAmount": 100 },
@@ -47637,7 +47631,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "杖のエレメント", "requiredAmount": 200 },
           { "name": "烈空の宝珠", "requiredAmount": 100 },
@@ -47667,7 +47661,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "霧氷の宝珠", "requiredAmount": 150 },
           { "name": "アクア・ジーン", "requiredAmount": 125 },
@@ -48149,7 +48143,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "奈落の宝珠", "requiredAmount": 150 },
           { "name": "ダーク・ジーン", "requiredAmount": 125 },
@@ -49097,7 +49091,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "霧氷の宝珠", "requiredAmount": 150 },
           { "name": "アクア・ジーン", "requiredAmount": 125 },
@@ -49353,7 +49347,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "煌光の宝珠", "requiredAmount": 150 },
           { "name": "ホーリー・ジーン", "requiredAmount": 125 },
@@ -50089,7 +50083,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "紅蓮の宝珠", "requiredAmount": 150 },
           { "name": "ファイア・ジーン", "requiredAmount": 125 },
@@ -50571,7 +50565,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "煌光の宝珠", "requiredAmount": 150 },
           { "name": "ホーリー・ジーン", "requiredAmount": 125 },
@@ -51801,7 +51795,7 @@
     "breakLimit": 4,
     "items": [
       {
-        "title": "最終上限解放（4凸）の必要素材",
+        "title": "4凸",
         "requiredItems": [
           { "name": "ウィンド・ジーン", "requiredAmount": 100 },
           { "name": "青竜印符", "requiredAmount": 1 },
