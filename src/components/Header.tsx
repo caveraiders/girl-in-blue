@@ -46,7 +46,7 @@ const navs: Nav[] = [
 export default function Header() {
   return (
     <>
-      <header className="sticky top-0 left-0 z-40 flex w-full items-center justify-between border-b border-slate-200 bg-white/90 px-6 py-4 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900">
+      <header className="sticky top-0 left-0 z-40 flex h-24 w-full items-center justify-between border-b border-slate-200 bg-white/90 px-6 backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900">
         <h1>
           <Link href="/">
             <Logo />
