@@ -65,8 +65,8 @@ const Button = forwardRef<HTMLButtonElement, Props>(
       appearanceClassNames[appearance][variant],
       {
         'w-full': isFullWidth,
-        'h-6 px-4 text-xs': size === 'sm',
-        'h-8 px-5 text-sm': size === 'md',
+        'h-6 px-2 text-xs': size === 'sm',
+        'h-8 px-4 text-sm': size === 'md',
         'h-10 px-6 text-sm': size === 'lg',
       },
       {
