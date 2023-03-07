@@ -22,7 +22,7 @@ export default function RootLayout({
           <ToastProvider>
             <div className="flex min-h-screen flex-col">
               <Header />
-              <div className="container mx-auto flex-1 px-6 py-10">
+              <div className="flex-1 px-4 py-10 2xl:container 2xl:mx-auto">
                 {children}
               </div>
               <Footer />

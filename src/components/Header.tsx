@@ -24,9 +24,9 @@ const navs: Nav[] = [
     icon: <HomeIcon className="h-6 w-6" />,
   },
   {
-    href: '/weapons',
-    label: 'weapons',
-    name: '武器',
+    href: '/armory',
+    label: 'armory',
+    name: '武器庫',
     icon: <BoltIcon className="h-6 w-6" />,
   },
   {

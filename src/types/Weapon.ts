@@ -21,3 +21,15 @@ export type Weapon = {
   items: WeaponItem[]
   series: string
 }
+
+export type WeaponContextProps = {
+  weapons: Weapon[]
+  weaponTypes: string[]
+  weaponElements: string[]
+  weaponSeries: string[]
+  items: any[]
+  selectedWeapons: Weapon[]
+  setSelectedWeapons: React.Dispatch<React.SetStateAction<Weapon[]>>
+  openAddWeaponsSheet: boolean
+  setOpenAddWeaponsSheet: React.Dispatch<React.SetStateAction<boolean>>
+}
