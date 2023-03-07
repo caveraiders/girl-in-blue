@@ -17,17 +17,19 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="bg-white text-slate-800 dark:bg-slate-900 dark:text-slate-300">
+      <body className="flex h-screen min-h-screen flex-col bg-white text-slate-800 dark:bg-slate-900 dark:text-slate-300">
         <ThemeProvider>
           <ToastProvider>
-            <div className="flex min-h-screen flex-col">
+            <div>
               <Header />
-              <div className="flex-1 px-4 py-10 2xl:container 2xl:mx-auto">
-                {children}
-              </div>
-              <Footer />
-              <ScrollTop />
             </div>
+            <div className="flex-1 px-4 py-10 2xl:container 2xl:mx-auto">
+              {children}
+            </div>
+            <div>
+              <Footer />
+            </div>
+            <ScrollTop />
           </ToastProvider>
         </ThemeProvider>
       </body>
