@@ -5408,7 +5408,7 @@
           { "name": "ウェントス・ブライト", "requiredAmount": 5 },
           { "name": "審判のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5497,7 +5497,7 @@
           { "name": "イグニス・ブライト", "requiredAmount": 5 },
           { "name": "太陽のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5586,7 +5586,7 @@
           { "name": "アクア・ブライト", "requiredAmount": 5 },
           { "name": "月のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5676,7 +5676,7 @@
           { "name": "ウェントス・ブライト", "requiredAmount": 3 },
           { "name": "星のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5774,7 +5774,7 @@
           { "name": "テラ・ブライト", "requiredAmount": 5 },
           { "name": "塔のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5863,7 +5863,7 @@
           { "name": "イグニス・ブライト", "requiredAmount": 5 },
           { "name": "悪魔のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -5952,7 +5952,7 @@
           { "name": "ウェントス・ブライト", "requiredAmount": 5 },
           { "name": "節制のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -6042,7 +6042,7 @@
           { "name": "テラ・ブライト", "requiredAmount": 3 },
           { "name": "死神のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -6140,7 +6140,7 @@
           { "name": "テラ・ブライト", "requiredAmount": 5 },
           { "name": "刑死者のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -6229,7 +6229,7 @@
           { "name": "アクア・ブライト", "requiredAmount": 5 },
           { "name": "正義のウェリタス", "requiredAmount": 20 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "1凸",
@@ -9477,14 +9477,14 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "黒銀の滅爪の交換素材",
+        "title": "交換素材",
         "requiredItems": [
           { "name": "闇のプシュケー", "requiredAmount": 100 },
           { "name": "トーデストリープ", "requiredAmount": 15 },
           { "name": "ヴェルム文書・水", "requiredAmount": 250 },
           { "name": "ヴェルム文書・土", "requiredAmount": 250 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
@@ -9526,14 +9526,14 @@
     "breakLimit": 5,
     "items": [
       {
-        "title": "ロンゴミニアドの交換素材",
+        "title": "交換素材",
         "requiredItems": [
           { "name": "光のプシュケー", "requiredAmount": 100 },
           { "name": "靂輪", "requiredAmount": 15 },
           { "name": "ヴェルム文書・火", "requiredAmount": 250 },
           { "name": "ヴェルム文書・風", "requiredAmount": 250 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
@@ -9581,7 +9581,7 @@
           { "name": "ゲイルロック", "requiredAmount": 15 },
           { "name": "ヴェルム文書・風", "requiredAmount": 500 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
@@ -9629,7 +9629,7 @@
           { "name": "インシュラーコア", "requiredAmount": 15 },
           { "name": "ヴェルム文書・土", "requiredAmount": 500 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
@@ -9677,7 +9677,7 @@
           { "name": "アビサル・トラジェディー", "requiredAmount": 15 },
           { "name": "ヴェルム文書・水", "requiredAmount": 500 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
@@ -9725,7 +9725,7 @@
           { "name": "イグナイトラブル", "requiredAmount": 15 },
           { "name": "ヴェルム文書・火", "requiredAmount": 500 }
         ],
-        "type": "uncap"
+        "type": "obtain"
       },
       {
         "title": "4凸",
