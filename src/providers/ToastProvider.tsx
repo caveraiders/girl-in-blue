@@ -8,7 +8,7 @@ type ToastProviderProps = {
 }
 
 type Toast = {
-  open: boolean
+  isOpen: boolean
   title: string
   description: string
   direction: 'top' | 'center' | 'bottom' | 'right'
@@ -17,7 +17,7 @@ type Toast = {
 
 const ToastProvider = ({ children }: ToastProviderProps) => {
   const [toast, setToast] = useState<Toast>({
-    open: false,
+    isOpen: false,
     title: 'Title',
     description: 'Description',
     direction: 'top',
@@ -30,8 +30,9 @@ const ToastProvider = ({ children }: ToastProviderProps) => {
         title={toast.title}
         description={toast.description}
         direction={toast.direction}
-        open={toast.open}
-        onOpenChange={(open: boolean) => setToast({ ...toast, open })}
+        isOpen={toast.isOpen}
+        type={toast.type}
+        onOpenChange={(isOpen: boolean) => setToast({ ...toast, isOpen })}
       >
         {children}
       </Toast>

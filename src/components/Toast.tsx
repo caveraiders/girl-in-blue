@@ -16,7 +16,7 @@ type Props = {
   description?: string
   direction?: 'top' | 'center' | 'bottom' | 'right'
   type?: 'success' | 'error'
-  open: boolean
+  isOpen: boolean
   onOpenChange: Function
   children: React.ReactNode
 }
@@ -60,7 +60,7 @@ const Toast = forwardRef<React.ElementRef<typeof RadixToast.Root>, Props>(
       description = 'Description',
       direction = 'top',
       type = 'success',
-      open = false,
+      isOpen = false,
       onOpenChange = () => {},
       children,
     },
@@ -76,12 +76,14 @@ const Toast = forwardRef<React.ElementRef<typeof RadixToast.Root>, Props>(
       typeClassNames[type]['icon'],
     )
 
+    console.log(type)
+
     return (
       <RadixToast.Provider>
         {children}
         <RadixToast.Root
           ref={ref}
-          open={open}
+          open={isOpen}
           onOpenChange={() => onOpenChange()}
           duration={3000}
           className={rootClassNames}
@@ -90,7 +92,7 @@ const Toast = forwardRef<React.ElementRef<typeof RadixToast.Root>, Props>(
         >
           <Transition
             as={Fragment}
-            show={open}
+            show={isOpen}
             enter="transition ease-out duration-200"
             enterFrom={`opacity-0 ${directionClassNames[direction]['from']}`}
             enterTo={`opacity-100 ${directionClassNames[direction]['to']}`}
