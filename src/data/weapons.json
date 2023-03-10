@@ -232,13 +232,7 @@
     "element": "光",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "干支武器"
   },
   {
@@ -266,13 +260,7 @@
     "element": "風",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "リミテッド武器"
   },
   {
@@ -841,13 +829,7 @@
     "element": "土",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -903,13 +885,7 @@
     "element": "風",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "ハロウィンガチャ武器"
   },
   {
@@ -1007,13 +983,7 @@
     "element": "闇",
     "type": "銃",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -1431,13 +1401,7 @@
     "element": "火",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -1451,13 +1415,7 @@
     "element": "土",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -1485,13 +1443,7 @@
     "element": "闇",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -1671,13 +1623,7 @@
     "element": "闇",
     "type": "格闘",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -1952,13 +1898,7 @@
     "element": "光",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -2344,13 +2284,7 @@
     "element": "火",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": ""
   },
   {
@@ -2522,13 +2456,7 @@
     "element": "風",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -2775,13 +2703,7 @@
     "element": "火",
     "type": "短剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": ""
   },
   {
@@ -2795,13 +2717,7 @@
     "element": "光",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "クリスマスガチャ武器"
   },
   {
@@ -2916,13 +2832,7 @@
     "element": "光",
     "type": "槍",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -2950,13 +2860,7 @@
     "element": "光",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3012,13 +2916,7 @@
     "element": "風",
     "type": "格闘",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "ハロウィンガチャ武器"
   },
   {
@@ -3098,13 +2996,7 @@
     "element": "光",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3118,13 +3010,7 @@
     "element": "風",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3152,13 +3038,7 @@
     "element": "火",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3202,13 +3082,7 @@
     "element": "火",
     "type": "槍",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3250,13 +3124,7 @@
     "element": "水",
     "type": "短剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -3412,13 +3280,7 @@
     "element": "水",
     "type": "槍",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "リミテッド武器"
   },
   {
@@ -3622,13 +3484,7 @@
     "element": "風",
     "type": "格闘",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3656,13 +3512,7 @@
     "element": "水",
     "type": "短剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3735,13 +3585,7 @@
     "element": "闇",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3822,13 +3666,7 @@
     "element": "火",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -3886,13 +3724,7 @@
     "element": "水",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -4334,13 +4166,7 @@
     "element": "土",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -4354,13 +4180,7 @@
     "element": "水",
     "type": "銃",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -5106,13 +4926,7 @@
     "element": "土",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "バレンタインガチャ武器"
   },
   {
@@ -5184,13 +4998,7 @@
     "element": "土",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -5248,13 +5056,7 @@
     "element": "光",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -5353,13 +5155,7 @@
     "element": "光",
     "type": "杖",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "クリスマスガチャ武器"
   },
   {
@@ -6497,13 +6293,7 @@
     "element": "火",
     "type": "槍",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "ハロウィンガチャ武器"
   },
   {
@@ -7173,13 +6963,7 @@
     "element": "土",
     "type": "格闘",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "ヴィンテージ武器"
   },
   {
@@ -7223,13 +7007,7 @@
     "element": "風",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -7461,13 +7239,7 @@
     "element": "水",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "水着ガチャ武器"
   },
   {
@@ -7972,13 +7744,7 @@
     "element": "光",
     "type": "剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -8907,13 +8673,7 @@
     "element": "火",
     "type": "銃",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -9882,13 +9642,7 @@
     "element": "風",
     "type": "槍",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "バレンタインガチャ武器"
   },
   {
@@ -10034,13 +9788,7 @@
     "element": "火",
     "type": "短剣",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -10068,13 +9816,7 @@
     "element": "闇",
     "type": "刀",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -10357,13 +10099,7 @@
     "element": "火",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -10377,13 +10113,7 @@
     "element": "水",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -10397,13 +10127,7 @@
     "element": "土",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -10417,13 +10141,7 @@
     "element": "風",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -10437,13 +10155,7 @@
     "element": "光",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -10457,13 +10169,7 @@
     "element": "闇",
     "type": "楽器",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "英雄武器"
   },
   {
@@ -15056,13 +14762,7 @@
     "element": "闇",
     "type": "銃",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -15878,13 +15578,7 @@
     "element": "光",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
@@ -31355,13 +31049,7 @@
     "element": "水",
     "type": "斧",
     "breakLimit": 4,
-    "items": [
-      {
-        "title": "4凸",
-        "requiredItems": [],
-        "type": "uncap"
-      }
-    ],
+    "items": [],
     "series": "恒常ガチャ武器"
   },
   {
