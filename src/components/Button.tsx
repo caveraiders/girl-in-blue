@@ -61,7 +61,7 @@ const Button = forwardRef<HTMLButtonElement, Props>(
     }
 
     const buttonClassNames = classnames(
-      'flex items-center justify-center gap-1.5 rounded-lg font-medium',
+      'flex items-center justify-center gap-1.5 rounded-lg ring-inset font-medium',
       appearanceClassNames[appearance][variant],
       {
         'w-full': isFullWidth,
