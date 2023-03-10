@@ -10,7 +10,7 @@ const ScrollTop = () => {
       {showScroll && (
         <div className="fixed right-10 bottom-32 z-50">
           <Button
-            appearance="secondary"
+            appearance="primary"
             variant="filled"
             size="sm"
             isOnlyIcon
