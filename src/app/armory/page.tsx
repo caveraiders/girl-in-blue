@@ -11,6 +11,7 @@ import { Item } from '@/types/Item'
 import AddWeapons from '@/app/armory/components/AddWeapons'
 import WeaponList from '@/app/armory/components/WeaponList'
 import Header from '@/app/armory/components/Header'
+import ImpostItems from '@/app/armory/components/ImpostItems'
 
 export default async function Armory() {
   const weapons: Weapon[] = await getWeapons()
@@ -28,11 +29,12 @@ export default async function Armory() {
         items,
       }}
     >
-      <div className="grid grid-cols-1 gap-8">
+      <div className="grid grid-cols-1 gap-4">
         <Header />
         <WeaponList />
       </div>
       <AddWeapons />
+      <ImpostItems />
     </WeaponProvider>
   )
 }

@@ -41,10 +41,10 @@ const WeaponFilter = ({
     onClick({
       filteredData,
     })
-  }, [filteredData, filters, onClick])
+  }, [filteredData])
 
   return (
-    <div className="flex flex-col gap-8">
+    <div className="relative flex flex-col gap-8">
       <SearchBox
         data={weapons}
         searchFields={['jpName', 'enName', 'weaponId']}
@@ -154,6 +154,7 @@ const WeaponFilter = ({
         <Button
           appearance="danger"
           variant="outlined"
+          isFullWidth
           isDisabled={
             Object.values(filters).every(
               (filter: any) => filter.length === 0,

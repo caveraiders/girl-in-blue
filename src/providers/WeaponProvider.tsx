@@ -13,7 +13,10 @@ const WeaponProvider = ({ children, value }: WeaponProviderProps) => {
     'selected-weapons',
     [],
   )
+  const [myItems, setMyItems] = useLocalStorage<any[]>('my-items', [])
   const [openAddWeaponsSheet, setOpenAddWeaponsSheet] = useState<boolean>(false)
+  const [openImpostItemsSheet, setOpenImpostItemsSheet] =
+    useState<boolean>(false)
   return (
     <WeaponContext.Provider
       value={{
@@ -22,6 +25,10 @@ const WeaponProvider = ({ children, value }: WeaponProviderProps) => {
         setSelectedWeapons,
         openAddWeaponsSheet,
         setOpenAddWeaponsSheet,
+        openImpostItemsSheet,
+        setOpenImpostItemsSheet,
+        myItems,
+        setMyItems,
       }}
     >
       {children}

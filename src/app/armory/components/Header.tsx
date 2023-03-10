@@ -11,14 +11,22 @@ import {
 import { useContext } from 'react'
 
 const Header = () => {
-  const { selectedWeapons, setSelectedWeapons, setOpenAddWeaponsSheet } =
-    useContext<WeaponContextProps>(WeaponContext)
+  const {
+    selectedWeapons,
+    setSelectedWeapons,
+    setOpenAddWeaponsSheet,
+    setOpenImpostItemsSheet,
+    openImpostItemsSheet,
+  } = useContext<WeaponContextProps>(WeaponContext)
   return (
     <header className="flex flex-wrap justify-between gap-4">
       <div className="text-2xl">武器庫</div>
       <div className="flex items-center justify-center gap-4 sm:justify-start">
         <div className="hidden md:block">
-          <Button appearance="secondary">
+          <Button
+            appearance="secondary"
+            onClick={() => setOpenImpostItemsSheet(true)}
+          >
             <CodeBracketIcon className="h-4 w-4" />
             アイテム所持数をインポート
           </Button>

@@ -51,7 +51,7 @@ const WeaponList = () => {
       {selectedWeapons?.map((weapon: Weapon, weaponIndex: number) => (
         <div
           key={weaponIndex}
-          className="flex flex-col gap-6 overflow-hidden rounded-lg border border-slate-300 bg-white p-4 dark:border-slate-700 dark:bg-slate-800"
+          className="flex flex-col gap-6 overflow-hidden rounded-xl border border-slate-200 bg-white p-4 shadow dark:border-slate-700 dark:bg-slate-800"
         >
           <div className="flex flex-wrap gap-4">
             <Image
@@ -115,40 +115,49 @@ const WeaponList = () => {
                 <Tabs.Content key={itemIndex} value={item.title}>
                   <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-2">
                     {item.requiredItems.map(
-                      (requiredItem, requiredItemIndex) => (
-                        <div
-                          key={requiredItemIndex}
-                          className="flex cursor-pointer gap-2 rounded border border-slate-300 bg-slate-50 p-2 hover:border-sky-400 dark:border-slate-600 dark:bg-slate-700 hover:dark:border-sky-400"
-                        >
-                          <Image
-                            src={`/images/items/s_${
-                              items.find(
-                                (itemsItem) =>
-                                  itemsItem.name === requiredItem.name,
-                              )?.itemId
-                            }.jpg`}
-                            width={36}
-                            height={36}
-                            alt={weapon.jpName}
-                          />
-                          <div className="flex w-full flex-1 flex-col gap-1 text-xs">
-                            <div className="flex items-center justify-between">
-                              <span>必要数</span>
-                              <span className="slashed-zero proportional-nums">
-                                {convertToShortString(
-                                  requiredItem.requiredAmount,
-                                )}
-                              </span>
+                      (requiredItem, requiredItemIndex) => {
+                        const itemId = items.find(
+                          (itemsItem) => itemsItem.name === requiredItem.name,
+                        )?.itemId
+                        return (
+                          <div
+                            key={requiredItemIndex}
+                            className="flex cursor-pointer gap-2 rounded border border-slate-200 bg-slate-50 p-2 hover:border-sky-400 dark:border-slate-600 dark:bg-slate-700 hover:dark:border-sky-400"
+                          >
+                            <div>
+                              <Image
+                                src={
+                                  itemId
+                                    ? `/images/items/s_${itemId}.jpg`
+                                    : `/images/items/default.jpg`
+                                }
+                                width={56}
+                                height={56}
+                                alt={weapon.jpName}
+                              />
                             </div>
-                            <div className="flex items-center justify-between">
-                              <span>所持数</span>
-                              <span className="slashed-zero proportional-nums">
-                                {convertToShortString(22222222222)}
-                              </span>
+                            <div className="flex w-full flex-1 flex-col divide-y divide-dashed divide-slate-200 text-xs dark:divide-slate-600">
+                              <div className="pb-0.5 font-bold text-yellow-500">
+                                {requiredItem.name}
+                              </div>
+                              <div className="flex items-center justify-between py-0.5">
+                                <span>必要数</span>
+                                <span className="slashed-zero proportional-nums">
+                                  {convertToShortString(
+                                    requiredItem.requiredAmount,
+                                  )}
+                                </span>
+                              </div>
+                              <div className="flex items-center justify-between pt-0.5">
+                                <span>所持数</span>
+                                <span className="slashed-zero proportional-nums">
+                                  {convertToShortString(22222222222)}
+                                </span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      ),
+                        )
+                      },
                     )}
                   </div>
                 </Tabs.Content>

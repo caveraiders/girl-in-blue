@@ -32,4 +32,8 @@ export type WeaponContextProps = {
   setSelectedWeapons: React.Dispatch<React.SetStateAction<Weapon[]>>
   openAddWeaponsSheet: boolean
   setOpenAddWeaponsSheet: React.Dispatch<React.SetStateAction<boolean>>
+  openImpostItemsSheet: boolean
+  setOpenImpostItemsSheet: React.Dispatch<React.SetStateAction<boolean>>
+  myItems: any[]
+  setMyItems: React.Dispatch<React.SetStateAction<any[]>>
 }
