@@ -1,8 +1,10 @@
 'use client'
 import { Transition } from '@headlessui/react'
+import { XMarkIcon } from '@heroicons/react/24/solid'
 import * as Dialog from '@radix-ui/react-dialog'
 import classnames from 'classnames'
 import { forwardRef, Fragment, ReactNode, ElementRef } from 'react'
+import Button from './Button'
 
 type ClassNames = {
   [key: string]: {
@@ -95,4 +97,19 @@ const Sheet = forwardRef<ElementRef<typeof Dialog.Content>, Prop>(
 )
 Sheet.displayName = 'Sheet'
 export const SheetClose = Dialog.Close
+export const SheetHeader = ({ title = '', onClick = (f: any) => f }) => {
+  return (
+    <header className="flex items-center justify-between border-b border-slate-100 p-4 dark:border-slate-800 dark:text-slate-300">
+      <div className="font-bold">{title}</div>
+      <Button
+        isOnlyIcon
+        variant="text"
+        appearance="secondary"
+        onClick={() => onClick(false)}
+      >
+        <XMarkIcon className="h-5 w-5" />
+      </Button>
+    </header>
+  )
+}
 export default Sheet
