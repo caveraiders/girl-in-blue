@@ -1,6 +1,9 @@
 export type ItemObtain = {
   name?: string
-  isRecommended?: boolean
+  questId: string
+  isMulti: boolean
+  isDropAlways: boolean
+  type: string
 }
 export type Item = {
   id?: number
