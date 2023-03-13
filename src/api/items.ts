@@ -1,9 +1,9 @@
-import { Item } from '@/types/Item'
+import { Item, ItemObtain } from '@/types/Item'
 
 export const getItems = async () => {
   const response = await fetch(`${process.env.API_URL}/api/items`)
   const items: Item[] = await response.json()
-  return items
+  return JSON.parse(JSON.stringify(items))
 }
 
 export const getItem = async (itemId: string) => {
@@ -24,9 +24,9 @@ export const updateItem = async (itemId: string, updatedFields: Item) => {
 export const getObtains = async () => {
   const items = await getItems()
   const obtains = items
-    .map((item) => item.obtains)
+    .map((item: Item) => item.obtains)
     .flat()
-    .map((obtain: any) => obtain.name)
+    .map((obtain: ItemObtain) => obtain.name)
 
   const uniqueObtains = Array.from(new Set(obtains))
   return uniqueObtains
