@@ -23,8 +23,7 @@ export const getObtains = async () => {
   const obtains = items
     .map((item: Item) => item.obtains)
     .flat()
-    .map((obtain: ItemObtain) => obtain.name)
-
+    .map((obtain: any) => obtain.name)
   const uniqueObtains = Array.from(new Set(obtains))
   return uniqueObtains
 }
