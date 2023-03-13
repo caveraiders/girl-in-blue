@@ -2,6 +2,7 @@
 import ToastContext from '@/contexts/ToastContext'
 import { Cog6ToothIcon } from '@heroicons/react/24/solid'
 import { useContext, useEffect, useRef, useState } from 'react'
+import { useLocalStorage } from 'react-use'
 import Button from './Button'
 import Sheet, { SheetHeader } from './Sheet'
 
@@ -10,12 +11,11 @@ const Setting = () => {
   const [open, setOpen] = useState<boolean>(false)
   const [isValid, setIsValid] = useState<boolean>(true)
   const inputRef = useRef<HTMLInputElement>(null)
-  const [inputValue, setInputValue] = useState(
-    localStorage.getItem('uid') || '',
-  )
+  const [uid, setUid] = useLocalStorage<string>('uid', '')
+  const [inputValue, setInputValue] = useState(uid || '')
 
   useEffect(() => {
-    localStorage.setItem('uid', inputValue)
+    setUid(inputValue)
   }, [inputValue])
 
   const handleButtonClick = () => {
