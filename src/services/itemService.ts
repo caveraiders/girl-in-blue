@@ -8,9 +8,9 @@ export const getItems = async (): Promise<Item[]> => {
     const itemsJson: string = await readFile(FILE_PATH, 'utf8')
     const items: Item[] = JSON.parse(itemsJson)
     return items
-  } catch (err: any) {
-    console.error(`Error reading items: ${err.message}`)
-    return []
+  } catch (error: any) {
+    console.error(`Error reading items: ${error.message}`)
+    throw error
   }
 }
 

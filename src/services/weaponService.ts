@@ -4,8 +4,14 @@ import { readFile } from 'fs/promises'
 const FILE_PATH = './src/data/weapons.json'
 
 export const getWeapons = async () => {
-  const weapons = await readFile(FILE_PATH, 'utf8')
-  return weapons ? JSON.parse(weapons) : []
+  try {
+    const weaponsJson = await readFile(FILE_PATH, 'utf8')
+    const weapons = JSON.parse(weaponsJson)
+    return weapons
+  } catch (error: any) {
+    console.error(`Error reading weapons: ${error.message}`)
+    throw error
+  }
 }
 
 export const getWeapon = async (weaponId: number): Promise<Weapon> => {
