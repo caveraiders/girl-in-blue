@@ -29,6 +29,8 @@ export const getWeapons = async () => {
       },
     })
 
+    console.log('response:', response.url)
+
     if (!response.ok) {
       throw new Error('Request failed with status code ' + response.status)
     }

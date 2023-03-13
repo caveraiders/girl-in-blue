@@ -7,6 +7,9 @@ export const getItems = async () => {
         'Content-Type': 'application/json',
       },
     })
+
+    console.log('response:', response.url)
+
     if (!response.ok) {
       throw new Error('Request failed with status code ' + response.status)
     }
