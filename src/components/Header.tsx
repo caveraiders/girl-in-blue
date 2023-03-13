@@ -9,6 +9,7 @@ import {
   BoltIcon,
   CubeIcon,
 } from '@heroicons/react/24/solid'
+import Setting from './Setting'
 
 type Nav = {
   href: string
@@ -58,11 +59,8 @@ export default function Header() {
           <Logo />
         </Link>
       </h1>
-      <div className="lg:flex-1">
+      <div className="flex flex-1">
         <Navbar navs={navs} />
-      </div>
-      <div className="hidden lg:flex">
-        <ThemeSwitcher />
       </div>
     </header>
   )

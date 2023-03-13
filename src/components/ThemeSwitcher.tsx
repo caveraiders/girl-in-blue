@@ -1,6 +1,5 @@
 'use client'
 import { useTheme } from 'next-themes'
-import { SunIcon, MoonIcon, DesktopIcon } from '@radix-ui/react-icons'
 import Sheet from '@/components/Sheet'
 import { SwitchRoot } from './Switch'
 import { useState } from 'react'
@@ -11,6 +10,11 @@ import {
   MenubarRoot,
   MenubarTrigger,
 } from './Menubar'
+import {
+  ComputerDesktopIcon,
+  MoonIcon,
+  SunIcon,
+} from '@heroicons/react/24/solid'
 
 const ThemeSwitcher = () => {
   const { theme, setTheme, resolvedTheme } = useTheme()
@@ -20,9 +24,17 @@ const ThemeSwitcher = () => {
     <>
       <MenubarRoot className="hidden md:flex">
         <MenubarMenu>
-          <MenubarTrigger>
-            <SunIcon className="h-4 w-4 text-sky-500 dark:hidden" />
-            <MoonIcon className="hidden h-4 w-4 text-sky-500 dark:inline" />
+          <MenubarTrigger className="w-full outline-none">
+            <div className="flex w-full cursor-pointer items-center gap-2 rounded-full py-2 px-3 hover:bg-sky-50 hover:text-sky-500 hover:dark:bg-sky-900/50 hover:dark:text-sky-200">
+              <div className="flex gap-2 dark:hidden">
+                <SunIcon className="h-5 w-5 text-sky-500 " />
+                ライトモード
+              </div>
+              <div className="hidden gap-2 dark:flex">
+                <MoonIcon className="h-5 w-5 text-sky-500 " />
+                ダークモード
+              </div>
+            </div>
           </MenubarTrigger>
           <MenubarContent>
             {initalThemes.map((item) => (
@@ -31,15 +43,13 @@ const ThemeSwitcher = () => {
                 onSelect={() => setTheme(item)}
                 isSlected={item === theme}
               >
-                <div className="rounded-md bg-white p-1 shadow ring-1 ring-slate-900/5 dark:bg-slate-700 dark:ring-inset dark:ring-white/5">
-                  {item === 'light' ? (
-                    <SunIcon className="h-4 w-4 " />
-                  ) : item === 'dark' ? (
-                    <MoonIcon className="h-4 w-4" />
-                  ) : (
-                    <DesktopIcon className="h-4 w-4" />
-                  )}
-                </div>
+                {item === 'light' ? (
+                  <SunIcon className="h-4 w-4 " />
+                ) : item === 'dark' ? (
+                  <MoonIcon className="h-4 w-4" />
+                ) : (
+                  <ComputerDesktopIcon className="h-4 w-4" />
+                )}
                 <span className="ml-3 capitalize">{item}</span>
               </MenubarItem>
             ))}
@@ -52,9 +62,15 @@ const ThemeSwitcher = () => {
           open={openSheet}
           onOpenChange={() => setOpenSheet(!openSheet)}
           trigger={
-            <div>
-              <SunIcon className="h-4 w-4 text-sky-500 dark:hidden" />
-              <MoonIcon className="hidden h-4 w-4 text-sky-500 dark:inline" />
+            <div className="flex w-full cursor-pointer items-center gap-2 rounded-full py-2 px-3 hover:bg-sky-50 hover:text-sky-500 hover:dark:bg-sky-900/50 hover:dark:text-sky-200">
+              <div className="flex gap-2 dark:hidden">
+                <SunIcon className="h-5 w-5 text-sky-500 " />
+                ライトモード
+              </div>
+              <div className="hidden gap-2 dark:flex">
+                <MoonIcon className="h-5 w-5 text-sky-500 " />
+                ダークモード
+              </div>
             </div>
           }
           width="w-full"
