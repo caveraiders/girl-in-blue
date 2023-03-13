@@ -13,7 +13,7 @@ type ClassNames = {
 }
 
 type Prop = {
-  direction?: 'bottom' | 'right' | 'left'
+  direction?: 'bottom' | 'right' | 'left' | 'center'
   zIndex?: string
   width?: string
   height?: string
@@ -38,6 +38,11 @@ const directionClassNames: ClassNames = {
     content: '',
     from: 'translate-y-full',
     to: 'translate-y-0',
+  },
+  center: {
+    content: 'top-1/2 left-1/2 -translate-x-1/2 rounded-xl -translate-y-1/2',
+    from: '-translate-y-full',
+    to: '',
   },
 }
 
@@ -99,7 +104,7 @@ Sheet.displayName = 'Sheet'
 export const SheetClose = Dialog.Close
 export const SheetHeader = ({ title = '', onClick = (f: any) => f }) => {
   return (
-    <header className="flex items-center justify-between border-b border-slate-100 p-4 dark:border-slate-800 dark:text-slate-300">
+    <header className="flex items-center justify-between border-b border-slate-100 px-4 py-2 dark:border-slate-800 dark:text-slate-300">
       <div className="font-bold">{title}</div>
       <Button
         isOnlyIcon
