@@ -22,9 +22,9 @@ export const getWeaponTypes = (): string[] => {
 }
 
 export const getWeapons = async () => {
-  const response = await fetch('http://localhost:3000/api/weapons')
-  const items: Weapon[] = await response.json()
-  return items
+  const response = await fetch(`${process.env.API_URL}/api/weapons`)
+  const weapons: Weapon[] = await response.json()
+  return weapons
 }
 
 export const getWeaponSeries = async (): Promise<string[]> => {
