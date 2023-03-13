@@ -1,6 +1,6 @@
+'use client'
 import Button from '@/components/Button'
 import Image from 'next/image'
-import Link from 'next/link'
 import { CheckBadgeIcon, StarIcon } from '@heroicons/react/24/solid'
 import { Weapon } from '@/types/Weapon'
 import { Item } from '@/types/Item'
@@ -8,6 +8,7 @@ import StarRating from '@/components/StarRating'
 import { useContext } from 'react'
 import ToastContext from '@/contexts/ToastContext'
 import OtherSite from './components/OtherSite'
+import { useLocalStorage } from 'react-use'
 
 type WeaponDetailProps = {
   currentWeapon: Weapon
@@ -25,7 +26,7 @@ const WeaponDetail = ({
   const { weaponId, jpName, breakLimit, items, gwId, gbfwikiEnId, series } =
     currentWeapon
   const { setToast } = useContext(ToastContext)
-  const uid = localStorage.getItem('uid')
+  const [uid, setUid] = useLocalStorage<string>('uid', '')
 
   return (
     <div className="flex h-full flex-col">
