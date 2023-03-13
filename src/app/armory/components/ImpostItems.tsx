@@ -5,7 +5,7 @@ import ToastContext from '@/contexts/ToastContext'
 import WeaponContext from '@/contexts/WeaponContext'
 import { WeaponContextProps } from '@/types/Weapon'
 import { ClipboardDocumentIcon } from '@heroicons/react/24/outline'
-import React, { useContext, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { useCopyToClipboard } from 'react-use'
 import Button from '../../../components/Button'
 
@@ -28,7 +28,6 @@ const ImpostItems: React.FC = () => {
       try {
         const parsedItems = JSON.parse(inputValue) as Item[]
         setMyItems(parsedItems)
-        setIsValidJson(true)
         setOpenImpostItemsSheet(false)
       } catch (error) {
         console.error('Invalid JSON input', error)
@@ -36,6 +35,10 @@ const ImpostItems: React.FC = () => {
       }
     }
   }
+
+  useEffect(() => {
+    setIsValidJson(true)
+  }, [openImpostItemsSheet])
 
   return (
     <div>
@@ -113,7 +116,6 @@ const ImpostItems: React.FC = () => {
               appearance="secondary"
               onClick={() => {
                 setOpenImpostItemsSheet(false)
-                setIsValidJson(true)
               }}
             >
               キャンセル
