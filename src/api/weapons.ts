@@ -22,9 +22,23 @@ export const getWeaponTypes = (): string[] => {
 }
 
 export const getWeapons = async () => {
-  const response = await fetch(`${process.env.API_URL}/api/weapons`)
-  const weapons: Weapon[] = await response.json()
-  return JSON.parse(JSON.stringify(weapons))
+  try {
+    const response = await fetch(`${process.env.API_URL}/api/weapons`, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
+
+    if (!response.ok) {
+      throw new Error('Request failed with status code ' + response.status)
+    }
+
+    const weapons: Weapon[] = await response.json()
+    return weapons
+  } catch (error) {
+    console.error('Error fetching weapons:', error)
+    throw error
+  }
 }
 
 export const getWeaponSeries = async (): Promise<string[]> => {
