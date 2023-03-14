@@ -1,10 +1,11 @@
-import { getItems } from '@/api/items'
+import { getItems } from '@/services/itemService'
 import {
   getWeaponElements,
   getWeapons,
   getWeaponSeries,
   getWeaponTypes,
-} from '@/api/weapons'
+} from '@/services/weaponService'
+
 import WeaponsTable from './components/WeaponsTable'
 
 const Weapons = async () => {

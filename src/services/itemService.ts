@@ -1,7 +1,9 @@
 import { Item } from '@/types/Item'
-import { readFile, writeFile } from 'node:fs/promises'
+import { readFile } from 'node:fs/promises'
+import path from 'path'
 
-const FILE_PATH = './src/data/items.json'
+const jsonDirectory = path.join(process.cwd(), 'src/data')
+const FILE_PATH = `${jsonDirectory}/items.json`
 
 export const getItems = async (): Promise<Item[]> => {
   try {
@@ -11,26 +13,5 @@ export const getItems = async (): Promise<Item[]> => {
   } catch (error: any) {
     console.error(`Error reading items: ${error.message}`)
     throw error
-  }
-}
-
-export const getItem = async (itemId: string): Promise<Item | undefined> => {
-  const items: Item[] = await getItems()
-  const item = items?.find((item: Item) => item.itemId === itemId)
-  return item
-}
-
-export const updateItem = async (itemId: string, updatedFields: string) => {
-  try {
-    const items: Item[] = await getItems()
-    const itemIndex = items.findIndex((item: Item) => item.itemId === itemId)
-    const item = items[itemIndex]
-    const updatedItem = { ...item, ...JSON.parse(updatedFields) }
-    items[itemIndex] = updatedItem
-    const json = JSON.stringify(items)
-    writeFile(FILE_PATH, json)
-    console.log(`Item with ID ${itemId} updated successfully`)
-  } catch (err: any) {
-    console.error(`Error updating item: ${err.message}`)
   }
 }

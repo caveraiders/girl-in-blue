@@ -1,7 +1,7 @@
+import { getResources, getResourceTypes } from '@/services/resourceService'
 import { Resource } from '@/types/Resource'
 import Image from 'next/image'
 import Link from 'next/link'
-import { getResources, getResourceTypes } from '../../services/resourceService'
 
 const Resources = async () => {
   const resources: Resource[] = await getResources()

@@ -1,17 +1,18 @@
 import { Resource } from '@/types/Resource'
 import { readFile } from 'node:fs/promises'
+import path from 'path'
+
+const jsonDirectory = path.join(process.cwd(), 'src/data')
+const FILE_PATH = `${jsonDirectory}/resources.json`
 
 export const getResources = async (): Promise<Resource[]> => {
   try {
-    const resourcesJson: string = await readFile(
-      './src/data/resources.json',
-      'utf8',
-    )
+    const resourcesJson: string = await readFile(FILE_PATH, 'utf8')
     const resources: Resource[] = JSON.parse(resourcesJson)
     return resources
-  } catch (err: any) {
-    console.error(`Error reading resources: ${err.message}`)
-    return []
+  } catch (error: any) {
+    console.error(`Error reading resources: ${error.message}`)
+    throw error
   }
 }
 
